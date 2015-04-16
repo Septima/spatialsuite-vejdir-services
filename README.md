@@ -1,8 +1,10 @@
-###Septima module: vejman_services
+##Septima module: vejman_services
+
+###Installation
 
 Unzip the file to /config/modules/thirdparty/septima
 
-Add the module to modules_xxx.xml:
+Add the module to modules_xxx.xml
 
 <module name="vejman_services" dir="thirdparty/septima/vejman_services" permissionlevel="public"/>:
 
