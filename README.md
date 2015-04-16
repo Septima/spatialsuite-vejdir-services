@@ -6,7 +6,7 @@ Unzip the file to /config/modules/thirdparty/septima
 
 Add the module to modules_xxx.xml
 
-<module name="vejman_services" dir="thirdparty/septima/vejman_services" permissionlevel="public"/>:
+<module name="vejman_services" dir="thirdparty/septima/vejman_services" permissionlevel="public"/>
 
 Insert this into your profile themegroups element:
 
