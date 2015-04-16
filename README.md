@@ -19,7 +19,6 @@ Insert this into your profile themegroups element:
 Insert this into your profile themes element to get all themes in the profile:
 
 ```xml
-
 [if: ModuleDefined("vejman_services") ]
 <include src="[module:vejman_services.dir]/profiles/profile.xml" nodes="/profile/themes/*" mustexist="false"/>
 [endif]
@@ -28,15 +27,11 @@ Insert this into your profile themes element to get all themes in the profile:
 Insert this into your profile themes element to get individual (theme-vd_admission) themes in the profile:
 
 ```xml
-
 [if: ModuleDefined("vejman_services") ]
-<include src="[module:vejman_services.dir]/profiles/profile.xml" nodes="/profile/themes/*" mustexist="false"/>
-[endif]
-
-```xml
 <include src="[module:vejman_services.dir]/profiles/profile.xml" nodes="//profile/themes/theme[@name='theme-vd_admission']" mustexist="false"/>
-
+[endif]
 ```
+
 Insert this into your targetsetfile:
 
 ```xml
