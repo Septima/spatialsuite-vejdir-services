@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_koerebanebredde" plural="VD:vm_koerebanebredde" value="VD:vm_koerebanebredde" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_koerebanebredde'</label>
+        <value>'VD:vm_koerebanebredde'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'LAENGDE: '</label>
+        <value>LAENGDE</value>
+        <condition>IsDefined(LAENGDE)</condition>
+      </column>
+      <column>
+        <label>'F4_H_TPE_BREDDE_ELE_GNS: '</label>
+        <value>F4_H_TPE_BREDDE_ELE_GNS</value>
+        <condition>IsDefined(F4_H_TPE_BREDDE_ELE_GNS)</condition>
+      </column>
+      <column>
+        <label>'F4_V_TPE_BREDDE_ELE_GNS: '</label>
+        <value>F4_V_TPE_BREDDE_ELE_GNS</value>
+        <condition>IsDefined(F4_V_TPE_BREDDE_ELE_GNS)</condition>
+      </column>
+      <column>
+        <label>'F4_M_TPE_BREDDE_ELE_GNS: '</label>
+        <value>F4_M_TPE_BREDDE_ELE_GNS</value>
+        <condition>IsDefined(F4_M_TPE_BREDDE_ELE_GNS)</condition>
+      </column>
+      <column>
+        <label>'KOEREBANE_BR: '</label>
+        <value>KOEREBANE_BR</value>
+        <condition>IsDefined(KOEREBANE_BR)</condition>
+      </column>
+      <column>
+        <label>'F4_H_TPE_ANTAL_SPOR: '</label>
+        <value>F4_H_TPE_ANTAL_SPOR</value>
+        <condition>IsDefined(F4_H_TPE_ANTAL_SPOR)</condition>
+      </column>
+      <column>
+        <label>'F4_V_TPE_ANTAL_SPOR: '</label>
+        <value>F4_V_TPE_ANTAL_SPOR</value>
+        <condition>IsDefined(F4_V_TPE_ANTAL_SPOR)</condition>
+      </column>
+      <column>
+        <label>'F4_M_TPE_ANTAL_SPOR: '</label>
+        <value>F4_M_TPE_ANTAL_SPOR</value>
+        <condition>IsDefined(F4_M_TPE_ANTAL_SPOR)</condition>
+      </column>
+      <column>
+        <label>'ANTAL_SPOR: '</label>
+        <value>ANTAL_SPOR</value>
+        <condition>IsDefined(ANTAL_SPOR)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

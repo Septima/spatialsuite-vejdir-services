@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vma_fremkomgis" plural="VD:vma_fremkomgis" value="VD:vma_fremkomgis" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vma_fremkomgis'</label>
+        <value>'VD:vma_fremkomgis'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'FRAKM: '</label>
+        <value>FRAKM</value>
+        <condition>IsDefined(FRAKM)</condition>
+      </column>
+      <column>
+        <label>'FRAM: '</label>
+        <value>FRAM</value>
+        <condition>IsDefined(FRAM)</condition>
+      </column>
+      <column>
+        <label>'TILKM: '</label>
+        <value>TILKM</value>
+        <condition>IsDefined(TILKM)</condition>
+      </column>
+      <column>
+        <label>'TILM: '</label>
+        <value>TILM</value>
+        <condition>IsDefined(TILM)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_ID: '</label>
+        <value>FREMKOM_ID</value>
+        <condition>IsDefined(FREMKOM_ID)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_VEJSIDE: '</label>
+        <value>FREMKOM_VEJSIDE</value>
+        <condition>IsDefined(FREMKOM_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_STAMBLAD_NR: '</label>
+        <value>FREMKOM_STAMBLAD_NR</value>
+        <condition>IsDefined(FREMKOM_STAMBLAD_NR)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_STEDBESKRIV: '</label>
+        <value>FREMKOM_STEDBESKRIV</value>
+        <condition>IsDefined(FREMKOM_STEDBESKRIV)</condition>
+      </column>
+      <column>
+        <label>'KODE_FREMKOM_TYPE: '</label>
+        <value>KODE_FREMKOM_TYPE</value>
+        <condition>IsDefined(KODE_FREMKOM_TYPE)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_TYPE: '</label>
+        <value>FREMKOM_TYPE</value>
+        <condition>IsDefined(FREMKOM_TYPE)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_OMRAADE: '</label>
+        <value>FREMKOM_OMRAADE</value>
+        <condition>IsDefined(FREMKOM_OMRAADE)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_KORRIDOR: '</label>
+        <value>FREMKOM_KORRIDOR</value>
+        <condition>IsDefined(FREMKOM_KORRIDOR)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_VEJTYPE: '</label>
+        <value>FREMKOM_VEJTYPE</value>
+        <condition>IsDefined(FREMKOM_VEJTYPE)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_VEJTYPE_KB: '</label>
+        <value>FREMKOM_VEJTYPE_KB</value>
+        <condition>IsDefined(FREMKOM_VEJTYPE_KB)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_KRYDSTYPE: '</label>
+        <value>FREMKOM_KRYDSTYPE</value>
+        <condition>IsDefined(FREMKOM_KRYDSTYPE)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_KONSEKVENSTY: '</label>
+        <value>FREMKOM_KONSEKVENSTY</value>
+        <condition>IsDefined(FREMKOM_KONSEKVENSTY)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_OMKOST_NIV: '</label>
+        <value>FREMKOM_OMKOST_NIV</value>
+        <condition>IsDefined(FREMKOM_OMKOST_NIV)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_FORSINKELSE: '</label>
+        <value>FREMKOM_FORSINKELSE</value>
+        <condition>IsDefined(FREMKOM_FORSINKELSE)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_REGULERING: '</label>
+        <value>FREMKOM_REGULERING</value>
+        <condition>IsDefined(FREMKOM_REGULERING)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_BESKRIVELSE: '</label>
+        <value>FREMKOM_BESKRIVELSE</value>
+        <condition>IsDefined(FREMKOM_BESKRIVELSE)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_LOESNING: '</label>
+        <value>FREMKOM_LOESNING</value>
+        <condition>IsDefined(FREMKOM_LOESNING)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_TILSTAND: '</label>
+        <value>FREMKOM_TILSTAND</value>
+        <condition>IsDefined(FREMKOM_TILSTAND)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_BRUGER: '</label>
+        <value>FREMKOM_BRUGER</value>
+        <condition>IsDefined(FREMKOM_BRUGER)</condition>
+      </column>
+      <column>
+        <label>'FREMKOM_SENEST_RET: '</label>
+        <value>FREMKOM_SENEST_RET</value>
+        <condition>IsDefined(FREMKOM_SENEST_RET)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

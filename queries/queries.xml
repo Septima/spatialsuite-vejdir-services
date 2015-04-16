@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries>
+    <spatialquery name="areasearch" query="wkt-with-buffer"/>
+    <spatialquery name="info" query="wkt-with-buffer"/>
+    <spatialquery name="userdatasource" query="userdatasource"/>
+    <spatialquery name="kms-userdatasource-med-matrikel-proxy" query="kms-userdatasource-med-matrikel-proxy" queryfile="[module:kms.dir]/queries/spatialqueries_kms"/>
+    <spatialquery name="kms-userdatasource" query="userdatasource"/>
+    <spatialquery name="kms-wkt" query="wkt-with-buffer"/>
+    <spatialquery name="digitizeinfo" query="hgf-wkt" queryfile="[cbinfo.queries.dir]/custom/demo01/digitize_select" targetset="digitize_target" targetsetfile="[cbinfo.queries.dir]/custom/demo01/digitize_select"/>
+    <defaults>
+        <queryfile>[cbinfo.queries.dir]/standard/spatialqueries</queryfile>
+        <targetset>vejman_services</targetset>
+        <targetsetfile>[module:vejman_services.dir]/queries/targetset</targetsetfile>
+        <resultlayout>infobox</resultlayout>
+    </defaults>
+
+</queries>

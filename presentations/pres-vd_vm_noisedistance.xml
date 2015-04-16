@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_noisedistance" plural="VD:vm_noisedistance" value="VD:vm_noisedistance" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_noisedistance'</label>
+        <value>'VD:vm_noisedistance'</value>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'L&#198;NGDE: '</label>
+        <value>L&#198;NGDE</value>
+        <condition>IsDefined(L&#198;NGDE)</condition>
+      </column>
+      <column>
+        <label>'HAST_LETTE: '</label>
+        <value>HAST_LETTE</value>
+        <condition>IsDefined(HAST_LETTE)</condition>
+      </column>
+      <column>
+        <label>'HAST_TUNGE: '</label>
+        <value>HAST_TUNGE</value>
+        <condition>IsDefined(HAST_TUNGE)</condition>
+      </column>
+      <column>
+        <label>'VEJTYPE: '</label>
+        <value>VEJTYPE</value>
+        <condition>IsDefined(VEJTYPE)</condition>
+      </column>
+      <column>
+        <label>'UDG_V&#198;RDI: '</label>
+        <value>UDG_V&#198;RDI</value>
+        <condition>IsDefined(UDG_V&#198;RDI)</condition>
+      </column>
+      <column>
+        <label>'AFST_45DBA: '</label>
+        <value>AFST_45DBA</value>
+        <condition>IsDefined(AFST_45DBA)</condition>
+      </column>
+      <column>
+        <label>'AFST_55DBA: '</label>
+        <value>AFST_55DBA</value>
+        <condition>IsDefined(AFST_55DBA)</condition>
+      </column>
+      <column>
+        <label>'AFST_60DBA: '</label>
+        <value>AFST_60DBA</value>
+        <condition>IsDefined(AFST_60DBA)</condition>
+      </column>
+      <column>
+        <label>'AFST_65DBA: '</label>
+        <value>AFST_65DBA</value>
+        <condition>IsDefined(AFST_65DBA)</condition>
+      </column>
+      <column>
+        <label>'AFST_70DBA: '</label>
+        <value>AFST_70DBA</value>
+        <condition>IsDefined(AFST_70DBA)</condition>
+      </column>
+      <column>
+        <label>'AFST_75DBA: '</label>
+        <value>AFST_75DBA</value>
+        <condition>IsDefined(AFST_75DBA)</condition>
+      </column>
+      <column>
+        <label>'PERSONBILER: '</label>
+        <value>PERSONBILER</value>
+        <condition>IsDefined(PERSONBILER)</condition>
+      </column>
+      <column>
+        <label>'LASTBILER: '</label>
+        <value>LASTBILER</value>
+        <condition>IsDefined(LASTBILER)</condition>
+      </column>
+      <column>
+        <label>'BILER_IALT: '</label>
+        <value>BILER_IALT</value>
+        <condition>IsDefined(BILER_IALT)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

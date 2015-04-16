@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_pathproj" plural="VD:vm_pathproj" value="VD:vm_pathproj" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_pathproj'</label>
+        <value>'VD:vm_pathproj'</value>
+      </column>
+      <column>
+        <label>'PROJECT_ID: '</label>
+        <value>PROJECT_ID</value>
+        <condition>IsDefined(PROJECT_ID)</condition>
+      </column>
+      <column>
+        <label>'PROJECT_NO: '</label>
+        <value>PROJECT_NO</value>
+        <condition>IsDefined(PROJECT_NO)</condition>
+      </column>
+      <column>
+        <label>'PROJECT_TYPE: '</label>
+        <value>PROJECT_TYPE</value>
+        <condition>IsDefined(PROJECT_TYPE)</condition>
+      </column>
+      <column>
+        <label>'PROJECT_TYPE_CODE: '</label>
+        <value>PROJECT_TYPE_CODE</value>
+        <condition>IsDefined(PROJECT_TYPE_CODE)</condition>
+      </column>
+      <column>
+        <label>'PROJECT_YEAR: '</label>
+        <value>PROJECT_YEAR</value>
+        <condition>IsDefined(PROJECT_YEAR)</condition>
+      </column>
+      <column>
+        <label>'DISTRICT: '</label>
+        <value>DISTRICT</value>
+        <condition>IsDefined(DISTRICT)</condition>
+      </column>
+      <column>
+        <label>'DISTRICT_CODE: '</label>
+        <value>DISTRICT_CODE</value>
+        <condition>IsDefined(DISTRICT_CODE)</condition>
+      </column>
+      <column>
+        <label>'PRIMARY_MUNICIPALITY: '</label>
+        <value>PRIMARY_MUNICIPALITY</value>
+        <condition>IsDefined(PRIMARY_MUNICIPALITY)</condition>
+      </column>
+      <column>
+        <label>'PRIMARY_MUNICIPALITY_CODE: '</label>
+        <value>PRIMARY_MUNICIPALITY_CODE</value>
+        <condition>IsDefined(PRIMARY_MUNICIPALITY_CODE)</condition>
+      </column>
+      <column>
+        <label>'ZONE: '</label>
+        <value>ZONE</value>
+        <condition>IsDefined(ZONE)</condition>
+      </column>
+      <column>
+        <label>'ZONE_CODE: '</label>
+        <value>ZONE_CODE</value>
+        <condition>IsDefined(ZONE_CODE)</condition>
+      </column>
+      <column>
+        <label>'PURPOSE: '</label>
+        <value>PURPOSE</value>
+        <condition>IsDefined(PURPOSE)</condition>
+      </column>
+      <column>
+        <label>'PURPOSE_CODE: '</label>
+        <value>PURPOSE_CODE</value>
+        <condition>IsDefined(PURPOSE_CODE)</condition>
+      </column>
+      <column>
+        <label>'PROCESS_STATUS: '</label>
+        <value>PROCESS_STATUS</value>
+        <condition>IsDefined(PROCESS_STATUS)</condition>
+      </column>
+      <column>
+        <label>'PROCESS_STATUS_CODE: '</label>
+        <value>PROCESS_STATUS_CODE</value>
+        <condition>IsDefined(PROCESS_STATUS_CODE)</condition>
+      </column>
+      <column>
+        <label>'ENROLLED_BY: '</label>
+        <value>ENROLLED_BY</value>
+        <condition>IsDefined(ENROLLED_BY)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

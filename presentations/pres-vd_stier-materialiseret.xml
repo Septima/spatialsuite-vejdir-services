@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:Stier-materialiseret" plural="VD:Stier-materialiseret" value="VD:Stier-materialiseret" />
+    <columns>
+      <column format="heading">
+        <label>'VD:Stier-materialiseret'</label>
+        <value>'VD:Stier-materialiseret'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'CPR_VEJNAV: '</label>
+        <value>CPR_VEJNAV</value>
+        <condition>IsDefined(CPR_VEJNAV)</condition>
+      </column>
+      <column>
+        <label>'ADM_VEJSTA: '</label>
+        <value>ADM_VEJSTA</value>
+        <condition>IsDefined(ADM_VEJSTA)</condition>
+      </column>
+      <column>
+        <label>'TPE_VEJSID: '</label>
+        <value>TPE_VEJSID</value>
+        <condition>IsDefined(TPE_VEJSID)</condition>
+      </column>
+      <column>
+        <label>'KODE_TPE_V: '</label>
+        <value>KODE_TPE_V</value>
+        <condition>IsDefined(KODE_TPE_V)</condition>
+      </column>
+      <column>
+        <label>'TPE_TPE: '</label>
+        <value>TPE_TPE</value>
+        <condition>IsDefined(TPE_TPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_TPE_T: '</label>
+        <value>KODE_TPE_T</value>
+        <condition>IsDefined(KODE_TPE_T)</condition>
+      </column>
+      <column>
+        <label>'TPE_FUNKTI: '</label>
+        <value>TPE_FUNKTI</value>
+        <condition>IsDefined(TPE_FUNKTI)</condition>
+      </column>
+      <column>
+        <label>'X_LGTH: '</label>
+        <value>X_LGTH</value>
+        <condition>IsDefined(X_LGTH)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_tpe" plural="VD:vm_tpe" value="VD:vm_tpe" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_tpe'</label>
+        <value>'VD:vm_tpe'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ROADNUMBER: '</label>
+        <value>ROADNUMBER</value>
+        <condition>IsDefined(ROADNUMBER)</condition>
+      </column>
+      <column>
+        <label>'ROADPART: '</label>
+        <value>ROADPART</value>
+        <condition>IsDefined(ROADPART)</condition>
+      </column>
+      <column>
+        <label>'FROMKMT: '</label>
+        <value>FROMKMT</value>
+        <condition>IsDefined(FROMKMT)</condition>
+      </column>
+      <column>
+        <label>'FROMKM: '</label>
+        <value>FROMKM</value>
+        <condition>IsDefined(FROMKM)</condition>
+      </column>
+      <column>
+        <label>'FROMM: '</label>
+        <value>FROMM</value>
+        <condition>IsDefined(FROMM)</condition>
+      </column>
+      <column>
+        <label>'TOKMT: '</label>
+        <value>TOKMT</value>
+        <condition>IsDefined(TOKMT)</condition>
+      </column>
+      <column>
+        <label>'TOKM: '</label>
+        <value>TOKM</value>
+        <condition>IsDefined(TOKM)</condition>
+      </column>
+      <column>
+        <label>'TOM: '</label>
+        <value>TOM</value>
+        <condition>IsDefined(TOM)</condition>
+      </column>
+      <column>
+        <label>'SIDEOFROAD: '</label>
+        <value>SIDEOFROAD</value>
+        <condition>IsDefined(SIDEOFROAD)</condition>
+      </column>
+      <column>
+        <label>'ID_TPE_TPE: '</label>
+        <value>ID_TPE_TPE</value>
+        <condition>IsDefined(ID_TPE_TPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_TPE_TPE: '</label>
+        <value>KODE_TPE_TPE</value>
+        <condition>IsDefined(KODE_TPE_TPE)</condition>
+      </column>
+      <column>
+        <label>'TPE_TPE: '</label>
+        <value>TPE_TPE</value>
+        <condition>IsDefined(TPE_TPE)</condition>
+      </column>
+      <column>
+        <label>'ID_TPE_TPE_TYPE: '</label>
+        <value>ID_TPE_TPE_TYPE</value>
+        <condition>IsDefined(ID_TPE_TPE_TYPE)</condition>
+      </column>
+      <column>
+        <label>'TPE_TPE_TYPE: '</label>
+        <value>TPE_TPE_TYPE</value>
+        <condition>IsDefined(TPE_TPE_TYPE)</condition>
+      </column>
+      <column>
+        <label>'TPE_FUNKTION: '</label>
+        <value>TPE_FUNKTION</value>
+        <condition>IsDefined(TPE_FUNKTION)</condition>
+      </column>
+      <column>
+        <label>'TPE_BELAEGNING: '</label>
+        <value>TPE_BELAEGNING</value>
+        <condition>IsDefined(TPE_BELAEGNING)</condition>
+      </column>
+      <column>
+        <label>'OFFSET: '</label>
+        <value>OFFSET</value>
+        <condition>IsDefined(OFFSET)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

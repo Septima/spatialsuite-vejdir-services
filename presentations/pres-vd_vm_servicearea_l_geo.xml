@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_servicearea_l_geo" plural="VD:vm_servicearea_l_geo" value="VD:vm_servicearea_l_geo" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_servicearea_l_geo'</label>
+        <value>'VD:vm_servicearea_l_geo'</value>
+      </column>
+      <column>
+        <label>'SO_ID: '</label>
+        <value>SO_ID</value>
+        <condition>IsDefined(SO_ID)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'KM: '</label>
+        <value>KM</value>
+        <condition>IsDefined(KM)</condition>
+      </column>
+      <column>
+        <label>'M: '</label>
+        <value>M</value>
+        <condition>IsDefined(M)</condition>
+      </column>
+      <column>
+        <label>'KMT: '</label>
+        <value>KMT</value>
+        <condition>IsDefined(KMT)</condition>
+      </column>
+      <column>
+        <label>'KODE_VEJSIDE: '</label>
+        <value>KODE_VEJSIDE</value>
+        <condition>IsDefined(KODE_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'VEJSIDE: '</label>
+        <value>VEJSIDE</value>
+        <condition>IsDefined(VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'KODE_BESTYRER: '</label>
+        <value>KODE_BESTYRER</value>
+        <condition>IsDefined(KODE_BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'KODE_EJERTYPE: '</label>
+        <value>KODE_EJERTYPE</value>
+        <condition>IsDefined(KODE_EJERTYPE)</condition>
+      </column>
+      <column>
+        <label>'EJERTYPE: '</label>
+        <value>EJERTYPE</value>
+        <condition>IsDefined(EJERTYPE)</condition>
+      </column>
+      <column>
+        <label>'NAVN: '</label>
+        <value>NAVN</value>
+        <condition>IsDefined(NAVN)</condition>
+      </column>
+      <column>
+        <label>'KODE_TYPE: '</label>
+        <value>KODE_TYPE</value>
+        <condition>IsDefined(KODE_TYPE)</condition>
+      </column>
+      <column>
+        <label>'TYPE: '</label>
+        <value>TYPE</value>
+        <condition>IsDefined(TYPE)</condition>
+      </column>
+      <column>
+        <label>'BEMAERKNING: '</label>
+        <value>BEMAERKNING</value>
+        <condition>IsDefined(BEMAERKNING)</condition>
+      </column>
+      <column>
+        <label>'AREAL: '</label>
+        <value>AREAL</value>
+        <condition>IsDefined(AREAL)</condition>
+      </column>
+      <column>
+        <label>'KODE_GEOOPRINDELSE: '</label>
+        <value>KODE_GEOOPRINDELSE</value>
+        <condition>IsDefined(KODE_GEOOPRINDELSE)</condition>
+      </column>
+      <column>
+        <label>'GEOOPRINDELSE: '</label>
+        <value>GEOOPRINDELSE</value>
+        <condition>IsDefined(GEOOPRINDELSE)</condition>
+      </column>
+      <column>
+        <label>'KODE_GEONOEJAGTIGHED: '</label>
+        <value>KODE_GEONOEJAGTIGHED</value>
+        <condition>IsDefined(KODE_GEONOEJAGTIGHED)</condition>
+      </column>
+      <column>
+        <label>'GEONOEJAGTIGHED: '</label>
+        <value>GEONOEJAGTIGHED</value>
+        <condition>IsDefined(GEONOEJAGTIGHED)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

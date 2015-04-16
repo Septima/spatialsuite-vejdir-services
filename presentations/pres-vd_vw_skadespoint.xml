@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:VW_SKADESPOINT" plural="VD:VW_SKADESPOINT" value="VD:VW_SKADESPOINT" />
+    <columns>
+      <column format="heading">
+        <label>'VD:VW_SKADESPOINT'</label>
+        <value>'VD:VW_SKADESPOINT'</value>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'CSE_VEJSIDE: '</label>
+        <value>CSE_VEJSIDE</value>
+        <condition>IsDefined(CSE_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'KODE_CSE_VEJSIDE: '</label>
+        <value>KODE_CSE_VEJSIDE</value>
+        <condition>IsDefined(KODE_CSE_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'SKADESPOINT: '</label>
+        <value>SKADESPOINT</value>
+        <condition>IsDefined(SKADESPOINT)</condition>
+      </column>
+      <column>
+        <label>'TIDSTEMPEL: '</label>
+        <value>TIDSTEMPEL</value>
+        <condition>IsDefined(TIDSTEMPEL)</condition>
+      </column>
+      <column>
+        <label>'BEMAERKNING: '</label>
+        <value>BEMAERKNING</value>
+        <condition>IsDefined(BEMAERKNING)</condition>
+      </column>
+      <column>
+        <label>'DATAEJER: '</label>
+        <value>DATAEJER</value>
+        <condition>IsDefined(DATAEJER)</condition>
+      </column>
+      <column>
+        <label>'KODE_DATAEJER: '</label>
+        <value>KODE_DATAEJER</value>
+        <condition>IsDefined(KODE_DATAEJER)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'VEJNETTYPE: '</label>
+        <value>VEJNETTYPE</value>
+        <condition>IsDefined(VEJNETTYPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_VEJNETTYPE: '</label>
+        <value>KODE_VEJNETTYPE</value>
+        <condition>IsDefined(KODE_VEJNETTYPE)</condition>
+      </column>
+      <column>
+        <label>'VEJNETID: '</label>
+        <value>VEJNETID</value>
+        <condition>IsDefined(VEJNETID)</condition>
+      </column>
+      <column>
+        <label>'GRUPPE: '</label>
+        <value>GRUPPE</value>
+        <condition>IsDefined(GRUPPE)</condition>
+      </column>
+      <column>
+        <label>'VEJNAVN: '</label>
+        <value>VEJNAVN</value>
+        <condition>IsDefined(VEJNAVN)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

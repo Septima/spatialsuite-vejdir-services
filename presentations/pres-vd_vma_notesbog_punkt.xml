@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vma_notesbog_punkt" plural="VD:vma_notesbog_punkt" value="VD:vma_notesbog_punkt" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vma_notesbog_punkt'</label>
+        <value>'VD:vma_notesbog_punkt'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'KMT: '</label>
+        <value>KMT</value>
+        <condition>IsDefined(KMT)</condition>
+      </column>
+      <column>
+        <label>'FRA_KM: '</label>
+        <value>FRA_KM</value>
+        <condition>IsDefined(FRA_KM)</condition>
+      </column>
+      <column>
+        <label>'FRA_M: '</label>
+        <value>FRA_M</value>
+        <condition>IsDefined(FRA_M)</condition>
+      </column>
+      <column>
+        <label>'CPR_VEJNAVN: '</label>
+        <value>CPR_VEJNAVN</value>
+        <condition>IsDefined(CPR_VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'KODE_NOTEPKT_GRUPPE: '</label>
+        <value>KODE_NOTEPKT_GRUPPE</value>
+        <condition>IsDefined(KODE_NOTEPKT_GRUPPE)</condition>
+      </column>
+      <column>
+        <label>'NOTEPKT_GRUPPE: '</label>
+        <value>NOTEPKT_GRUPPE</value>
+        <condition>IsDefined(NOTEPKT_GRUPPE)</condition>
+      </column>
+      <column>
+        <label>'NOTEPKT_ID: '</label>
+        <value>NOTEPKT_ID</value>
+        <condition>IsDefined(NOTEPKT_ID)</condition>
+      </column>
+      <column>
+        <label>'NOTEPKT_TAL1: '</label>
+        <value>NOTEPKT_TAL1</value>
+        <condition>IsDefined(NOTEPKT_TAL1)</condition>
+      </column>
+      <column>
+        <label>'NOTEPKT_TAL2: '</label>
+        <value>NOTEPKT_TAL2</value>
+        <condition>IsDefined(NOTEPKT_TAL2)</condition>
+      </column>
+      <column>
+        <label>'NOTEPKT_TAL3: '</label>
+        <value>NOTEPKT_TAL3</value>
+        <condition>IsDefined(NOTEPKT_TAL3)</condition>
+      </column>
+      <column>
+        <label>'NOTEPKT_TAL4: '</label>
+        <value>NOTEPKT_TAL4</value>
+        <condition>IsDefined(NOTEPKT_TAL4)</condition>
+      </column>
+      <column>
+        <label>'NOTEPKT_TAL5: '</label>
+        <value>NOTEPKT_TAL5</value>
+        <condition>IsDefined(NOTEPKT_TAL5)</condition>
+      </column>
+      <column>
+        <label>'NOTEPKT_TEKST1: '</label>
+        <value>NOTEPKT_TEKST1</value>
+        <condition>IsDefined(NOTEPKT_TEKST1)</condition>
+      </column>
+      <column>
+        <label>'NOTEPKT_TEKST2: '</label>
+        <value>NOTEPKT_TEKST2</value>
+        <condition>IsDefined(NOTEPKT_TEKST2)</condition>
+      </column>
+      <column>
+        <label>'NOTEPKT_TEKST3: '</label>
+        <value>NOTEPKT_TEKST3</value>
+        <condition>IsDefined(NOTEPKT_TEKST3)</condition>
+      </column>
+      <column>
+        <label>'NOTEPKT_TEKST4: '</label>
+        <value>NOTEPKT_TEKST4</value>
+        <condition>IsDefined(NOTEPKT_TEKST4)</condition>
+      </column>
+      <column>
+        <label>'NOTEPKT_TEKST5: '</label>
+        <value>NOTEPKT_TEKST5</value>
+        <condition>IsDefined(NOTEPKT_TEKST5)</condition>
+      </column>
+      <column>
+        <label>'NOTEPKT_BRUGER: '</label>
+        <value>NOTEPKT_BRUGER</value>
+        <condition>IsDefined(NOTEPKT_BRUGER)</condition>
+      </column>
+      <column>
+        <label>'NOTEPKT_SENEST_RETTE: '</label>
+        <value>NOTEPKT_SENEST_RETTE</value>
+        <condition>IsDefined(NOTEPKT_SENEST_RETTE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

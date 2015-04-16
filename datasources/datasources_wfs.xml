@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+  <endpoint endpointtype="wfs" name="vejman_wfs">
+    <service>http://vmgeoserver.vd.dk/geoserver/wfs?</service>
+    <requestencoding>xml</requestencoding>
+  </endpoint>
+  <datasource endpoint="vejman_wfs" name="vd_admission">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:ADMISSION</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_csegeometryview">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:CSEGEOMETRYVIEW</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_csegeometryview_ora">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:CSEGEOMETRYVIEW_ORA</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_cvf_veje">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:CVF_VEJE</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_dgp_ggk">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:DGP_GGK</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_dgp_sysline">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:DGP_SYSLINE</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_dkn100km_uh">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:DKN100KM_UH</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_dkn100m_uh">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:DKN100M_UH</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_dkn10km_uh">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:DKN10KM_UH</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_dkn1km_uh">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:DKN1KM_UH</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_dkn250m_uh">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:DKN250M_UH</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_dkn500m_uh">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:DKN500M_UH</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_eqa_driftlog">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:EQA_DRIFTLOG</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_entrepriseomraader">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:Entrepriseomraader</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_frakoersler">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:Frakoersler</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_gps_track">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:GPS_TRACK</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_gps_track_today">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:GPS_TRACK_TODAY</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_kommuner">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:Kommuner</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_loccode">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:LOCCODE</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_mariusdistribution_preview">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:MARIUSDISTRIBUTION_PREVIEW</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_mastra_noegletal_geo">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:MASTRA_NOEGLETAL_GEO</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_min_anl">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:MIN_ANL</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_provision">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:PROVISION</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_st_anl">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:ST_ANL</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_stier-materialiseret">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:Stier-materialiseret</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_tema_admission">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:TEMA_ADMISSION</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_tema_kryds_refsys">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:TEMA_KRYDS_REFSYS</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_tema_marius_eqa">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:TEMA_MARIUS_EQA</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_tema_marius_sa">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:TEMA_MARIUS_SA</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_tema_provision">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:TEMA_PROVISION</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_tema_veje">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:TEMA_VEJE</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_tema_vejliste">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:TEMA_VEJLISTE</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_tabttid">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:TabtTid</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_veje_mellem_kryds_repl">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:VEJE_MELLEM_KRYDS_REPL</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vejmidte">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:VEJMIDTE</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vw_skadespoint">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:VW_SKADESPOINT</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_v_eqa_import">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:V_EQA_IMPORT</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_v_provision_rep">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:V_PROVISION_REP</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_adm_marks">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:adm_marks</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_drilocator">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:drilocator</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_drilocator_old">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:drilocator_old</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_fot-1081">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:fot-1081</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_fot-1082">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:fot-1082</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_fot-1083">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:fot-1083</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_fot-1084">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:fot-1084</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_fot-1085">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:fot-1085</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_gps_vejnet">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:gps_vejnet</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_gps_vmt_offset">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:gps_vmt_offset</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_jernbane-kbh-ringsted">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:jernbane-kbh-ringsted</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_jordstykke">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:jordstykke</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_kommunegraenser">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:kommunegraenser</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_noedtlf">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:noedtlf</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_odense_admdata">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:odense_admdata</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_ojtest">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:ojtest</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_optagetvej">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:optagetvej</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_stoejkurver">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:stoejkurver</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_stoejskaerme">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:stoejskaerme</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_stratnet">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:stratnet</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_tra_dgoods">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:tra_dgoods</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_tra_heavynetwork">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:tra_heavynetwork</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_tra_servicearea">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:tra_servicearea</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_aabningsaar">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_Aabningsaar</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_trafficcount">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_Trafficcount</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_vejservice">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_Vejservice</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_adgang">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_adgang</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_adgang_pub">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_adgang_pub</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_adm_trafik">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_adm_trafik</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_admcpr">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_admcpr</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_admdata">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_admdata</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_aroute">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_aroute</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_autovaern">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_autovaern</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_bbr">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_bbr</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_begraensninger">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_begraensninger</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_blackspot">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_blackspot</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_bredde_belaeg">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_bredde_belaeg</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_bronde_plac">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_bronde_plac</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_busfortov_vside">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_busfortov_vside</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_busfortov_vside_15">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_busfortov_vside_15</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_bygvaerk">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_bygvaerk</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_cpr_vejnavn">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_cpr_vejnavn</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_cycleway">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_cycleway</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_cykelsti_vside">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_cykelsti_vside</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_cykelsti_vside_15">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_cykelsti_vside_15</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_dir_route">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_dir_route</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_drizone">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_drizone</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_droute_cached">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_droute_cached</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_equiparea_l_geo">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_equiparea_l_geo</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_flowmap">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_flowmap</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_fortov_vside">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_fortov_vside</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_fortov_vside_15">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_fortov_vside_15</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_fortovcykelsti_vs">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_fortovcykelsti_vs</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_gravetill">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_gravetill</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_gravetill_geom_lag">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_gravetill_geom_lag</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_gvs">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_gvs</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_helkmmarks">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_helkmmarks</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_hsd">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_hsd</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_klassificering">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_klassificering</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_koerebanebredde">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_koerebanebredde</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_komfort">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_komfort</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_lgd">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_lgd</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_mapinet">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_mapinet</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_modul_objects">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_modul_objects</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_nabo_trafik">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_nabo_trafik</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_noedtelefon">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_noedtelefon</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_noisedistance">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_noisedistance</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_passability">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_passability</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_pathproj">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_pathproj</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_permissions_completion">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_permissions_completion</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_permissions_gt_dig_character">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_permissions_gt_dig_character</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_permissions_gt_warranty">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_permissions_gt_warranty</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_permissions_missing_completion">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_permissions_missing_completion</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_permissions_rov_tech_category">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_permissions_rov_tech_category</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_prov_adg">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_prov_adg</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_prov_adg_pub">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_prov_adg_pub</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_prov_bui">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_prov_bui</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_prov_bui_pub">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_prov_bui_pub</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_prov_bui_pub1">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_prov_bui_pub1</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_prov_ovr">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_prov_ovr</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_prov_ovs">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_prov_ovs</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_raadighed">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_raadighed</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_route">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_route</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_servicearea_l_geo">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_servicearea_l_geo</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_skadespoint">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_skadespoint</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_skilte">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_skilte</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_slidlag">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_slidlag</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_slidlag_1">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_slidlag_1</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_sti_vside">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_sti_vside</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_sti_vside_15">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_sti_vside_15</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_stratnet">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_stratnet</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_ternveje">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_ternveje</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_tic_sagsoversigt">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_tic_sagsoversigt</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_tilladelser">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_tilladelser</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_tpe">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_tpe</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_tpe_vstype">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_tpe_vstype</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_udbudt_strk">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_udbudt_strk</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_veje_m_kryds_vside">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_veje_m_kryds_vside</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_veje_m_kryds_vside_10">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_veje_m_kryds_vside_10</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_veje_mellem_kryds">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_veje_mellem_kryds</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_veje_vside">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_veje_vside</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_veje_vside_10">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_veje_vside_10</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_vejlgd_vejid">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_vejlgd_vejid</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_vejstatus">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_vejstatus</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vm_vintervedligehold">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vm_vintervedligehold</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_admdata">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_admdata</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_admvejdelstype">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_admvejdelstype</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_dgoods">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_dgoods</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_ensretning">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_ensretning</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_fremkomgis">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_fremkomgis</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_friktion">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_friktion</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_hastgraenser">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_hastgraenser</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_heavynetwork">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_heavynetwork</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_jaevnhed">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_jaevnhed</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_justeringsareal">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_justeringsareal</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_modulvogntog">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_modulvogntog</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_notesbog_punkt">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_notesbog_punkt</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_notesbog_str">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_notesbog_str</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_restriktion">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_restriktion</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_sporkoering">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_sporkoering</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_tekstur">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_tekstur</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_traffic">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_traffic</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_vejarbejder">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_vejarbejder</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vma_vejnettype">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vma_vejnettype</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vmc_vejforlob">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vmc_vejforlob</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vmt_hastgraenser">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vmt_hastgraenser</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vmt_klassificering">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vmt_klassificering</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vmt_veje">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vmt_veje</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="vejman_wfs" name="vd_vmt_vejliste">
+    <wfs geometrycolumn="Shape">
+      <typename>VD:vmt_vejliste</typename>
+    </wfs>
+  </datasource>
+</datasources>

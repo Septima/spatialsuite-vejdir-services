@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_tilladelser" plural="VD:vm_tilladelser" value="VD:vm_tilladelser" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_tilladelser'</label>
+        <value>'VD:vm_tilladelser'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'VEJNAVN: '</label>
+        <value>VEJNAVN</value>
+        <condition>IsDefined(VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'TILLADELSESNR: '</label>
+        <value>TILLADELSESNR</value>
+        <condition>IsDefined(TILLADELSESNR)</condition>
+      </column>
+      <column>
+        <label>'WEBGTNR: '</label>
+        <value>WEBGTNR</value>
+        <condition>IsDefined(WEBGTNR)</condition>
+      </column>
+      <column>
+        <label>'STARTDATO: '</label>
+        <value>STARTDATO</value>
+        <condition>IsDefined(STARTDATO)</condition>
+      </column>
+      <column>
+        <label>'SLUTDATO: '</label>
+        <value>SLUTDATO</value>
+        <condition>IsDefined(SLUTDATO)</condition>
+      </column>
+      <column>
+        <label>'FORLAENGET_TIL: '</label>
+        <value>FORLAENGET_TIL</value>
+        <condition>IsDefined(FORLAENGET_TIL)</condition>
+      </column>
+      <column>
+        <label>'TYPE_KODE: '</label>
+        <value>TYPE_KODE</value>
+        <condition>IsDefined(TYPE_KODE)</condition>
+      </column>
+      <column>
+        <label>'TYPE: '</label>
+        <value>TYPE</value>
+        <condition>IsDefined(TYPE)</condition>
+      </column>
+      <column>
+        <label>'STATUS_KODE: '</label>
+        <value>STATUS_KODE</value>
+        <condition>IsDefined(STATUS_KODE)</condition>
+      </column>
+      <column>
+        <label>'STATUS: '</label>
+        <value>STATUS</value>
+        <condition>IsDefined(STATUS)</condition>
+      </column>
+      <column>
+        <label>'VARIANT_KODE: '</label>
+        <value>VARIANT_KODE</value>
+        <condition>IsDefined(VARIANT_KODE)</condition>
+      </column>
+      <column>
+        <label>'VARIANT: '</label>
+        <value>VARIANT</value>
+        <condition>IsDefined(VARIANT)</condition>
+      </column>
+      <column>
+        <label>'ARBEJDETSART_KODE: '</label>
+        <value>ARBEJDETSART_KODE</value>
+        <condition>IsDefined(ARBEJDETSART_KODE)</condition>
+      </column>
+      <column>
+        <label>'ARBEJDETSART: '</label>
+        <value>ARBEJDETSART</value>
+        <condition>IsDefined(ARBEJDETSART)</condition>
+      </column>
+      <column>
+        <label>'ROV_ARBEJD_ART: '</label>
+        <value>ROV_ARBEJD_ART</value>
+        <condition>IsDefined(ROV_ARBEJD_ART)</condition>
+      </column>
+      <column>
+        <label>'ANSOEGER_NAVN: '</label>
+        <value>ANSOEGER_NAVN</value>
+        <condition>IsDefined(ANSOEGER_NAVN)</condition>
+      </column>
+      <column>
+        <label>'ENTREPRENOER_NAVN: '</label>
+        <value>ENTREPRENOER_NAVN</value>
+        <condition>IsDefined(ENTREPRENOER_NAVN)</condition>
+      </column>
+      <column>
+        <label>'LEDNINGSEJER_NAVN: '</label>
+        <value>LEDNINGSEJER_NAVN</value>
+        <condition>IsDefined(LEDNINGSEJER_NAVN)</condition>
+      </column>
+      <column>
+        <label>'AFM_ANSVARLIG_NAVN: '</label>
+        <value>AFM_ANSVARLIG_NAVN</value>
+        <condition>IsDefined(AFM_ANSVARLIG_NAVN)</condition>
+      </column>
+      <column>
+        <label>'AFM_ANSVARLIG_TLF_AFTEN: '</label>
+        <value>AFM_ANSVARLIG_TLF_AFTEN</value>
+        <condition>IsDefined(AFM_ANSVARLIG_TLF_AFTEN)</condition>
+      </column>
+      <column>
+        <label>'AFM_ANSVARLIG_MOBIL: '</label>
+        <value>AFM_ANSVARLIG_MOBIL</value>
+        <condition>IsDefined(AFM_ANSVARLIG_MOBIL)</condition>
+      </column>
+      <column>
+        <label>'LEDNINGSNETDEL: '</label>
+        <value>LEDNINGSNETDEL</value>
+        <condition>IsDefined(LEDNINGSNETDEL)</condition>
+      </column>
+      <column>
+        <label>'LEDNINGSTYPE: '</label>
+        <value>LEDNINGSTYPE</value>
+        <condition>IsDefined(LEDNINGSTYPE)</condition>
+      </column>
+      <column>
+        <label>'SAGSBEH_NAVN: '</label>
+        <value>SAGSBEH_NAVN</value>
+        <condition>IsDefined(SAGSBEH_NAVN)</condition>
+      </column>
+      <column>
+        <label>'TILLADELSESID: '</label>
+        <value>TILLADELSESID</value>
+        <condition>IsDefined(TILLADELSESID)</condition>
+      </column>
+      <column>
+        <label>'TILKNYTTET_SAG: '</label>
+        <value>TILKNYTTET_SAG</value>
+        <condition>IsDefined(TILKNYTTET_SAG)</condition>
+      </column>
+      <column>
+        <label>'ADM_INDDELING: '</label>
+        <value>ADM_INDDELING</value>
+        <condition>IsDefined(ADM_INDDELING)</condition>
+      </column>
+      <column>
+        <label>'SMS_STATUS: '</label>
+        <value>SMS_STATUS</value>
+        <condition>IsDefined(SMS_STATUS)</condition>
+      </column>
+      <column>
+        <label>'TRAFIKUDMELDT: '</label>
+        <value>TRAFIKUDMELDT</value>
+        <condition>IsDefined(TRAFIKUDMELDT)</condition>
+      </column>
+      <column>
+        <label>'AFMAERKNING_IHT: '</label>
+        <value>AFMAERKNING_IHT</value>
+        <condition>IsDefined(AFMAERKNING_IHT)</condition>
+      </column>
+      <column>
+        <label>'OPDATERET: '</label>
+        <value>OPDATERET</value>
+        <condition>IsDefined(OPDATERET)</condition>
+      </column>
+      <column>
+        <label>'REEL_SLUTDATO: '</label>
+        <value>REEL_SLUTDATO</value>
+        <condition>IsDefined(REEL_SLUTDATO)</condition>
+      </column>
+      <column>
+        <label>'KODE_TILL_STATUS_LAG: '</label>
+        <value>KODE_TILL_STATUS_LAG</value>
+        <condition>IsDefined(KODE_TILL_STATUS_LAG)</condition>
+      </column>
+      <column>
+        <label>'HEARING_STATE: '</label>
+        <value>HEARING_STATE</value>
+        <condition>IsDefined(HEARING_STATE)</condition>
+      </column>
+      <column>
+        <label>'BUILDING_NO: '</label>
+        <value>BUILDING_NO</value>
+        <condition>IsDefined(BUILDING_NO)</condition>
+      </column>
+      <column>
+        <label>'EQUIPMENT: '</label>
+        <value>EQUIPMENT</value>
+        <condition>IsDefined(EQUIPMENT)</condition>
+      </column>
+      <column>
+        <label>'EQUIPMENT_QUANTITY: '</label>
+        <value>EQUIPMENT_QUANTITY</value>
+        <condition>IsDefined(EQUIPMENT_QUANTITY)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

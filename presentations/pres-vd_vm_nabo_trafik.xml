@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_nabo_trafik" plural="VD:vm_nabo_trafik" value="VD:vm_nabo_trafik" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_nabo_trafik'</label>
+        <value>'VD:vm_nabo_trafik'</value>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'VEJIDSTR: '</label>
+        <value>VEJIDSTR</value>
+        <condition>IsDefined(VEJIDSTR)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'FRAKMTSTR: '</label>
+        <value>FRAKMTSTR</value>
+        <condition>IsDefined(FRAKMTSTR)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMTSTR: '</label>
+        <value>TILKMTSTR</value>
+        <condition>IsDefined(TILKMTSTR)</condition>
+      </column>
+      <column>
+        <label>'AADT: '</label>
+        <value>AADT</value>
+        <condition>IsDefined(AADT)</condition>
+      </column>
+      <column>
+        <label>'HVERDAG: '</label>
+        <value>HVERDAG</value>
+        <condition>IsDefined(HVERDAG)</condition>
+      </column>
+      <column>
+        <label>'JULI: '</label>
+        <value>JULI</value>
+        <condition>IsDefined(JULI)</condition>
+      </column>
+      <column>
+        <label>'LB2: '</label>
+        <value>LB2</value>
+        <condition>IsDefined(LB2)</condition>
+      </column>
+      <column>
+        <label>'LB35: '</label>
+        <value>LB35</value>
+        <condition>IsDefined(LB35)</condition>
+      </column>
+      <column>
+        <label>'AADT_AAR: '</label>
+        <value>AADT_AAR</value>
+        <condition>IsDefined(AADT_AAR)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

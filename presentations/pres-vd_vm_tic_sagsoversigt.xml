@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_tic_sagsoversigt" plural="VD:vm_tic_sagsoversigt" value="VD:vm_tic_sagsoversigt" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_tic_sagsoversigt'</label>
+        <value>'VD:vm_tic_sagsoversigt'</value>
+      </column>
+      <column>
+        <label>'TILL_SAGS_ID: '</label>
+        <value>TILL_SAGS_ID</value>
+        <condition>IsDefined(TILL_SAGS_ID)</condition>
+      </column>
+      <column>
+        <label>'TILL_STATUS: '</label>
+        <value>TILL_STATUS</value>
+        <condition>IsDefined(TILL_STATUS)</condition>
+      </column>
+      <column>
+        <label>'TILL_TYPE: '</label>
+        <value>TILL_TYPE</value>
+        <condition>IsDefined(TILL_TYPE)</condition>
+      </column>
+      <column>
+        <label>'TILL_TILLADELSESNR: '</label>
+        <value>TILL_TILLADELSESNR</value>
+        <condition>IsDefined(TILL_TILLADELSESNR)</condition>
+      </column>
+      <column>
+        <label>'TILL_WEBGTNR: '</label>
+        <value>TILL_WEBGTNR</value>
+        <condition>IsDefined(TILL_WEBGTNR)</condition>
+      </column>
+      <column>
+        <label>'TILL_STARTDATO: '</label>
+        <value>TILL_STARTDATO</value>
+        <condition>IsDefined(TILL_STARTDATO)</condition>
+      </column>
+      <column>
+        <label>'TILL_SLUTDATO: '</label>
+        <value>TILL_SLUTDATO</value>
+        <condition>IsDefined(TILL_SLUTDATO)</condition>
+      </column>
+      <column>
+        <label>'TILL_FORLAENGET_TIL: '</label>
+        <value>TILL_FORLAENGET_TIL</value>
+        <condition>IsDefined(TILL_FORLAENGET_TIL)</condition>
+      </column>
+      <column>
+        <label>'TILL_SAGSBEH_NAVN: '</label>
+        <value>TILL_SAGSBEH_NAVN</value>
+        <condition>IsDefined(TILL_SAGSBEH_NAVN)</condition>
+      </column>
+      <column>
+        <label>'TILLROV_BEHANDL_TIC: '</label>
+        <value>TILLROV_BEHANDL_TIC</value>
+        <condition>IsDefined(TILLROV_BEHANDL_TIC)</condition>
+      </column>
+      <column>
+        <label>'TILLROV_POL_GODK: '</label>
+        <value>TILLROV_POL_GODK</value>
+        <condition>IsDefined(TILLROV_POL_GODK)</condition>
+      </column>
+      <column>
+        <label>'TILLROV_MEDIERELEVAN: '</label>
+        <value>TILLROV_MEDIERELEVAN</value>
+        <condition>IsDefined(TILLROV_MEDIERELEVAN)</condition>
+      </column>
+      <column>
+        <label>'TILLROV_TRAFIKGENER: '</label>
+        <value>TILLROV_TRAFIKGENER</value>
+        <condition>IsDefined(TILLROV_TRAFIKGENER)</condition>
+      </column>
+      <column>
+        <label>'TILLSTED_RUTENUMMER: '</label>
+        <value>TILLSTED_RUTENUMMER</value>
+        <condition>IsDefined(TILLSTED_RUTENUMMER)</condition>
+      </column>
+      <column>
+        <label>'TILLSTED_FRAKOER_FRA: '</label>
+        <value>TILLSTED_FRAKOER_FRA</value>
+        <condition>IsDefined(TILLSTED_FRAKOER_FRA)</condition>
+      </column>
+      <column>
+        <label>'TILLSTED_FRAKOER_TIL: '</label>
+        <value>TILLSTED_FRAKOER_TIL</value>
+        <condition>IsDefined(TILLSTED_FRAKOER_TIL)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'FRAKM: '</label>
+        <value>FRAKM</value>
+        <condition>IsDefined(FRAKM)</condition>
+      </column>
+      <column>
+        <label>'FRAM: '</label>
+        <value>FRAM</value>
+        <condition>IsDefined(FRAM)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKM: '</label>
+        <value>TILKM</value>
+        <condition>IsDefined(TILKM)</condition>
+      </column>
+      <column>
+        <label>'TILM: '</label>
+        <value>TILM</value>
+        <condition>IsDefined(TILM)</condition>
+      </column>
+      <column>
+        <label>'STEDROV_ANT_FAR_SPOR: '</label>
+        <value>STEDROV_ANT_FAR_SPOR</value>
+        <condition>IsDefined(STEDROV_ANT_FAR_SPOR)</condition>
+      </column>
+      <column>
+        <label>'STEDROV_AF_ANT_SPOR: '</label>
+        <value>STEDROV_AF_ANT_SPOR</value>
+        <condition>IsDefined(STEDROV_AF_ANT_SPOR)</condition>
+      </column>
+      <column>
+        <label>'STEDROV_HAST_I_ARTID: '</label>
+        <value>STEDROV_HAST_I_ARTID</value>
+        <condition>IsDefined(STEDROV_HAST_I_ARTID)</condition>
+      </column>
+      <column>
+        <label>'STEDROV_HAST_U_ARTID: '</label>
+        <value>STEDROV_HAST_U_ARTID</value>
+        <condition>IsDefined(STEDROV_HAST_U_ARTID)</condition>
+      </column>
+      <column>
+        <label>'STEDROV_RETNING: '</label>
+        <value>STEDROV_RETNING</value>
+        <condition>IsDefined(STEDROV_RETNING)</condition>
+      </column>
+      <column>
+        <label>'STEDROV_MIN_BREDDE: '</label>
+        <value>STEDROV_MIN_BREDDE</value>
+        <condition>IsDefined(STEDROV_MIN_BREDDE)</condition>
+      </column>
+      <column>
+        <label>'STEDROV_MIN_FRIHOJDE: '</label>
+        <value>STEDROV_MIN_FRIHOJDE</value>
+        <condition>IsDefined(STEDROV_MIN_FRIHOJDE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

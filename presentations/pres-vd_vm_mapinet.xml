@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_mapinet" plural="VD:vm_mapinet" value="VD:vm_mapinet" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_mapinet'</label>
+        <value>'VD:vm_mapinet'</value>
+      </column>
+      <column>
+        <label>'VEJID: '</label>
+        <value>VEJID</value>
+        <condition>IsDefined(VEJID)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'VEJ_DEL: '</label>
+        <value>VEJ_DEL</value>
+        <condition>IsDefined(VEJ_DEL)</condition>
+      </column>
+      <column>
+        <label>'HELKM: '</label>
+        <value>HELKM</value>
+        <condition>IsDefined(HELKM)</condition>
+      </column>
+      <column>
+        <label>'DIST: '</label>
+        <value>DIST</value>
+        <condition>IsDefined(DIST)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'KOMMUNE: '</label>
+        <value>KOMMUNE</value>
+        <condition>IsDefined(KOMMUNE)</condition>
+      </column>
+      <column>
+        <label>'VEJCENTER: '</label>
+        <value>VEJCENTER</value>
+        <condition>IsDefined(VEJCENTER)</condition>
+      </column>
+      <column>
+        <label>'ADM_VEJTYPE: '</label>
+        <value>ADM_VEJTYPE</value>
+        <condition>IsDefined(ADM_VEJTYPE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

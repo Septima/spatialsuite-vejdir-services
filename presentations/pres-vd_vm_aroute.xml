@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_aroute" plural="VD:vm_aroute" value="VD:vm_aroute" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_aroute'</label>
+        <value>'VD:vm_aroute'</value>
+      </column>
+      <column>
+        <label>'AROUTE_ID: '</label>
+        <value>AROUTE_ID</value>
+        <condition>IsDefined(AROUTE_ID)</condition>
+      </column>
+      <column>
+        <label>'AROUTE_NUMBER: '</label>
+        <value>AROUTE_NUMBER</value>
+        <condition>IsDefined(AROUTE_NUMBER)</condition>
+      </column>
+      <column>
+        <label>'AROUTE_NAME: '</label>
+        <value>AROUTE_NAME</value>
+        <condition>IsDefined(AROUTE_NAME)</condition>
+      </column>
+      <column>
+        <label>'AROUTE_AUTHORITY: '</label>
+        <value>AROUTE_AUTHORITY</value>
+        <condition>IsDefined(AROUTE_AUTHORITY)</condition>
+      </column>
+      <column>
+        <label>'AROUTE_DESCRIPTION: '</label>
+        <value>AROUTE_DESCRIPTION</value>
+        <condition>IsDefined(AROUTE_DESCRIPTION)</condition>
+      </column>
+      <column>
+        <label>'AROUTE_TYPE: '</label>
+        <value>AROUTE_TYPE</value>
+        <condition>IsDefined(AROUTE_TYPE)</condition>
+      </column>
+      <column>
+        <label>'AROUTE_CONTRACTOR: '</label>
+        <value>AROUTE_CONTRACTOR</value>
+        <condition>IsDefined(AROUTE_CONTRACTOR)</condition>
+      </column>
+      <column>
+        <label>'AROUTE_SERVICE_LEVEL: '</label>
+        <value>AROUTE_SERVICE_LEVEL</value>
+        <condition>IsDefined(AROUTE_SERVICE_LEVEL)</condition>
+      </column>
+      <column>
+        <label>'AROUTE_SUPERTYPE: '</label>
+        <value>AROUTE_SUPERTYPE</value>
+        <condition>IsDefined(AROUTE_SUPERTYPE)</condition>
+      </column>
+      <column>
+        <label>'MODIFIED_DATE: '</label>
+        <value>MODIFIED_DATE</value>
+        <condition>IsDefined(MODIFIED_DATE)</condition>
+      </column>
+      <column>
+        <label>'MODIFIED_USER: '</label>
+        <value>MODIFIED_USER</value>
+        <condition>IsDefined(MODIFIED_USER)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

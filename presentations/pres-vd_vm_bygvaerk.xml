@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_bygvaerk" plural="VD:vm_bygvaerk" value="VD:vm_bygvaerk" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_bygvaerk'</label>
+        <value>'VD:vm_bygvaerk'</value>
+      </column>
+      <column>
+        <label>'BYGVAERK_ID: '</label>
+        <value>BYGVAERK_ID</value>
+        <condition>IsDefined(BYGVAERK_ID)</condition>
+      </column>
+      <column>
+        <label>'BYGIDENT: '</label>
+        <value>BYGIDENT</value>
+        <condition>IsDefined(BYGIDENT)</condition>
+      </column>
+      <column>
+        <label>'BYGREGNR: '</label>
+        <value>BYGREGNR</value>
+        <condition>IsDefined(BYGREGNR)</condition>
+      </column>
+      <column>
+        <label>'BYGBETEGN: '</label>
+        <value>BYGBETEGN</value>
+        <condition>IsDefined(BYGBETEGN)</condition>
+      </column>
+      <column>
+        <label>'INTERESSENT: '</label>
+        <value>INTERESSENT</value>
+        <condition>IsDefined(INTERESSENT)</condition>
+      </column>
+      <column>
+        <label>'NAVN: '</label>
+        <value>NAVN</value>
+        <condition>IsDefined(NAVN)</condition>
+      </column>
+      <column>
+        <label>'BYGVAERKART: '</label>
+        <value>BYGVAERKART</value>
+        <condition>IsDefined(BYGVAERKART)</condition>
+      </column>
+      <column>
+        <label>'ART: '</label>
+        <value>ART</value>
+        <condition>IsDefined(ART)</condition>
+      </column>
+      <column>
+        <label>'BYG_KATEGORI: '</label>
+        <value>BYG_KATEGORI</value>
+        <condition>IsDefined(BYG_KATEGORI)</condition>
+      </column>
+      <column>
+        <label>'KATEGORI: '</label>
+        <value>KATEGORI</value>
+        <condition>IsDefined(KATEGORI)</condition>
+      </column>
+      <column>
+        <label>'OPFAAR: '</label>
+        <value>OPFAAR</value>
+        <condition>IsDefined(OPFAAR)</condition>
+      </column>
+      <column>
+        <label>'BRD_OVER: '</label>
+        <value>BRD_OVER</value>
+        <condition>IsDefined(BRD_OVER)</condition>
+      </column>
+      <column>
+        <label>'LGD_OVER: '</label>
+        <value>LGD_OVER</value>
+        <condition>IsDefined(LGD_OVER)</condition>
+      </column>
+      <column>
+        <label>'BROAREAL: '</label>
+        <value>BROAREAL</value>
+        <condition>IsDefined(BROAREAL)</condition>
+      </column>
+      <column>
+        <label>'SPVMAX: '</label>
+        <value>SPVMAX</value>
+        <condition>IsDefined(SPVMAX)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

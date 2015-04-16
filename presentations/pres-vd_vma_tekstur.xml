@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vma_tekstur" plural="VD:vma_tekstur" value="VD:vma_tekstur" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vma_tekstur'</label>
+        <value>'VD:vma_tekstur'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRA_KM: '</label>
+        <value>FRA_KM</value>
+        <condition>IsDefined(FRA_KM)</condition>
+      </column>
+      <column>
+        <label>'FRA_M: '</label>
+        <value>FRA_M</value>
+        <condition>IsDefined(FRA_M)</condition>
+      </column>
+      <column>
+        <label>'TIL_KM: '</label>
+        <value>TIL_KM</value>
+        <condition>IsDefined(TIL_KM)</condition>
+      </column>
+      <column>
+        <label>'TIL_M: '</label>
+        <value>TIL_M</value>
+        <condition>IsDefined(TIL_M)</condition>
+      </column>
+      <column>
+        <label>'CPR_VEJNAVN: '</label>
+        <value>CPR_VEJNAVN</value>
+        <condition>IsDefined(CPR_VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'TEKSTUR_VEJSIDE: '</label>
+        <value>TEKSTUR_VEJSIDE</value>
+        <condition>IsDefined(TEKSTUR_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'KODE_TEKSTUR_VEJSIDE: '</label>
+        <value>KODE_TEKSTUR_VEJSIDE</value>
+        <condition>IsDefined(KODE_TEKSTUR_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'TEKSTUR_TPE: '</label>
+        <value>TEKSTUR_TPE</value>
+        <condition>IsDefined(TEKSTUR_TPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_TEKSTUR_TPE: '</label>
+        <value>KODE_TEKSTUR_TPE</value>
+        <condition>IsDefined(KODE_TEKSTUR_TPE)</condition>
+      </column>
+      <column>
+        <label>'TEKSTUR_TYPE: '</label>
+        <value>TEKSTUR_TYPE</value>
+        <condition>IsDefined(TEKSTUR_TYPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_TEKSTUR_TYPE: '</label>
+        <value>KODE_TEKSTUR_TYPE</value>
+        <condition>IsDefined(KODE_TEKSTUR_TYPE)</condition>
+      </column>
+      <column>
+        <label>'TEKSTUR_MAALEDATO: '</label>
+        <value>TEKSTUR_MAALEDATO</value>
+        <condition>IsDefined(TEKSTUR_MAALEDATO)</condition>
+      </column>
+      <column>
+        <label>'TEKSTUR_V_MIDDEL: '</label>
+        <value>TEKSTUR_V_MIDDEL</value>
+        <condition>IsDefined(TEKSTUR_V_MIDDEL)</condition>
+      </column>
+      <column>
+        <label>'TEKSTUR_V_SPREDNING: '</label>
+        <value>TEKSTUR_V_SPREDNING</value>
+        <condition>IsDefined(TEKSTUR_V_SPREDNING)</condition>
+      </column>
+      <column>
+        <label>'TEKSTUR_H_MIDDEL: '</label>
+        <value>TEKSTUR_H_MIDDEL</value>
+        <condition>IsDefined(TEKSTUR_H_MIDDEL)</condition>
+      </column>
+      <column>
+        <label>'TEKSTUR_H_SPREDNING: '</label>
+        <value>TEKSTUR_H_SPREDNING</value>
+        <condition>IsDefined(TEKSTUR_H_SPREDNING)</condition>
+      </column>
+      <column>
+        <label>'TEKSTUR_MIDDEL_GNS: '</label>
+        <value>TEKSTUR_MIDDEL_GNS</value>
+        <condition>IsDefined(TEKSTUR_MIDDEL_GNS)</condition>
+      </column>
+      <column>
+        <label>'TEKSTUR_BRUGER: '</label>
+        <value>TEKSTUR_BRUGER</value>
+        <condition>IsDefined(TEKSTUR_BRUGER)</condition>
+      </column>
+      <column>
+        <label>'TEKSTUR_SENEST_RET: '</label>
+        <value>TEKSTUR_SENEST_RET</value>
+        <condition>IsDefined(TEKSTUR_SENEST_RET)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

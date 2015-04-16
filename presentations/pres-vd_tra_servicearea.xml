@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:tra_servicearea" plural="VD:tra_servicearea" value="VD:tra_servicearea" />
+    <columns>
+      <column format="heading">
+        <label>'VD:tra_servicearea'</label>
+        <value>'VD:tra_servicearea'</value>
+      </column>
+      <column>
+        <label>'SA_ID: '</label>
+        <value>SA_ID</value>
+        <condition>IsDefined(SA_ID)</condition>
+      </column>
+      <column>
+        <label>'NAME: '</label>
+        <value>NAME</value>
+        <condition>IsDefined(NAME)</condition>
+      </column>
+      <column>
+        <label>'TYPE: '</label>
+        <value>TYPE</value>
+        <condition>IsDefined(TYPE)</condition>
+      </column>
+      <column>
+        <label>'KOMPAS_RETNING: '</label>
+        <value>KOMPAS_RETNING</value>
+        <condition>IsDefined(KOMPAS_RETNING)</condition>
+      </column>
+      <column>
+        <label>'ANTAL_TANK: '</label>
+        <value>ANTAL_TANK</value>
+        <condition>IsDefined(ANTAL_TANK)</condition>
+      </column>
+      <column>
+        <label>'ANTAL_MAD_RESTAURANT: '</label>
+        <value>ANTAL_MAD_RESTAURANT</value>
+        <condition>IsDefined(ANTAL_MAD_RESTAURANT)</condition>
+      </column>
+      <column>
+        <label>'ANTAL_MAD_CAFETERIA: '</label>
+        <value>ANTAL_MAD_CAFETERIA</value>
+        <condition>IsDefined(ANTAL_MAD_CAFETERIA)</condition>
+      </column>
+      <column>
+        <label>'ANTAL_P_LASTBIL: '</label>
+        <value>ANTAL_P_LASTBIL</value>
+        <condition>IsDefined(ANTAL_P_LASTBIL)</condition>
+      </column>
+      <column>
+        <label>'ANTAL_LOEBM_LASTBIL: '</label>
+        <value>ANTAL_LOEBM_LASTBIL</value>
+        <condition>IsDefined(ANTAL_LOEBM_LASTBIL)</condition>
+      </column>
+      <column>
+        <label>'ANTAL_P_BUS: '</label>
+        <value>ANTAL_P_BUS</value>
+        <condition>IsDefined(ANTAL_P_BUS)</condition>
+      </column>
+      <column>
+        <label>'ANTAL_P_BUS_LASTBIL: '</label>
+        <value>ANTAL_P_BUS_LASTBIL</value>
+        <condition>IsDefined(ANTAL_P_BUS_LASTBIL)</condition>
+      </column>
+      <column>
+        <label>'ANTAL_P_MODULVOGNTOG: '</label>
+        <value>ANTAL_P_MODULVOGNTOG</value>
+        <condition>IsDefined(ANTAL_P_MODULVOGNTOG)</condition>
+      </column>
+      <column>
+        <label>'ANTAL_P_HANDICAP: '</label>
+        <value>ANTAL_P_HANDICAP</value>
+        <condition>IsDefined(ANTAL_P_HANDICAP)</condition>
+      </column>
+      <column>
+        <label>'ANTAL_BORDE_BAENKE: '</label>
+        <value>ANTAL_BORDE_BAENKE</value>
+        <condition>IsDefined(ANTAL_BORDE_BAENKE)</condition>
+      </column>
+      <column>
+        <label>'ANTAL_TOILETBYGNINGER: '</label>
+        <value>ANTAL_TOILETBYGNINGER</value>
+        <condition>IsDefined(ANTAL_TOILETBYGNINGER)</condition>
+      </column>
+      <column>
+        <label>'ANTAL_HANDICAPTOILETTER: '</label>
+        <value>ANTAL_HANDICAPTOILETTER</value>
+        <condition>IsDefined(ANTAL_HANDICAPTOILETTER)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

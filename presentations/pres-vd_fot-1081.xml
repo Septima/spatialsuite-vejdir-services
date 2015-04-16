@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:fot-1081" plural="VD:fot-1081" value="VD:fot-1081" />
+    <columns>
+      <column format="heading">
+        <label>'VD:fot-1081'</label>
+        <value>'VD:fot-1081'</value>
+      </column>
+      <column>
+        <label>'VEJ_NAVN: '</label>
+        <value>VEJ_NAVN</value>
+        <condition>IsDefined(VEJ_NAVN)</condition>
+      </column>
+      <column>
+        <label>'VEJ_KODE: '</label>
+        <value>VEJ_KODE</value>
+        <condition>IsDefined(VEJ_KODE)</condition>
+      </column>
+      <column>
+        <label>'VEJKLASSE: '</label>
+        <value>VEJKLASSE</value>
+        <condition>IsDefined(VEJKLASSE)</condition>
+      </column>
+      <column>
+        <label>'VEJMIDTE: '</label>
+        <value>VEJMIDTE</value>
+        <condition>IsDefined(VEJMIDTE)</condition>
+      </column>
+      <column>
+        <label>'LENGTH: '</label>
+        <value>LENGTH</value>
+        <condition>IsDefined(LENGTH)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vmt_hastgraenser" plural="VD:vmt_hastgraenser" value="VD:vmt_hastgraenser" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vmt_hastgraenser'</label>
+        <value>'VD:vmt_hastgraenser'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'FRAKM: '</label>
+        <value>FRAKM</value>
+        <condition>IsDefined(FRAKM)</condition>
+      </column>
+      <column>
+        <label>'FRAM: '</label>
+        <value>FRAM</value>
+        <condition>IsDefined(FRAM)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKM: '</label>
+        <value>TILKM</value>
+        <condition>IsDefined(TILKM)</condition>
+      </column>
+      <column>
+        <label>'TILM: '</label>
+        <value>TILM</value>
+        <condition>IsDefined(TILM)</condition>
+      </column>
+      <column>
+        <label>'CPR_VEJNAVN: '</label>
+        <value>CPR_VEJNAVN</value>
+        <condition>IsDefined(CPR_VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'HAST_VEJSIDE: '</label>
+        <value>HAST_VEJSIDE</value>
+        <condition>IsDefined(HAST_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'KODE_HAST_VEJSIDE: '</label>
+        <value>KODE_HAST_VEJSIDE</value>
+        <condition>IsDefined(KODE_HAST_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'SIDEOFROAD: '</label>
+        <value>SIDEOFROAD</value>
+        <condition>IsDefined(SIDEOFROAD)</condition>
+      </column>
+      <column>
+        <label>'ID_HAST_VEJSIDE: '</label>
+        <value>ID_HAST_VEJSIDE</value>
+        <condition>IsDefined(ID_HAST_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'SIDEOFROAD_ID: '</label>
+        <value>SIDEOFROAD_ID</value>
+        <condition>IsDefined(SIDEOFROAD_ID)</condition>
+      </column>
+      <column>
+        <label>'OFFSET: '</label>
+        <value>OFFSET</value>
+        <condition>IsDefined(OFFSET)</condition>
+      </column>
+      <column>
+        <label>'HAST_GENEREL_HAST: '</label>
+        <value>HAST_GENEREL_HAST</value>
+        <condition>IsDefined(HAST_GENEREL_HAST)</condition>
+      </column>
+      <column>
+        <label>'KODE_HAST_GENEREL_HAST: '</label>
+        <value>KODE_HAST_GENEREL_HAST</value>
+        <condition>IsDefined(KODE_HAST_GENEREL_HAST)</condition>
+      </column>
+      <column>
+        <label>'HAST_LOKAL_HAST: '</label>
+        <value>HAST_LOKAL_HAST</value>
+        <condition>IsDefined(HAST_LOKAL_HAST)</condition>
+      </column>
+      <column>
+        <label>'HAST_GAELDENDE_HAST: '</label>
+        <value>HAST_GAELDENDE_HAST</value>
+        <condition>IsDefined(HAST_GAELDENDE_HAST)</condition>
+      </column>
+      <column>
+        <label>'HAST_ANBEFALET_HAST: '</label>
+        <value>HAST_ANBEFALET_HAST</value>
+        <condition>IsDefined(HAST_ANBEFALET_HAST)</condition>
+      </column>
+      <column>
+        <label>'HAST_VAR_HAST_TAVLER: '</label>
+        <value>HAST_VAR_HAST_TAVLER</value>
+        <condition>IsDefined(HAST_VAR_HAST_TAVLER)</condition>
+      </column>
+      <column>
+        <label>'KODE_HAST_VAR_HAST_TAVLER: '</label>
+        <value>KODE_HAST_VAR_HAST_TAVLER</value>
+        <condition>IsDefined(KODE_HAST_VAR_HAST_TAVLER)</condition>
+      </column>
+      <column>
+        <label>'HAST_BYKODE: '</label>
+        <value>HAST_BYKODE</value>
+        <condition>IsDefined(HAST_BYKODE)</condition>
+      </column>
+      <column>
+        <label>'KODE_HAST_BYKODE: '</label>
+        <value>KODE_HAST_BYKODE</value>
+        <condition>IsDefined(KODE_HAST_BYKODE)</condition>
+      </column>
+      <column>
+        <label>'ADM_VEJKLASSE: '</label>
+        <value>ADM_VEJKLASSE</value>
+        <condition>IsDefined(ADM_VEJKLASSE)</condition>
+      </column>
+      <column>
+        <label>'KODE_ADM_VEJKLASSE: '</label>
+        <value>KODE_ADM_VEJKLASSE</value>
+        <condition>IsDefined(KODE_ADM_VEJKLASSE)</condition>
+      </column>
+      <column>
+        <label>'HAST_BEMAERKNING: '</label>
+        <value>HAST_BEMAERKNING</value>
+        <condition>IsDefined(HAST_BEMAERKNING)</condition>
+      </column>
+      <column>
+        <label>'HAST_SENEST_RETTET: '</label>
+        <value>HAST_SENEST_RETTET</value>
+        <condition>IsDefined(HAST_SENEST_RETTET)</condition>
+      </column>
+      <column>
+        <label>'HAST_BRUGER: '</label>
+        <value>HAST_BRUGER</value>
+        <condition>IsDefined(HAST_BRUGER)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

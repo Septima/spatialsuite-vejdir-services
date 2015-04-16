@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:jernbane-kbh-ringsted" plural="VD:jernbane-kbh-ringsted" value="VD:jernbane-kbh-ringsted" />
+    <columns>
+      <column format="heading">
+        <label>'VD:jernbane-kbh-ringsted'</label>
+        <value>'VD:jernbane-kbh-ringsted'</value>
+      </column>
+      <column>
+        <label>'Layer: '</label>
+        <value>Layer</value>
+        <condition>IsDefined(Layer)</condition>
+      </column>
+      <column>
+        <label>'SubClasses: '</label>
+        <value>SubClasses</value>
+        <condition>IsDefined(SubClasses)</condition>
+      </column>
+      <column>
+        <label>'ExtendedEn: '</label>
+        <value>ExtendedEn</value>
+        <condition>IsDefined(ExtendedEn)</condition>
+      </column>
+      <column>
+        <label>'Linetype: '</label>
+        <value>Linetype</value>
+        <condition>IsDefined(Linetype)</condition>
+      </column>
+      <column>
+        <label>'EntityHand: '</label>
+        <value>EntityHand</value>
+        <condition>IsDefined(EntityHand)</condition>
+      </column>
+      <column>
+        <label>'Text: '</label>
+        <value>Text</value>
+        <condition>IsDefined(Text)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

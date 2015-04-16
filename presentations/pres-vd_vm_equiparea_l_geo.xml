@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_equiparea_l_geo" plural="VD:vm_equiparea_l_geo" value="VD:vm_equiparea_l_geo" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_equiparea_l_geo'</label>
+        <value>'VD:vm_equiparea_l_geo'</value>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'KODE_VEJSIDE: '</label>
+        <value>KODE_VEJSIDE</value>
+        <condition>IsDefined(KODE_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'VDOMR&#197;DE: '</label>
+        <value>VDOMR&#197;DE</value>
+        <condition>IsDefined(VDOMR&#197;DE)</condition>
+      </column>
+      <column>
+        <label>'SUPERTYPE: '</label>
+        <value>SUPERTYPE</value>
+        <condition>IsDefined(SUPERTYPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_TYPE: '</label>
+        <value>KODE_TYPE</value>
+        <condition>IsDefined(KODE_TYPE)</condition>
+      </column>
+      <column>
+        <label>'TYPE: '</label>
+        <value>TYPE</value>
+        <condition>IsDefined(TYPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_UNDERTYPE: '</label>
+        <value>KODE_UNDERTYPE</value>
+        <condition>IsDefined(KODE_UNDERTYPE)</condition>
+      </column>
+      <column>
+        <label>'UNDERTYPE: '</label>
+        <value>UNDERTYPE</value>
+        <condition>IsDefined(UNDERTYPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_FUNK_TYPE: '</label>
+        <value>KODE_FUNK_TYPE</value>
+        <condition>IsDefined(KODE_FUNK_TYPE)</condition>
+      </column>
+      <column>
+        <label>'FUNK_TYPE: '</label>
+        <value>FUNK_TYPE</value>
+        <condition>IsDefined(FUNK_TYPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_BESTYRER: '</label>
+        <value>KODE_BESTYRER</value>
+        <condition>IsDefined(KODE_BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'KODE_VEDLIGEHOLDER: '</label>
+        <value>KODE_VEDLIGEHOLDER</value>
+        <condition>IsDefined(KODE_VEDLIGEHOLDER)</condition>
+      </column>
+      <column>
+        <label>'VEDLIGEHOLDER: '</label>
+        <value>VEDLIGEHOLDER</value>
+        <condition>IsDefined(VEDLIGEHOLDER)</condition>
+      </column>
+      <column>
+        <label>'ANTAL: '</label>
+        <value>ANTAL</value>
+        <condition>IsDefined(ANTAL)</condition>
+      </column>
+      <column>
+        <label>'AREAL: '</label>
+        <value>AREAL</value>
+        <condition>IsDefined(AREAL)</condition>
+      </column>
+      <column>
+        <label>'HOEJDE: '</label>
+        <value>HOEJDE</value>
+        <condition>IsDefined(HOEJDE)</condition>
+      </column>
+      <column>
+        <label>'LAENGDE: '</label>
+        <value>LAENGDE</value>
+        <condition>IsDefined(LAENGDE)</condition>
+      </column>
+      <column>
+        <label>'BREDDE: '</label>
+        <value>BREDDE</value>
+        <condition>IsDefined(BREDDE)</condition>
+      </column>
+      <column>
+        <label>'AAR: '</label>
+        <value>AAR</value>
+        <condition>IsDefined(AAR)</condition>
+      </column>
+      <column>
+        <label>'KODE_PRAECISION: '</label>
+        <value>KODE_PRAECISION</value>
+        <condition>IsDefined(KODE_PRAECISION)</condition>
+      </column>
+      <column>
+        <label>'PRAECISION: '</label>
+        <value>PRAECISION</value>
+        <condition>IsDefined(PRAECISION)</condition>
+      </column>
+      <column>
+        <label>'KODE_KILDE: '</label>
+        <value>KODE_KILDE</value>
+        <condition>IsDefined(KODE_KILDE)</condition>
+      </column>
+      <column>
+        <label>'KILDE: '</label>
+        <value>KILDE</value>
+        <condition>IsDefined(KILDE)</condition>
+      </column>
+      <column>
+        <label>'BEMAERKNING: '</label>
+        <value>BEMAERKNING</value>
+        <condition>IsDefined(BEMAERKNING)</condition>
+      </column>
+      <column>
+        <label>'ID: '</label>
+        <value>ID</value>
+        <condition>IsDefined(ID)</condition>
+      </column>
+      <column>
+        <label>'KODE_EKSTRA_TYPE: '</label>
+        <value>KODE_EKSTRA_TYPE</value>
+        <condition>IsDefined(KODE_EKSTRA_TYPE)</condition>
+      </column>
+      <column>
+        <label>'EKSTRA_TYPE: '</label>
+        <value>EKSTRA_TYPE</value>
+        <condition>IsDefined(EKSTRA_TYPE)</condition>
+      </column>
+      <column>
+        <label>'EKSTRA_ANTAL: '</label>
+        <value>EKSTRA_ANTAL</value>
+        <condition>IsDefined(EKSTRA_ANTAL)</condition>
+      </column>
+      <column>
+        <label>'EKSTRA_BEMAERKNING: '</label>
+        <value>EKSTRA_BEMAERKNING</value>
+        <condition>IsDefined(EKSTRA_BEMAERKNING)</condition>
+      </column>
+      <column>
+        <label>'EKSTRA_ID: '</label>
+        <value>EKSTRA_ID</value>
+        <condition>IsDefined(EKSTRA_ID)</condition>
+      </column>
+      <column>
+        <label>'KODE_SERVICEOMRAADE_TYPE: '</label>
+        <value>KODE_SERVICEOMRAADE_TYPE</value>
+        <condition>IsDefined(KODE_SERVICEOMRAADE_TYPE)</condition>
+      </column>
+      <column>
+        <label>'SERVICEOMRAADE_TYPE: '</label>
+        <value>SERVICEOMRAADE_TYPE</value>
+        <condition>IsDefined(SERVICEOMRAADE_TYPE)</condition>
+      </column>
+      <column>
+        <label>'SERVICEOMRAADE_NAVN: '</label>
+        <value>SERVICEOMRAADE_NAVN</value>
+        <condition>IsDefined(SERVICEOMRAADE_NAVN)</condition>
+      </column>
+      <column>
+        <label>'SERVICEOMRAADE_BEMAERKNING: '</label>
+        <value>SERVICEOMRAADE_BEMAERKNING</value>
+        <condition>IsDefined(SERVICEOMRAADE_BEMAERKNING)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

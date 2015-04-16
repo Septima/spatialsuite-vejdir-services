@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:GPS_TRACK" plural="VD:GPS_TRACK" value="VD:GPS_TRACK" />
+    <columns>
+      <column format="heading">
+        <label>'VD:GPS_TRACK'</label>
+        <value>'VD:GPS_TRACK'</value>
+      </column>
+      <column>
+        <label>'VMAKTIVITET_ID: '</label>
+        <value>VMAKTIVITET_ID</value>
+        <condition>IsDefined(VMAKTIVITET_ID)</condition>
+      </column>
+      <column>
+        <label>'MODTID: '</label>
+        <value>MODTID</value>
+        <condition>IsDefined(MODTID)</condition>
+      </column>
+      <column>
+        <label>'BEST: '</label>
+        <value>BEST</value>
+        <condition>IsDefined(BEST)</condition>
+      </column>
+      <column>
+        <label>'STATUS: '</label>
+        <value>STATUS</value>
+        <condition>IsDefined(STATUS)</condition>
+      </column>
+      <column>
+        <label>'STATUS_TEXT: '</label>
+        <value>STATUS_TEXT</value>
+        <condition>IsDefined(STATUS_TEXT)</condition>
+      </column>
+      <column>
+        <label>'STARTTID: '</label>
+        <value>STARTTID</value>
+        <condition>IsDefined(STARTTID)</condition>
+      </column>
+      <column>
+        <label>'DRIVSTOP: '</label>
+        <value>DRIVSTOP</value>
+        <condition>IsDefined(DRIVSTOP)</condition>
+      </column>
+      <column>
+        <label>'DRIVLENGTH: '</label>
+        <value>DRIVLENGTH</value>
+        <condition>IsDefined(DRIVLENGTH)</condition>
+      </column>
+      <column>
+        <label>'LASTONLINE: '</label>
+        <value>LASTONLINE</value>
+        <condition>IsDefined(LASTONLINE)</condition>
+      </column>
+      <column>
+        <label>'EQUIPMENT: '</label>
+        <value>EQUIPMENT</value>
+        <condition>IsDefined(EQUIPMENT)</condition>
+      </column>
+      <column>
+        <label>'EQUIPMENTTYPE: '</label>
+        <value>EQUIPMENTTYPE</value>
+        <condition>IsDefined(EQUIPMENTTYPE)</condition>
+      </column>
+      <column>
+        <label>'EQUIPMENTTYPE_TEXT: '</label>
+        <value>EQUIPMENTTYPE_TEXT</value>
+        <condition>IsDefined(EQUIPMENTTYPE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'EJER: '</label>
+        <value>EJER</value>
+        <condition>IsDefined(EJER)</condition>
+      </column>
+      <column>
+        <label>'MSGTID: '</label>
+        <value>MSGTID</value>
+        <condition>IsDefined(MSGTID)</condition>
+      </column>
+      <column>
+        <label>'AKTIVITET: '</label>
+        <value>AKTIVITET</value>
+        <condition>IsDefined(AKTIVITET)</condition>
+      </column>
+      <column>
+        <label>'KMTAELLER: '</label>
+        <value>KMTAELLER</value>
+        <condition>IsDefined(KMTAELLER)</condition>
+      </column>
+      <column>
+        <label>'HASTIGHED: '</label>
+        <value>HASTIGHED</value>
+        <condition>IsDefined(HASTIGHED)</condition>
+      </column>
+      <column>
+        <label>'COMPASS: '</label>
+        <value>COMPASS</value>
+        <condition>IsDefined(COMPASS)</condition>
+      </column>
+      <column>
+        <label>'GISLAT: '</label>
+        <value>GISLAT</value>
+        <condition>IsDefined(GISLAT)</condition>
+      </column>
+      <column>
+        <label>'GISLON: '</label>
+        <value>GISLON</value>
+        <condition>IsDefined(GISLON)</condition>
+      </column>
+      <column>
+        <label>'JOBTYPE: '</label>
+        <value>JOBTYPE</value>
+        <condition>IsDefined(JOBTYPE)</condition>
+      </column>
+      <column>
+        <label>'JOBTYPE_TEXT: '</label>
+        <value>JOBTYPE_TEXT</value>
+        <condition>IsDefined(JOBTYPE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'JOBID: '</label>
+        <value>JOBID</value>
+        <condition>IsDefined(JOBID)</condition>
+      </column>
+      <column>
+        <label>'CUSTOMERID: '</label>
+        <value>CUSTOMERID</value>
+        <condition>IsDefined(CUSTOMERID)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

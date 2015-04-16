@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_route" plural="VD:vm_route" value="VD:vm_route" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_route'</label>
+        <value>'VD:vm_route'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'VEJBESKRIVELSE: '</label>
+        <value>VEJBESKRIVELSE</value>
+        <condition>IsDefined(VEJBESKRIVELSE)</condition>
+      </column>
+      <column>
+        <label>'RUTE_TYPE: '</label>
+        <value>RUTE_TYPE</value>
+        <condition>IsDefined(RUTE_TYPE)</condition>
+      </column>
+      <column>
+        <label>'RUTE_FORKORTELSE: '</label>
+        <value>RUTE_FORKORTELSE</value>
+        <condition>IsDefined(RUTE_FORKORTELSE)</condition>
+      </column>
+      <column>
+        <label>'RUTE_BESKRIVELSE: '</label>
+        <value>RUTE_BESKRIVELSE</value>
+        <condition>IsDefined(RUTE_BESKRIVELSE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

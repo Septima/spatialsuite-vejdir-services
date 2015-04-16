@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:CVF_VEJE" plural="VD:CVF_VEJE" value="VD:CVF_VEJE" />
+    <columns>
+      <column format="heading">
+        <label>'VD:CVF_VEJE'</label>
+        <value>'VD:CVF_VEJE'</value>
+      </column>
+      <column>
+        <label>'ADM_NR: '</label>
+        <value>ADM_NR</value>
+        <condition>IsDefined(ADM_NR)</condition>
+      </column>
+      <column>
+        <label>'FORGRENING: '</label>
+        <value>FORGRENING</value>
+        <condition>IsDefined(FORGRENING)</condition>
+      </column>
+      <column>
+        <label>'BETEGNELSE: '</label>
+        <value>BETEGNELSE</value>
+        <condition>IsDefined(BETEGNELSE)</condition>
+      </column>
+      <column>
+        <label>'BEMAERKNING: '</label>
+        <value>BEMAERKNING</value>
+        <condition>IsDefined(BEMAERKNING)</condition>
+      </column>
+      <column>
+        <label>'NULPUNKT: '</label>
+        <value>NULPUNKT</value>
+        <condition>IsDefined(NULPUNKT)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER_NR: '</label>
+        <value>BESTYRER_NR</value>
+        <condition>IsDefined(BESTYRER_NR)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'BESKRIVELSE: '</label>
+        <value>BESKRIVELSE</value>
+        <condition>IsDefined(BESKRIVELSE)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'LANGDE: '</label>
+        <value>LANGDE</value>
+        <condition>IsDefined(LANGDE)</condition>
+      </column>
+      <column>
+        <label>'AREAL_AF_PLADS: '</label>
+        <value>AREAL_AF_PLADS</value>
+        <condition>IsDefined(AREAL_AF_PLADS)</condition>
+      </column>
+      <column>
+        <label>'VEJSTATUS: '</label>
+        <value>VEJSTATUS</value>
+        <condition>IsDefined(VEJSTATUS)</condition>
+      </column>
+      <column>
+        <label>'STEDF_METODE: '</label>
+        <value>STEDF_METODE</value>
+        <condition>IsDefined(STEDF_METODE)</condition>
+      </column>
+      <column>
+        <label>'STRK_BEMARKNING: '</label>
+        <value>STRK_BEMARKNING</value>
+        <condition>IsDefined(STRK_BEMARKNING)</condition>
+      </column>
+      <column>
+        <label>'STARTPUNKT: '</label>
+        <value>STARTPUNKT</value>
+        <condition>IsDefined(STARTPUNKT)</condition>
+      </column>
+      <column>
+        <label>'TIDLIGERE_VEJIDENT: '</label>
+        <value>TIDLIGERE_VEJIDENT</value>
+        <condition>IsDefined(TIDLIGERE_VEJIDENT)</condition>
+      </column>
+      <column>
+        <label>'VEJ_ELLER_STI: '</label>
+        <value>VEJ_ELLER_STI</value>
+        <condition>IsDefined(VEJ_ELLER_STI)</condition>
+      </column>
+      <column>
+        <label>'KOMMUNE: '</label>
+        <value>KOMMUNE</value>
+        <condition>IsDefined(KOMMUNE)</condition>
+      </column>
+      <column>
+        <label>'VEJTYPE: '</label>
+        <value>VEJTYPE</value>
+        <condition>IsDefined(VEJTYPE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:TEMA_PROVISION" plural="VD:TEMA_PROVISION" value="VD:TEMA_PROVISION" />
+    <columns>
+      <column format="heading">
+        <label>'VD:TEMA_PROVISION'</label>
+        <value>'VD:TEMA_PROVISION'</value>
+      </column>
+      <column>
+        <label>'PROV_ID: '</label>
+        <value>PROV_ID</value>
+        <condition>IsDefined(PROV_ID)</condition>
+      </column>
+      <column>
+        <label>'PROVISION_AUTHORITY: '</label>
+        <value>PROVISION_AUTHORITY</value>
+        <condition>IsDefined(PROVISION_AUTHORITY)</condition>
+      </column>
+      <column>
+        <label>'PROVISION_TYPE: '</label>
+        <value>PROVISION_TYPE</value>
+        <condition>IsDefined(PROVISION_TYPE)</condition>
+      </column>
+      <column>
+        <label>'PROVISION_TYPE_TEXT: '</label>
+        <value>PROVISION_TYPE_TEXT</value>
+        <condition>IsDefined(PROVISION_TYPE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'BUILDLINE_TYPE: '</label>
+        <value>BUILDLINE_TYPE</value>
+        <condition>IsDefined(BUILDLINE_TYPE)</condition>
+      </column>
+      <column>
+        <label>'BUILDLINE_TYPE_TEXT: '</label>
+        <value>BUILDLINE_TYPE_TEXT</value>
+        <condition>IsDefined(BUILDLINE_TYPE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'REFERENCELINE: '</label>
+        <value>REFERENCELINE</value>
+        <condition>IsDefined(REFERENCELINE)</condition>
+      </column>
+      <column>
+        <label>'REFERENCELINE_TEXT: '</label>
+        <value>REFERENCELINE_TEXT</value>
+        <condition>IsDefined(REFERENCELINE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'DISTANCE1: '</label>
+        <value>DISTANCE1</value>
+        <condition>IsDefined(DISTANCE1)</condition>
+      </column>
+      <column>
+        <label>'DISTANCE2: '</label>
+        <value>DISTANCE2</value>
+        <condition>IsDefined(DISTANCE2)</condition>
+      </column>
+      <column>
+        <label>'OVERVIEW_TYPE: '</label>
+        <value>OVERVIEW_TYPE</value>
+        <condition>IsDefined(OVERVIEW_TYPE)</condition>
+      </column>
+      <column>
+        <label>'OVERVIEW_TYPE_TEXT: '</label>
+        <value>OVERVIEW_TYPE_TEXT</value>
+        <condition>IsDefined(OVERVIEW_TYPE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'EXTENSION_ROAD1: '</label>
+        <value>EXTENSION_ROAD1</value>
+        <condition>IsDefined(EXTENSION_ROAD1)</condition>
+      </column>
+      <column>
+        <label>'EXTENSION_ROAD2: '</label>
+        <value>EXTENSION_ROAD2</value>
+        <condition>IsDefined(EXTENSION_ROAD2)</condition>
+      </column>
+      <column>
+        <label>'HEIGHT: '</label>
+        <value>HEIGHT</value>
+        <condition>IsDefined(HEIGHT)</condition>
+      </column>
+      <column>
+        <label>'ORIG_INTERSECTION_KMR: '</label>
+        <value>ORIG_INTERSECTION_KMR</value>
+        <condition>IsDefined(ORIG_INTERSECTION_KMR)</condition>
+      </column>
+      <column>
+        <label>'OTHER_PROV_TYPE: '</label>
+        <value>OTHER_PROV_TYPE</value>
+        <condition>IsDefined(OTHER_PROV_TYPE)</condition>
+      </column>
+      <column>
+        <label>'OTHER_PROV_TYPE_TEXT: '</label>
+        <value>OTHER_PROV_TYPE_TEXT</value>
+        <condition>IsDefined(OTHER_PROV_TYPE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'GEOMETRY_ORIGIN: '</label>
+        <value>GEOMETRY_ORIGIN</value>
+        <condition>IsDefined(GEOMETRY_ORIGIN)</condition>
+      </column>
+      <column>
+        <label>'GEOMETRY_ORIGIN_TEXT: '</label>
+        <value>GEOMETRY_ORIGIN_TEXT</value>
+        <condition>IsDefined(GEOMETRY_ORIGIN_TEXT)</condition>
+      </column>
+      <column>
+        <label>'GEOMETRY_PRECISION: '</label>
+        <value>GEOMETRY_PRECISION</value>
+        <condition>IsDefined(GEOMETRY_PRECISION)</condition>
+      </column>
+      <column>
+        <label>'GEOMETRY_PRECISION_TEXT: '</label>
+        <value>GEOMETRY_PRECISION_TEXT</value>
+        <condition>IsDefined(GEOMETRY_PRECISION_TEXT)</condition>
+      </column>
+      <column>
+        <label>'REMARK: '</label>
+        <value>REMARK</value>
+        <condition>IsDefined(REMARK)</condition>
+      </column>
+      <column>
+        <label>'PROV_DOC_ID: '</label>
+        <value>PROV_DOC_ID</value>
+        <condition>IsDefined(PROV_DOC_ID)</condition>
+      </column>
+      <column>
+        <label>'REGISTER_DATE: '</label>
+        <value>REGISTER_DATE</value>
+        <condition>IsDefined(REGISTER_DATE)</condition>
+      </column>
+      <column>
+        <label>'PROCLAIM_DATE: '</label>
+        <value>PROCLAIM_DATE</value>
+        <condition>IsDefined(PROCLAIM_DATE)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'SECTIONS: '</label>
+        <value>SECTIONS</value>
+        <condition>IsDefined(SECTIONS)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

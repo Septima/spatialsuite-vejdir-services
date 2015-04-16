@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:gps_vejnet" plural="VD:gps_vejnet" value="VD:gps_vejnet" />
+    <columns>
+      <column format="heading">
+        <label>'VD:gps_vejnet'</label>
+        <value>'VD:gps_vejnet'</value>
+      </column>
+      <column>
+        <label>'ADM_VEJ_NR: '</label>
+        <value>ADM_VEJ_NR</value>
+        <condition>IsDefined(ADM_VEJ_NR)</condition>
+      </column>
+      <column>
+        <label>'VEJ_DEL: '</label>
+        <value>VEJ_DEL</value>
+        <condition>IsDefined(VEJ_DEL)</condition>
+      </column>
+      <column>
+        <label>'HELKM: '</label>
+        <value>HELKM</value>
+        <condition>IsDefined(HELKM)</condition>
+      </column>
+      <column>
+        <label>'SIDEOFROAD: '</label>
+        <value>SIDEOFROAD</value>
+        <condition>IsDefined(SIDEOFROAD)</condition>
+      </column>
+      <column>
+        <label>'OFFSET: '</label>
+        <value>OFFSET</value>
+        <condition>IsDefined(OFFSET)</condition>
+      </column>
+      <column>
+        <label>'ANTAL_TURE: '</label>
+        <value>ANTAL_TURE</value>
+        <condition>IsDefined(ANTAL_TURE)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:TEMA_VEJE" plural="VD:TEMA_VEJE" value="VD:TEMA_VEJE" />
+    <columns>
+      <column format="heading">
+        <label>'VD:TEMA_VEJE'</label>
+        <value>'VD:TEMA_VEJE'</value>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'VEJBESKRIVELSE: '</label>
+        <value>VEJBESKRIVELSE</value>
+        <condition>IsDefined(VEJBESKRIVELSE)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'LAENGDE: '</label>
+        <value>LAENGDE</value>
+        <condition>IsDefined(LAENGDE)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER_NAVN: '</label>
+        <value>BESTYRER_NAVN</value>
+        <condition>IsDefined(BESTYRER_NAVN)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

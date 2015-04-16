@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:stoejskaerme" plural="VD:stoejskaerme" value="VD:stoejskaerme" />
+    <columns>
+      <column format="heading">
+        <label>'VD:stoejskaerme'</label>
+        <value>'VD:stoejskaerme'</value>
+      </column>
+      <column>
+        <label>'ogc_fid: '</label>
+        <value>ogc_fid</value>
+        <condition>IsDefined(ogc_fid)</condition>
+      </column>
+      <column>
+        <label>'geodbid: '</label>
+        <value>geodbid</value>
+        <condition>IsDefined(geodbid)</condition>
+      </column>
+      <column>
+        <label>'graphic_ob: '</label>
+        <value>graphic_ob</value>
+        <condition>IsDefined(graphic_ob)</condition>
+      </column>
+      <column>
+        <label>'hojd: '</label>
+        <value>hojd</value>
+        <condition>IsDefined(hojd)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

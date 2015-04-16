@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<theme>
+  <cbinfo-metadata>
+    <param name="metadata.text">Here goes metadata text</param>
+    <param name="copyright.text">Here goes copyright text</param>
+    <param name="copyright.url">Here goes copyright url</param>
+  </cbinfo-metadata>
+  <clientlayers>
+    <clientlayer>
+      <singletile>true</singletile>
+      <datasource>vd_vm_prov_adg_pub_wms</datasource>
+    </clientlayer>
+  </clientlayers>
+  <layer name="vd_vm_prov_adg_pub" type="RASTER">
+    <dump>false</dump>
+    <maxscale>25000000</maxscale>
+    [datasource:vd_vm_prov_adg_pub_wms.mapfile-datasource]
+  </layer>
+  [if: IsDefinedAndTrue("module.vejman.showlegend") ]
+  <layer name="dummy" type="POLYGON">
+    <maxscale>250000</maxscale>
+    <class>
+      <name>vd_vm_prov_adg_pub</name>
+      <style>
+        <color>11 162 199</color>
+        <symbol>11 162 199</symbol>
+        <size>1</size>
+        <outlinecolor>circle</outlinecolor>
+      </style>
+    </class>
+  </layer>
+  [endif]
+</theme>

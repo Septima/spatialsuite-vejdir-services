@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_blackspot" plural="VD:vm_blackspot" value="VD:vm_blackspot" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_blackspot'</label>
+        <value>'VD:vm_blackspot'</value>
+      </column>
+      <column>
+        <label>'SORT_ID: '</label>
+        <value>SORT_ID</value>
+        <condition>IsDefined(SORT_ID)</condition>
+      </column>
+      <column>
+        <label>'SORT_NR: '</label>
+        <value>SORT_NR</value>
+        <condition>IsDefined(SORT_NR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'SORT_DIRECTION: '</label>
+        <value>SORT_DIRECTION</value>
+        <condition>IsDefined(SORT_DIRECTION)</condition>
+      </column>
+      <column>
+        <label>'KODE_SORT_DIRECTION: '</label>
+        <value>KODE_SORT_DIRECTION</value>
+        <condition>IsDefined(KODE_SORT_DIRECTION)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'SORT_STATUS: '</label>
+        <value>SORT_STATUS</value>
+        <condition>IsDefined(SORT_STATUS)</condition>
+      </column>
+      <column>
+        <label>'KODE_SORT_STATUS: '</label>
+        <value>KODE_SORT_STATUS</value>
+        <condition>IsDefined(KODE_SORT_STATUS)</condition>
+      </column>
+      <column>
+        <label>'SORT_UDFOERELSESAAR: '</label>
+        <value>SORT_UDFOERELSESAAR</value>
+        <condition>IsDefined(SORT_UDFOERELSESAAR)</condition>
+      </column>
+      <column>
+        <label>'SORT_BELIGGENHED: '</label>
+        <value>SORT_BELIGGENHED</value>
+        <condition>IsDefined(SORT_BELIGGENHED)</condition>
+      </column>
+      <column>
+        <label>'SORT_VEJUDFORMNING: '</label>
+        <value>SORT_VEJUDFORMNING</value>
+        <condition>IsDefined(SORT_VEJUDFORMNING)</condition>
+      </column>
+      <column>
+        <label>'KODE_SORT_VEJUDFORMNING: '</label>
+        <value>KODE_SORT_VEJUDFORMNING</value>
+        <condition>IsDefined(KODE_SORT_VEJUDFORMNING)</condition>
+      </column>
+      <column>
+        <label>'KODE_SORT_HOVED_FORANSTAL: '</label>
+        <value>KODE_SORT_HOVED_FORANSTAL</value>
+        <condition>IsDefined(KODE_SORT_HOVED_FORANSTAL)</condition>
+      </column>
+      <column>
+        <label>'TEXT_SORT_HOVED_FORANSTAL: '</label>
+        <value>TEXT_SORT_HOVED_FORANSTAL</value>
+        <condition>IsDefined(TEXT_SORT_HOVED_FORANSTAL)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

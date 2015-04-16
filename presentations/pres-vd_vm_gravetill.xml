@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_gravetill" plural="VD:vm_gravetill" value="VD:vm_gravetill" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_gravetill'</label>
+        <value>'VD:vm_gravetill'</value>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'TILL_TILLADELSESNR: '</label>
+        <value>TILL_TILLADELSESNR</value>
+        <condition>IsDefined(TILL_TILLADELSESNR)</condition>
+      </column>
+      <column>
+        <label>'TILL_WEBGTNR: '</label>
+        <value>TILL_WEBGTNR</value>
+        <condition>IsDefined(TILL_WEBGTNR)</condition>
+      </column>
+      <column>
+        <label>'TILL_STARTDATO: '</label>
+        <value>TILL_STARTDATO</value>
+        <condition>IsDefined(TILL_STARTDATO)</condition>
+      </column>
+      <column>
+        <label>'TILL_SLUTDATO: '</label>
+        <value>TILL_SLUTDATO</value>
+        <condition>IsDefined(TILL_SLUTDATO)</condition>
+      </column>
+      <column>
+        <label>'TILL_FORLAENGET_TIL: '</label>
+        <value>TILL_FORLAENGET_TIL</value>
+        <condition>IsDefined(TILL_FORLAENGET_TIL)</condition>
+      </column>
+      <column>
+        <label>'TILL_STATUS: '</label>
+        <value>TILL_STATUS</value>
+        <condition>IsDefined(TILL_STATUS)</condition>
+      </column>
+      <column>
+        <label>'KODE_TILL_STATUS: '</label>
+        <value>KODE_TILL_STATUS</value>
+        <condition>IsDefined(KODE_TILL_STATUS)</condition>
+      </column>
+      <column>
+        <label>'TILLGT_ARBEJD_ART: '</label>
+        <value>TILLGT_ARBEJD_ART</value>
+        <condition>IsDefined(TILLGT_ARBEJD_ART)</condition>
+      </column>
+      <column>
+        <label>'KODE_TILLGT_ARBEJD_ART: '</label>
+        <value>KODE_TILLGT_ARBEJD_ART</value>
+        <condition>IsDefined(KODE_TILLGT_ARBEJD_ART)</condition>
+      </column>
+      <column>
+        <label>'TILL_SAGSBEH_NAVN: '</label>
+        <value>TILL_SAGSBEH_NAVN</value>
+        <condition>IsDefined(TILL_SAGSBEH_NAVN)</condition>
+      </column>
+      <column>
+        <label>'TILL_SAGS_ID: '</label>
+        <value>TILL_SAGS_ID</value>
+        <condition>IsDefined(TILL_SAGS_ID)</condition>
+      </column>
+      <column>
+        <label>'KODE_TILL_STATUS_LAG: '</label>
+        <value>KODE_TILL_STATUS_LAG</value>
+        <condition>IsDefined(KODE_TILL_STATUS_LAG)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

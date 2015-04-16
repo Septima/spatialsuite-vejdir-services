@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vma_vejarbejder" plural="VD:vma_vejarbejder" value="VD:vma_vejarbejder" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vma_vejarbejder'</label>
+        <value>'VD:vma_vejarbejder'</value>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'FRAKM: '</label>
+        <value>FRAKM</value>
+        <condition>IsDefined(FRAKM)</condition>
+      </column>
+      <column>
+        <label>'FRAM: '</label>
+        <value>FRAM</value>
+        <condition>IsDefined(FRAM)</condition>
+      </column>
+      <column>
+        <label>'TILKM: '</label>
+        <value>TILKM</value>
+        <condition>IsDefined(TILKM)</condition>
+      </column>
+      <column>
+        <label>'TILM: '</label>
+        <value>TILM</value>
+        <condition>IsDefined(TILM)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_ID: '</label>
+        <value>VEJARB_ID</value>
+        <condition>IsDefined(VEJARB_ID)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_RETNING: '</label>
+        <value>VEJARB_RETNING</value>
+        <condition>IsDefined(VEJARB_RETNING)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_NAVN: '</label>
+        <value>VEJARB_NAVN</value>
+        <condition>IsDefined(VEJARB_NAVN)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_TYPE: '</label>
+        <value>VEJARB_TYPE</value>
+        <condition>IsDefined(VEJARB_TYPE)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_UNDERTYPE: '</label>
+        <value>VEJARB_UNDERTYPE</value>
+        <condition>IsDefined(VEJARB_UNDERTYPE)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_STARTDATO: '</label>
+        <value>VEJARB_STARTDATO</value>
+        <condition>IsDefined(VEJARB_STARTDATO)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_SLUTDATO: '</label>
+        <value>VEJARB_SLUTDATO</value>
+        <condition>IsDefined(VEJARB_SLUTDATO)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_STATUS: '</label>
+        <value>VEJARB_STATUS</value>
+        <condition>IsDefined(VEJARB_STATUS)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_ANSV_NAVN: '</label>
+        <value>VEJARB_ANSV_NAVN</value>
+        <condition>IsDefined(VEJARB_ANSV_NAVN)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_BESKRIVELSE: '</label>
+        <value>VEJARB_BESKRIVELSE</value>
+        <condition>IsDefined(VEJARB_BESKRIVELSE)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_ORDRENR: '</label>
+        <value>VEJARB_ORDRENR</value>
+        <condition>IsDefined(VEJARB_ORDRENR)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_BETYDENDE_SV: '</label>
+        <value>VEJARB_BETYDENDE_SV</value>
+        <condition>IsDefined(VEJARB_BETYDENDE_SV)</condition>
+      </column>
+      <column>
+        <label>'VEARB_SPAERRET_VEJ: '</label>
+        <value>VEARB_SPAERRET_VEJ</value>
+        <condition>IsDefined(VEARB_SPAERRET_VEJ)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_SENEST_RET: '</label>
+        <value>VEJARB_SENEST_RET</value>
+        <condition>IsDefined(VEJARB_SENEST_RET)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_BRUGER: '</label>
+        <value>VEJARB_BRUGER</value>
+        <condition>IsDefined(VEJARB_BRUGER)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

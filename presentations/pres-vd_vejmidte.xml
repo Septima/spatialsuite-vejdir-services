@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:VEJMIDTE" plural="VD:VEJMIDTE" value="VD:VEJMIDTE" />
+    <columns>
+      <column format="heading">
+        <label>'VD:VEJMIDTE'</label>
+        <value>'VD:VEJMIDTE'</value>
+      </column>
+      <column>
+        <label>'FEAT_ID: '</label>
+        <value>FEAT_ID</value>
+        <condition>IsDefined(FEAT_ID)</condition>
+      </column>
+      <column>
+        <label>'FOTFEAT_ID: '</label>
+        <value>FOTFEAT_ID</value>
+        <condition>IsDefined(FOTFEAT_ID)</condition>
+      </column>
+      <column>
+        <label>'FEAT_KODE: '</label>
+        <value>FEAT_KODE</value>
+        <condition>IsDefined(FEAT_KODE)</condition>
+      </column>
+      <column>
+        <label>'FEAT_TYPE: '</label>
+        <value>FEAT_TYPE</value>
+        <condition>IsDefined(FEAT_TYPE)</condition>
+      </column>
+      <column>
+        <label>'FEAT_STTXT: '</label>
+        <value>FEAT_STTXT</value>
+        <condition>IsDefined(FEAT_STTXT)</condition>
+      </column>
+      <column>
+        <label>'GEOM_STTXT: '</label>
+        <value>GEOM_STTXT</value>
+        <condition>IsDefined(GEOM_STTXT)</condition>
+      </column>
+      <column>
+        <label>'SUB_KODE: '</label>
+        <value>SUB_KODE</value>
+        <condition>IsDefined(SUB_KODE)</condition>
+      </column>
+      <column>
+        <label>'STARTKNUDE: '</label>
+        <value>STARTKNUDE</value>
+        <condition>IsDefined(STARTKNUDE)</condition>
+      </column>
+      <column>
+        <label>'SLUTKNUDE: '</label>
+        <value>SLUTKNUDE</value>
+        <condition>IsDefined(SLUTKNUDE)</condition>
+      </column>
+      <column>
+        <label>'VEJMTYPE: '</label>
+        <value>VEJMTYPE</value>
+        <condition>IsDefined(VEJMTYPE)</condition>
+      </column>
+      <column>
+        <label>'VEJMYNDIGH: '</label>
+        <value>VEJMYNDIGH</value>
+        <condition>IsDefined(VEJMYNDIGH)</condition>
+      </column>
+      <column>
+        <label>'CVFADMNR: '</label>
+        <value>CVFADMNR</value>
+        <condition>IsDefined(CVFADMNR)</condition>
+      </column>
+      <column>
+        <label>'DQ_INDEX: '</label>
+        <value>DQ_INDEX</value>
+        <condition>IsDefined(DQ_INDEX)</condition>
+      </column>
+      <column>
+        <label>'TIMEOF_CRE: '</label>
+        <value>TIMEOF_CRE</value>
+        <condition>IsDefined(TIMEOF_CRE)</condition>
+      </column>
+      <column>
+        <label>'TIMEOF_PUB: '</label>
+        <value>TIMEOF_PUB</value>
+        <condition>IsDefined(TIMEOF_PUB)</condition>
+      </column>
+      <column>
+        <label>'TIMEOF_REV: '</label>
+        <value>TIMEOF_REV</value>
+        <condition>IsDefined(TIMEOF_REV)</condition>
+      </column>
+      <column>
+        <label>'TIMEOF_EXP: '</label>
+        <value>TIMEOF_EXP</value>
+        <condition>IsDefined(TIMEOF_EXP)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

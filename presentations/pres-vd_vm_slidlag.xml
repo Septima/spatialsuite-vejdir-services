@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_slidlag" plural="VD:vm_slidlag" value="VD:vm_slidlag" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_slidlag'</label>
+        <value>'VD:vm_slidlag'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'FRAKM: '</label>
+        <value>FRAKM</value>
+        <condition>IsDefined(FRAKM)</condition>
+      </column>
+      <column>
+        <label>'FRAM: '</label>
+        <value>FRAM</value>
+        <condition>IsDefined(FRAM)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKM: '</label>
+        <value>TILKM</value>
+        <condition>IsDefined(TILKM)</condition>
+      </column>
+      <column>
+        <label>'TILM: '</label>
+        <value>TILM</value>
+        <condition>IsDefined(TILM)</condition>
+      </column>
+      <column>
+        <label>'CPR_VEJNAVN: '</label>
+        <value>CPR_VEJNAVN</value>
+        <condition>IsDefined(CPR_VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'ADM_VEJKLASSE: '</label>
+        <value>ADM_VEJKLASSE</value>
+        <condition>IsDefined(ADM_VEJKLASSE)</condition>
+      </column>
+      <column>
+        <label>'DISTRIKT: '</label>
+        <value>DISTRIKT</value>
+        <condition>IsDefined(DISTRIKT)</condition>
+      </column>
+      <column>
+        <label>'KODE_PLADE_VEJSIDE: '</label>
+        <value>KODE_PLADE_VEJSIDE</value>
+        <condition>IsDefined(KODE_PLADE_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'PLADE_VEJSIDE: '</label>
+        <value>PLADE_VEJSIDE</value>
+        <condition>IsDefined(PLADE_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'KODE_PLADE_TPE: '</label>
+        <value>KODE_PLADE_TPE</value>
+        <condition>IsDefined(KODE_PLADE_TPE)</condition>
+      </column>
+      <column>
+        <label>'PLADE_TPE: '</label>
+        <value>PLADE_TPE</value>
+        <condition>IsDefined(PLADE_TPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_BELARB_BELAEGN_TYPE: '</label>
+        <value>KODE_BELARB_BELAEGN_TYPE</value>
+        <condition>IsDefined(KODE_BELARB_BELAEGN_TYPE)</condition>
+      </column>
+      <column>
+        <label>'BELARB_BELAEGN_TYPE: '</label>
+        <value>BELARB_BELAEGN_TYPE</value>
+        <condition>IsDefined(BELARB_BELAEGN_TYPE)</condition>
+      </column>
+      <column>
+        <label>'BELARB_TYKKELSE: '</label>
+        <value>BELARB_TYKKELSE</value>
+        <condition>IsDefined(BELARB_TYKKELSE)</condition>
+      </column>
+      <column>
+        <label>'BELARB_UDLAEGN_DATO: '</label>
+        <value>BELARB_UDLAEGN_DATO</value>
+        <condition>IsDefined(BELARB_UDLAEGN_DATO)</condition>
+      </column>
+      <column>
+        <label>'KODE_BELARB_LEVERANDOER: '</label>
+        <value>KODE_BELARB_LEVERANDOER</value>
+        <condition>IsDefined(KODE_BELARB_LEVERANDOER)</condition>
+      </column>
+      <column>
+        <label>'BELARB_LEVERANDOER: '</label>
+        <value>BELARB_LEVERANDOER</value>
+        <condition>IsDefined(BELARB_LEVERANDOER)</condition>
+      </column>
+      <column>
+        <label>'KODE_BELARB_ENTREPRENOER: '</label>
+        <value>KODE_BELARB_ENTREPRENOER</value>
+        <condition>IsDefined(KODE_BELARB_ENTREPRENOER)</condition>
+      </column>
+      <column>
+        <label>'BELARB_ENTREPRENOER: '</label>
+        <value>BELARB_ENTREPRENOER</value>
+        <condition>IsDefined(BELARB_ENTREPRENOER)</condition>
+      </column>
+      <column>
+        <label>'KODE_PLADE_OEVERSTE_LAG: '</label>
+        <value>KODE_PLADE_OEVERSTE_LAG</value>
+        <condition>IsDefined(KODE_PLADE_OEVERSTE_LAG)</condition>
+      </column>
+      <column>
+        <label>'PLADE_OEVERSTE_LAG: '</label>
+        <value>PLADE_OEVERSTE_LAG</value>
+        <condition>IsDefined(PLADE_OEVERSTE_LAG)</condition>
+      </column>
+      <column>
+        <label>'KODE_PLADE_PARTIELT: '</label>
+        <value>KODE_PLADE_PARTIELT</value>
+        <condition>IsDefined(KODE_PLADE_PARTIELT)</condition>
+      </column>
+      <column>
+        <label>'PLADE_PARTIELT: '</label>
+        <value>PLADE_PARTIELT</value>
+        <condition>IsDefined(PLADE_PARTIELT)</condition>
+      </column>
+      <column>
+        <label>'BELARB_BRUGER: '</label>
+        <value>BELARB_BRUGER</value>
+        <condition>IsDefined(BELARB_BRUGER)</condition>
+      </column>
+      <column>
+        <label>'BELARB_SEN_RETTET: '</label>
+        <value>BELARB_SEN_RETTET</value>
+        <condition>IsDefined(BELARB_SEN_RETTET)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

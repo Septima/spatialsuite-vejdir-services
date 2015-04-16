@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:TEMA_MARIUS_SA" plural="VD:TEMA_MARIUS_SA" value="VD:TEMA_MARIUS_SA" />
+    <columns>
+      <column format="heading">
+        <label>'VD:TEMA_MARIUS_SA'</label>
+        <value>'VD:TEMA_MARIUS_SA'</value>
+      </column>
+      <column>
+        <label>'EQUIPMENTTYPE: '</label>
+        <value>EQUIPMENTTYPE</value>
+        <condition>IsDefined(EQUIPMENTTYPE)</condition>
+      </column>
+      <column>
+        <label>'EQA_READONLY: '</label>
+        <value>EQA_READONLY</value>
+        <condition>IsDefined(EQA_READONLY)</condition>
+      </column>
+      <column>
+        <label>'EQA_ID: '</label>
+        <value>EQA_ID</value>
+        <condition>IsDefined(EQA_ID)</condition>
+      </column>
+      <column>
+        <label>'SA_ID: '</label>
+        <value>SA_ID</value>
+        <condition>IsDefined(SA_ID)</condition>
+      </column>
+      <column>
+        <label>'EQA_BESTYRER: '</label>
+        <value>EQA_BESTYRER</value>
+        <condition>IsDefined(EQA_BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'SERVICEAREATYPE: '</label>
+        <value>SERVICEAREATYPE</value>
+        <condition>IsDefined(SERVICEAREATYPE)</condition>
+      </column>
+      <column>
+        <label>'OWNERTYPE: '</label>
+        <value>OWNERTYPE</value>
+        <condition>IsDefined(OWNERTYPE)</condition>
+      </column>
+      <column>
+        <label>'COLOR: '</label>
+        <value>COLOR</value>
+        <condition>IsDefined(COLOR)</condition>
+      </column>
+      <column>
+        <label>'NAME: '</label>
+        <value>NAME</value>
+        <condition>IsDefined(NAME)</condition>
+      </column>
+      <column>
+        <label>'REMARK: '</label>
+        <value>REMARK</value>
+        <condition>IsDefined(REMARK)</condition>
+      </column>
+      <column>
+        <label>'MODIFIED_USER: '</label>
+        <value>MODIFIED_USER</value>
+        <condition>IsDefined(MODIFIED_USER)</condition>
+      </column>
+      <column>
+        <label>'MODIFIED_DATE: '</label>
+        <value>MODIFIED_DATE</value>
+        <condition>IsDefined(MODIFIED_DATE)</condition>
+      </column>
+      <column>
+        <label>'SA_BESTYRER: '</label>
+        <value>SA_BESTYRER</value>
+        <condition>IsDefined(SA_BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'COORDTYPE: '</label>
+        <value>COORDTYPE</value>
+        <condition>IsDefined(COORDTYPE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

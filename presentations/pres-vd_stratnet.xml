@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:stratnet" plural="VD:stratnet" value="VD:stratnet" />
+    <columns>
+      <column format="heading">
+        <label>'VD:stratnet'</label>
+        <value>'VD:stratnet'</value>
+      </column>
+      <column>
+        <label>'ogc_fid: '</label>
+        <value>ogc_fid</value>
+        <condition>IsDefined(ogc_fid)</condition>
+      </column>
+      <column>
+        <label>'admvejnr: '</label>
+        <value>admvejnr</value>
+        <condition>IsDefined(admvejnr)</condition>
+      </column>
+      <column>
+        <label>'admvejdel: '</label>
+        <value>admvejdel</value>
+        <condition>IsDefined(admvejdel)</condition>
+      </column>
+      <column>
+        <label>'frakmt: '</label>
+        <value>frakmt</value>
+        <condition>IsDefined(frakmt)</condition>
+      </column>
+      <column>
+        <label>'tilkmt: '</label>
+        <value>tilkmt</value>
+        <condition>IsDefined(tilkmt)</condition>
+      </column>
+      <column>
+        <label>'f20_notestrk_tal1: '</label>
+        <value>f20_notestrk_tal1</value>
+        <condition>IsDefined(f20_notestrk_tal1)</condition>
+      </column>
+      <column>
+        <label>'f20_notestrk_tekst1: '</label>
+        <value>f20_notestrk_tekst1</value>
+        <condition>IsDefined(f20_notestrk_tekst1)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

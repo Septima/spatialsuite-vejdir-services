@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:DGP_GGK" plural="VD:DGP_GGK" value="VD:DGP_GGK" />
+    <columns>
+      <column format="heading">
+        <label>'VD:DGP_GGK'</label>
+        <value>'VD:DGP_GGK'</value>
+      </column>
+      <column>
+        <label>'OGR_FID: '</label>
+        <value>OGR_FID</value>
+        <condition>IsDefined(OGR_FID)</condition>
+      </column>
+      <column>
+        <label>'LAGNAVN: '</label>
+        <value>LAGNAVN</value>
+        <condition>IsDefined(LAGNAVN)</condition>
+      </column>
+      <column>
+        <label>'START_KOTE: '</label>
+        <value>START_KOTE</value>
+        <condition>IsDefined(START_KOTE)</condition>
+      </column>
+      <column>
+        <label>'SLUT_KOTE: '</label>
+        <value>SLUT_KOTE</value>
+        <condition>IsDefined(SLUT_KOTE)</condition>
+      </column>
+      <column>
+        <label>'OVERSAT: '</label>
+        <value>OVERSAT</value>
+        <condition>IsDefined(OVERSAT)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

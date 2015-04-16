@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_raadighed" plural="VD:vm_raadighed" value="VD:vm_raadighed" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_raadighed'</label>
+        <value>'VD:vm_raadighed'</value>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'FRAKM: '</label>
+        <value>FRAKM</value>
+        <condition>IsDefined(FRAKM)</condition>
+      </column>
+      <column>
+        <label>'FRAM: '</label>
+        <value>FRAM</value>
+        <condition>IsDefined(FRAM)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKM: '</label>
+        <value>TILKM</value>
+        <condition>IsDefined(TILKM)</condition>
+      </column>
+      <column>
+        <label>'TILM: '</label>
+        <value>TILM</value>
+        <condition>IsDefined(TILM)</condition>
+      </column>
+      <column>
+        <label>'TILL_SAGS_ID: '</label>
+        <value>TILL_SAGS_ID</value>
+        <condition>IsDefined(TILL_SAGS_ID)</condition>
+      </column>
+      <column>
+        <label>'TILLROV_ARBEJD_ART: '</label>
+        <value>TILLROV_ARBEJD_ART</value>
+        <condition>IsDefined(TILLROV_ARBEJD_ART)</condition>
+      </column>
+      <column>
+        <label>'KODE_TILLROV_SMS_STATUS: '</label>
+        <value>KODE_TILLROV_SMS_STATUS</value>
+        <condition>IsDefined(KODE_TILLROV_SMS_STATUS)</condition>
+      </column>
+      <column>
+        <label>'TILLROV_SMS_STATUS: '</label>
+        <value>TILLROV_SMS_STATUS</value>
+        <condition>IsDefined(TILLROV_SMS_STATUS)</condition>
+      </column>
+      <column>
+        <label>'TILL_SAGSBEH: '</label>
+        <value>TILL_SAGSBEH</value>
+        <condition>IsDefined(TILL_SAGSBEH)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_KONTAKTPERSON: '</label>
+        <value>VEJARB_KONTAKTPERSON</value>
+        <condition>IsDefined(VEJARB_KONTAKTPERSON)</condition>
+      </column>
+      <column>
+        <label>'TILL_STARTDATO: '</label>
+        <value>TILL_STARTDATO</value>
+        <condition>IsDefined(TILL_STARTDATO)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_STARTDATO: '</label>
+        <value>VEJARB_STARTDATO</value>
+        <condition>IsDefined(VEJARB_STARTDATO)</condition>
+      </column>
+      <column>
+        <label>'TILL_SLUTDATO: '</label>
+        <value>TILL_SLUTDATO</value>
+        <condition>IsDefined(TILL_SLUTDATO)</condition>
+      </column>
+      <column>
+        <label>'TILL_FORLAENGET_TIL: '</label>
+        <value>TILL_FORLAENGET_TIL</value>
+        <condition>IsDefined(TILL_FORLAENGET_TIL)</condition>
+      </column>
+      <column>
+        <label>'FINISH_DATE: '</label>
+        <value>FINISH_DATE</value>
+        <condition>IsDefined(FINISH_DATE)</condition>
+      </column>
+      <column>
+        <label>'FAERDIGMELD_DATO: '</label>
+        <value>FAERDIGMELD_DATO</value>
+        <condition>IsDefined(FAERDIGMELD_DATO)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_SLUTDATO: '</label>
+        <value>VEJARB_SLUTDATO</value>
+        <condition>IsDefined(VEJARB_SLUTDATO)</condition>
+      </column>
+      <column>
+        <label>'TILL_STATUS: '</label>
+        <value>TILL_STATUS</value>
+        <condition>IsDefined(TILL_STATUS)</condition>
+      </column>
+      <column>
+        <label>'KODE_TILL_STATUS: '</label>
+        <value>KODE_TILL_STATUS</value>
+        <condition>IsDefined(KODE_TILL_STATUS)</condition>
+      </column>
+      <column>
+        <label>'TILL_STATUS_LAG: '</label>
+        <value>TILL_STATUS_LAG</value>
+        <condition>IsDefined(TILL_STATUS_LAG)</condition>
+      </column>
+      <column>
+        <label>'KODE_TILL_STATUS_LAG: '</label>
+        <value>KODE_TILL_STATUS_LAG</value>
+        <condition>IsDefined(KODE_TILL_STATUS_LAG)</condition>
+      </column>
+      <column>
+        <label>'KODE_TILL_ADM_INDDELING: '</label>
+        <value>KODE_TILL_ADM_INDDELING</value>
+        <condition>IsDefined(KODE_TILL_ADM_INDDELING)</condition>
+      </column>
+      <column>
+        <label>'TILL_ADM_INDDELING: '</label>
+        <value>TILL_ADM_INDDELING</value>
+        <condition>IsDefined(TILL_ADM_INDDELING)</condition>
+      </column>
+      <column>
+        <label>'WEBGTNR: '</label>
+        <value>WEBGTNR</value>
+        <condition>IsDefined(WEBGTNR)</condition>
+      </column>
+      <column>
+        <label>'TILL_AAR: '</label>
+        <value>TILL_AAR</value>
+        <condition>IsDefined(TILL_AAR)</condition>
+      </column>
+      <column>
+        <label>'TILLROV_POL_GODK: '</label>
+        <value>TILLROV_POL_GODK</value>
+        <condition>IsDefined(TILLROV_POL_GODK)</condition>
+      </column>
+      <column>
+        <label>'KODE_TILLROV_POL_GODK: '</label>
+        <value>KODE_TILLROV_POL_GODK</value>
+        <condition>IsDefined(KODE_TILLROV_POL_GODK)</condition>
+      </column>
+      <column>
+        <label>'TILLROV_POL_GODKDATO: '</label>
+        <value>TILLROV_POL_GODKDATO</value>
+        <condition>IsDefined(TILLROV_POL_GODKDATO)</condition>
+      </column>
+      <column>
+        <label>'TILLROV_SLUT_TIC: '</label>
+        <value>TILLROV_SLUT_TIC</value>
+        <condition>IsDefined(TILLROV_SLUT_TIC)</condition>
+      </column>
+      <column>
+        <label>'TILLROV_START_TIC: '</label>
+        <value>TILLROV_START_TIC</value>
+        <condition>IsDefined(TILLROV_START_TIC)</condition>
+      </column>
+      <column>
+        <label>'TILLROV_TRAFIKUDMELD: '</label>
+        <value>TILLROV_TRAFIKUDMELD</value>
+        <condition>IsDefined(TILLROV_TRAFIKUDMELD)</condition>
+      </column>
+      <column>
+        <label>'TILLSTED_AFMAERK_IHT: '</label>
+        <value>TILLSTED_AFMAERK_IHT</value>
+        <condition>IsDefined(TILLSTED_AFMAERK_IHT)</condition>
+      </column>
+      <column>
+        <label>'TILL_BRUGER: '</label>
+        <value>TILL_BRUGER</value>
+        <condition>IsDefined(TILL_BRUGER)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_BRUGER: '</label>
+        <value>VEJARB_BRUGER</value>
+        <condition>IsDefined(VEJARB_BRUGER)</condition>
+      </column>
+      <column>
+        <label>'TILL_OPDATERET: '</label>
+        <value>TILL_OPDATERET</value>
+        <condition>IsDefined(TILL_OPDATERET)</condition>
+      </column>
+      <column>
+        <label>'X_LGTH: '</label>
+        <value>X_LGTH</value>
+        <condition>IsDefined(X_LGTH)</condition>
+      </column>
+      <column>
+        <label>'TILL_NR: '</label>
+        <value>TILL_NR</value>
+        <condition>IsDefined(TILL_NR)</condition>
+      </column>
+      <column>
+        <label>'TILL_VEJNAVN: '</label>
+        <value>TILL_VEJNAVN</value>
+        <condition>IsDefined(TILL_VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'VEJARB_NAVN: '</label>
+        <value>VEJARB_NAVN</value>
+        <condition>IsDefined(VEJARB_NAVN)</condition>
+      </column>
+      <column>
+        <label>'WORKINGHOURSSTART: '</label>
+        <value>WORKINGHOURSSTART</value>
+        <condition>IsDefined(WORKINGHOURSSTART)</condition>
+      </column>
+      <column>
+        <label>'WORKINGHOURSSTOP: '</label>
+        <value>WORKINGHOURSSTOP</value>
+        <condition>IsDefined(WORKINGHOURSSTOP)</condition>
+      </column>
+      <column>
+        <label>'WORKING24HR: '</label>
+        <value>WORKING24HR</value>
+        <condition>IsDefined(WORKING24HR)</condition>
+      </column>
+      <column>
+        <label>'MARKER_NAME: '</label>
+        <value>MARKER_NAME</value>
+        <condition>IsDefined(MARKER_NAME)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

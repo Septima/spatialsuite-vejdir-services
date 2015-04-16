@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_skilte" plural="VD:vm_skilte" value="VD:vm_skilte" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_skilte'</label>
+        <value>'VD:vm_skilte'</value>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

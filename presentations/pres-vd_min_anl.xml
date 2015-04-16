@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:MIN_ANL" plural="VD:MIN_ANL" value="VD:MIN_ANL" />
+    <columns>
+      <column format="heading">
+        <label>'VD:MIN_ANL'</label>
+        <value>'VD:MIN_ANL'</value>
+      </column>
+      <column>
+        <label>'OGR_FID: '</label>
+        <value>OGR_FID</value>
+        <condition>IsDefined(OGR_FID)</condition>
+      </column>
+      <column>
+        <label>'LAGNAVN: '</label>
+        <value>LAGNAVN</value>
+        <condition>IsDefined(LAGNAVN)</condition>
+      </column>
+      <column>
+        <label>'MSLINK: '</label>
+        <value>MSLINK</value>
+        <condition>IsDefined(MSLINK)</condition>
+      </column>
+      <column>
+        <label>'ENTREPRISENR: '</label>
+        <value>ENTREPRISENR</value>
+        <condition>IsDefined(ENTREPRISENR)</condition>
+      </column>
+      <column>
+        <label>'LOEBENUMMER: '</label>
+        <value>LOEBENUMMER</value>
+        <condition>IsDefined(LOEBENUMMER)</condition>
+      </column>
+      <column>
+        <label>'FASE: '</label>
+        <value>FASE</value>
+        <condition>IsDefined(FASE)</condition>
+      </column>
+      <column>
+        <label>'STATUS: '</label>
+        <value>STATUS</value>
+        <condition>IsDefined(STATUS)</condition>
+      </column>
+      <column>
+        <label>'ETAPENAVN: '</label>
+        <value>ETAPENAVN</value>
+        <condition>IsDefined(ETAPENAVN)</condition>
+      </column>
+      <column>
+        <label>'STRAEKNING: '</label>
+        <value>STRAEKNING</value>
+        <condition>IsDefined(STRAEKNING)</condition>
+      </column>
+      <column>
+        <label>'ENHED: '</label>
+        <value>ENHED</value>
+        <condition>IsDefined(ENHED)</condition>
+      </column>
+      <column>
+        <label>'TYPE: '</label>
+        <value>TYPE</value>
+        <condition>IsDefined(TYPE)</condition>
+      </column>
+      <column>
+        <label>'STARTDATO: '</label>
+        <value>STARTDATO</value>
+        <condition>IsDefined(STARTDATO)</condition>
+      </column>
+      <column>
+        <label>'SLUTDATO: '</label>
+        <value>SLUTDATO</value>
+        <condition>IsDefined(SLUTDATO)</condition>
+      </column>
+      <column>
+        <label>'BEM_RKNINGER: '</label>
+        <value>BEM_RKNINGER</value>
+        <condition>IsDefined(BEM_RKNINGER)</condition>
+      </column>
+      <column>
+        <label>'PROJEKTLEDER: '</label>
+        <value>PROJEKTLEDER</value>
+        <condition>IsDefined(PROJEKTLEDER)</condition>
+      </column>
+      <column>
+        <label>'OPDATERINGSDATO: '</label>
+        <value>OPDATERINGSDATO</value>
+        <condition>IsDefined(OPDATERINGSDATO)</condition>
+      </column>
+      <column>
+        <label>'OPDATERET_AF: '</label>
+        <value>OPDATERET_AF</value>
+        <condition>IsDefined(OPDATERET_AF)</condition>
+      </column>
+      <column>
+        <label>'VEJNR: '</label>
+        <value>VEJNR</value>
+        <condition>IsDefined(VEJNR)</condition>
+      </column>
+      <column>
+        <label>'VEJDEL: '</label>
+        <value>VEJDEL</value>
+        <condition>IsDefined(VEJDEL)</condition>
+      </column>
+      <column>
+        <label>'KMT_FRA: '</label>
+        <value>KMT_FRA</value>
+        <condition>IsDefined(KMT_FRA)</condition>
+      </column>
+      <column>
+        <label>'KMT_TIL: '</label>
+        <value>KMT_TIL</value>
+        <condition>IsDefined(KMT_TIL)</condition>
+      </column>
+      <column>
+        <label>'RETNING: '</label>
+        <value>RETNING</value>
+        <condition>IsDefined(RETNING)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

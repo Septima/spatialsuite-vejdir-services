@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_adgang" plural="VD:vm_adgang" value="VD:vm_adgang" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_adgang'</label>
+        <value>'VD:vm_adgang'</value>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'KMT: '</label>
+        <value>KMT</value>
+        <condition>IsDefined(KMT)</condition>
+      </column>
+      <column>
+        <label>'KM: '</label>
+        <value>KM</value>
+        <condition>IsDefined(KM)</condition>
+      </column>
+      <column>
+        <label>'M: '</label>
+        <value>M</value>
+        <condition>IsDefined(M)</condition>
+      </column>
+      <column>
+        <label>'ADG_VEJSIDE: '</label>
+        <value>ADG_VEJSIDE</value>
+        <condition>IsDefined(ADG_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'ADG_ADGANG_TYPE: '</label>
+        <value>ADG_ADGANG_TYPE</value>
+        <condition>IsDefined(ADG_ADGANG_TYPE)</condition>
+      </column>
+      <column>
+        <label>'ADG_ID: '</label>
+        <value>ADG_ID</value>
+        <condition>IsDefined(ADG_ID)</condition>
+      </column>
+      <column>
+        <label>'ADGDOK_BESTYRER: '</label>
+        <value>ADGDOK_BESTYRER</value>
+        <condition>IsDefined(ADGDOK_BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADGDOK_KILDE: '</label>
+        <value>ADGDOK_KILDE</value>
+        <condition>IsDefined(ADGDOK_KILDE)</condition>
+      </column>
+      <column>
+        <label>'ADGDOK_KUND_DATO: '</label>
+        <value>ADGDOK_KUND_DATO</value>
+        <condition>IsDefined(ADGDOK_KUND_DATO)</condition>
+      </column>
+      <column>
+        <label>'ADGDOK_TING_DATO: '</label>
+        <value>ADGDOK_TING_DATO</value>
+        <condition>IsDefined(ADGDOK_TING_DATO)</condition>
+      </column>
+      <column>
+        <label>'ADGDOK_JOURNALID: '</label>
+        <value>ADGDOK_JOURNALID</value>
+        <condition>IsDefined(ADGDOK_JOURNALID)</condition>
+      </column>
+      <column>
+        <label>'ADGDOK_ID: '</label>
+        <value>ADGDOK_ID</value>
+        <condition>IsDefined(ADGDOK_ID)</condition>
+      </column>
+      <column>
+        <label>'ADG_ADGANGSRET: '</label>
+        <value>ADG_ADGANGSRET</value>
+        <condition>IsDefined(ADG_ADGANGSRET)</condition>
+      </column>
+      <column>
+        <label>'ADG_SENEST_RETTET: '</label>
+        <value>ADG_SENEST_RETTET</value>
+        <condition>IsDefined(ADG_SENEST_RETTET)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

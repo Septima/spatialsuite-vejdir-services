@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:LOCCODE" plural="VD:LOCCODE" value="VD:LOCCODE" />
+    <columns>
+      <column format="heading">
+        <label>'VD:LOCCODE'</label>
+        <value>'VD:LOCCODE'</value>
+      </column>
+      <column>
+        <label>'LOCATIONCODE: '</label>
+        <value>LOCATIONCODE</value>
+        <condition>IsDefined(LOCATIONCODE)</condition>
+      </column>
+      <column>
+        <label>'LOC_CLASS: '</label>
+        <value>LOC_CLASS</value>
+        <condition>IsDefined(LOC_CLASS)</condition>
+      </column>
+      <column>
+        <label>'LOC_TYPE: '</label>
+        <value>LOC_TYPE</value>
+        <condition>IsDefined(LOC_TYPE)</condition>
+      </column>
+      <column>
+        <label>'LOC_SUBTYPE: '</label>
+        <value>LOC_SUBTYPE</value>
+        <condition>IsDefined(LOC_SUBTYPE)</condition>
+      </column>
+      <column>
+        <label>'LOC_TYPE_DESCRIPTION: '</label>
+        <value>LOC_TYPE_DESCRIPTION</value>
+        <condition>IsDefined(LOC_TYPE_DESCRIPTION)</condition>
+      </column>
+      <column>
+        <label>'ROADNO: '</label>
+        <value>ROADNO</value>
+        <condition>IsDefined(ROADNO)</condition>
+      </column>
+      <column>
+        <label>'JUNCTIONNO: '</label>
+        <value>JUNCTIONNO</value>
+        <condition>IsDefined(JUNCTIONNO)</condition>
+      </column>
+      <column>
+        <label>'ROADNAME: '</label>
+        <value>ROADNAME</value>
+        <condition>IsDefined(ROADNAME)</condition>
+      </column>
+      <column>
+        <label>'FIRSTNAME: '</label>
+        <value>FIRSTNAME</value>
+        <condition>IsDefined(FIRSTNAME)</condition>
+      </column>
+      <column>
+        <label>'SECONDNAME: '</label>
+        <value>SECONDNAME</value>
+        <condition>IsDefined(SECONDNAME)</condition>
+      </column>
+      <column>
+        <label>'AREAREF: '</label>
+        <value>AREAREF</value>
+        <condition>IsDefined(AREAREF)</condition>
+      </column>
+      <column>
+        <label>'LINEARREF: '</label>
+        <value>LINEARREF</value>
+        <condition>IsDefined(LINEARREF)</condition>
+      </column>
+      <column>
+        <label>'NEGOFFSET: '</label>
+        <value>NEGOFFSET</value>
+        <condition>IsDefined(NEGOFFSET)</condition>
+      </column>
+      <column>
+        <label>'POSOFFSET: '</label>
+        <value>POSOFFSET</value>
+        <condition>IsDefined(POSOFFSET)</condition>
+      </column>
+      <column>
+        <label>'URBAN: '</label>
+        <value>URBAN</value>
+        <condition>IsDefined(URBAN)</condition>
+      </column>
+      <column>
+        <label>'INTERSECTIONREF: '</label>
+        <value>INTERSECTIONREF</value>
+        <condition>IsDefined(INTERSECTIONREF)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

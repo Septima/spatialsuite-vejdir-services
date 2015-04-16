@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:V_PROVISION_REP" plural="VD:V_PROVISION_REP" value="VD:V_PROVISION_REP" />
+    <columns>
+      <column format="heading">
+        <label>'VD:V_PROVISION_REP'</label>
+        <value>'VD:V_PROVISION_REP'</value>
+      </column>
+      <column>
+        <label>'PROV_ID: '</label>
+        <value>PROV_ID</value>
+        <condition>IsDefined(PROV_ID)</condition>
+      </column>
+      <column>
+        <label>'VEJSTR: '</label>
+        <value>VEJSTR</value>
+        <condition>IsDefined(VEJSTR)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'VEJ_DEL: '</label>
+        <value>VEJ_DEL</value>
+        <condition>IsDefined(VEJ_DEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'FRAKM: '</label>
+        <value>FRAKM</value>
+        <condition>IsDefined(FRAKM)</condition>
+      </column>
+      <column>
+        <label>'FRAM: '</label>
+        <value>FRAM</value>
+        <condition>IsDefined(FRAM)</condition>
+      </column>
+      <column>
+        <label>'FRAKMTSTR: '</label>
+        <value>FRAKMTSTR</value>
+        <condition>IsDefined(FRAKMTSTR)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKM: '</label>
+        <value>TILKM</value>
+        <condition>IsDefined(TILKM)</condition>
+      </column>
+      <column>
+        <label>'TILM: '</label>
+        <value>TILM</value>
+        <condition>IsDefined(TILM)</condition>
+      </column>
+      <column>
+        <label>'TILKMTSTR: '</label>
+        <value>TILKMTSTR</value>
+        <condition>IsDefined(TILKMTSTR)</condition>
+      </column>
+      <column>
+        <label>'SIDEOFROAD: '</label>
+        <value>SIDEOFROAD</value>
+        <condition>IsDefined(SIDEOFROAD)</condition>
+      </column>
+      <column>
+        <label>'SIDEOFROAD_TEXT: '</label>
+        <value>SIDEOFROAD_TEXT</value>
+        <condition>IsDefined(SIDEOFROAD_TEXT)</condition>
+      </column>
+      <column>
+        <label>'PROVISION_TYPE: '</label>
+        <value>PROVISION_TYPE</value>
+        <condition>IsDefined(PROVISION_TYPE)</condition>
+      </column>
+      <column>
+        <label>'PROVISION_TYPE_TEXT: '</label>
+        <value>PROVISION_TYPE_TEXT</value>
+        <condition>IsDefined(PROVISION_TYPE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'REMARK: '</label>
+        <value>REMARK</value>
+        <condition>IsDefined(REMARK)</condition>
+      </column>
+      <column>
+        <label>'GEOMETRY_ORIGIN: '</label>
+        <value>GEOMETRY_ORIGIN</value>
+        <condition>IsDefined(GEOMETRY_ORIGIN)</condition>
+      </column>
+      <column>
+        <label>'GEOMETRY_ORIGIN_TEXT: '</label>
+        <value>GEOMETRY_ORIGIN_TEXT</value>
+        <condition>IsDefined(GEOMETRY_ORIGIN_TEXT)</condition>
+      </column>
+      <column>
+        <label>'GEOMETRY_PRECISION: '</label>
+        <value>GEOMETRY_PRECISION</value>
+        <condition>IsDefined(GEOMETRY_PRECISION)</condition>
+      </column>
+      <column>
+        <label>'GEOMETRY_PRECISION_TEXT: '</label>
+        <value>GEOMETRY_PRECISION_TEXT</value>
+        <condition>IsDefined(GEOMETRY_PRECISION_TEXT)</condition>
+      </column>
+      <column>
+        <label>'BUILDLINE_TYPE: '</label>
+        <value>BUILDLINE_TYPE</value>
+        <condition>IsDefined(BUILDLINE_TYPE)</condition>
+      </column>
+      <column>
+        <label>'BUILDLINE_TYPE_TEXT: '</label>
+        <value>BUILDLINE_TYPE_TEXT</value>
+        <condition>IsDefined(BUILDLINE_TYPE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'REFERENCELINE: '</label>
+        <value>REFERENCELINE</value>
+        <condition>IsDefined(REFERENCELINE)</condition>
+      </column>
+      <column>
+        <label>'REFERENCELINE_TEXT: '</label>
+        <value>REFERENCELINE_TEXT</value>
+        <condition>IsDefined(REFERENCELINE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'DISTANCE1: '</label>
+        <value>DISTANCE1</value>
+        <condition>IsDefined(DISTANCE1)</condition>
+      </column>
+      <column>
+        <label>'DISTANCE2: '</label>
+        <value>DISTANCE2</value>
+        <condition>IsDefined(DISTANCE2)</condition>
+      </column>
+      <column>
+        <label>'EXTENSION_ROAD1: '</label>
+        <value>EXTENSION_ROAD1</value>
+        <condition>IsDefined(EXTENSION_ROAD1)</condition>
+      </column>
+      <column>
+        <label>'EXTENSION_ROAD2: '</label>
+        <value>EXTENSION_ROAD2</value>
+        <condition>IsDefined(EXTENSION_ROAD2)</condition>
+      </column>
+      <column>
+        <label>'OVERVIEW_TYPE: '</label>
+        <value>OVERVIEW_TYPE</value>
+        <condition>IsDefined(OVERVIEW_TYPE)</condition>
+      </column>
+      <column>
+        <label>'OVERVIEW_TYPE_TEXT: '</label>
+        <value>OVERVIEW_TYPE_TEXT</value>
+        <condition>IsDefined(OVERVIEW_TYPE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'HEIGHT: '</label>
+        <value>HEIGHT</value>
+        <condition>IsDefined(HEIGHT)</condition>
+      </column>
+      <column>
+        <label>'ORIG_INTERSECTION_KMR: '</label>
+        <value>ORIG_INTERSECTION_KMR</value>
+        <condition>IsDefined(ORIG_INTERSECTION_KMR)</condition>
+      </column>
+      <column>
+        <label>'OTHER_PROV_TYPE: '</label>
+        <value>OTHER_PROV_TYPE</value>
+        <condition>IsDefined(OTHER_PROV_TYPE)</condition>
+      </column>
+      <column>
+        <label>'OTHER_PROV_TYPE_TEXT: '</label>
+        <value>OTHER_PROV_TYPE_TEXT</value>
+        <condition>IsDefined(OTHER_PROV_TYPE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'PROV_DOC_ID: '</label>
+        <value>PROV_DOC_ID</value>
+        <condition>IsDefined(PROV_DOC_ID)</condition>
+      </column>
+      <column>
+        <label>'JOURNAL_ID: '</label>
+        <value>JOURNAL_ID</value>
+        <condition>IsDefined(JOURNAL_ID)</condition>
+      </column>
+      <column>
+        <label>'EXT_REFERENCE: '</label>
+        <value>EXT_REFERENCE</value>
+        <condition>IsDefined(EXT_REFERENCE)</condition>
+      </column>
+      <column>
+        <label>'EXT_REF_PARAMETER: '</label>
+        <value>EXT_REF_PARAMETER</value>
+        <condition>IsDefined(EXT_REF_PARAMETER)</condition>
+      </column>
+      <column>
+        <label>'REGISTER_DATE: '</label>
+        <value>REGISTER_DATE</value>
+        <condition>IsDefined(REGISTER_DATE)</condition>
+      </column>
+      <column>
+        <label>'REGISTER_DATE_TEXT: '</label>
+        <value>REGISTER_DATE_TEXT</value>
+        <condition>IsDefined(REGISTER_DATE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'PROCLAIM_DATE: '</label>
+        <value>PROCLAIM_DATE</value>
+        <condition>IsDefined(PROCLAIM_DATE)</condition>
+      </column>
+      <column>
+        <label>'PROCLAIM_DATE_TEXT: '</label>
+        <value>PROCLAIM_DATE_TEXT</value>
+        <condition>IsDefined(PROCLAIM_DATE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'ORIGIN: '</label>
+        <value>ORIGIN</value>
+        <condition>IsDefined(ORIGIN)</condition>
+      </column>
+      <column>
+        <label>'ORIGIN_TEXT: '</label>
+        <value>ORIGIN_TEXT</value>
+        <condition>IsDefined(ORIGIN_TEXT)</condition>
+      </column>
+      <column>
+        <label>'LEGISLATIVE_BASIS: '</label>
+        <value>LEGISLATIVE_BASIS</value>
+        <condition>IsDefined(LEGISLATIVE_BASIS)</condition>
+      </column>
+      <column>
+        <label>'LEGISLATIVE_BASIS_TEXT: '</label>
+        <value>LEGISLATIVE_BASIS_TEXT</value>
+        <condition>IsDefined(LEGISLATIVE_BASIS_TEXT)</condition>
+      </column>
+      <column>
+        <label>'PD_REMARK: '</label>
+        <value>PD_REMARK</value>
+        <condition>IsDefined(PD_REMARK)</condition>
+      </column>
+      <column>
+        <label>'CREATED_USER: '</label>
+        <value>CREATED_USER</value>
+        <condition>IsDefined(CREATED_USER)</condition>
+      </column>
+      <column>
+        <label>'CREATED_DATE: '</label>
+        <value>CREATED_DATE</value>
+        <condition>IsDefined(CREATED_DATE)</condition>
+      </column>
+      <column>
+        <label>'MODIFIED_USER: '</label>
+        <value>MODIFIED_USER</value>
+        <condition>IsDefined(MODIFIED_USER)</condition>
+      </column>
+      <column>
+        <label>'MODIFIED_DATE: '</label>
+        <value>MODIFIED_DATE</value>
+        <condition>IsDefined(MODIFIED_DATE)</condition>
+      </column>
+      <column>
+        <label>'CHANGE_DATE: '</label>
+        <value>CHANGE_DATE</value>
+        <condition>IsDefined(CHANGE_DATE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

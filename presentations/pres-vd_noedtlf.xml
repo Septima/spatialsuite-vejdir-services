@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:noedtlf" plural="VD:noedtlf" value="VD:noedtlf" />
+    <columns>
+      <column format="heading">
+        <label>'VD:noedtlf'</label>
+        <value>'VD:noedtlf'</value>
+      </column>
+      <column>
+        <label>'ROADNUMBER: '</label>
+        <value>ROADNUMBER</value>
+        <condition>IsDefined(ROADNUMBER)</condition>
+      </column>
+      <column>
+        <label>'ROADPART: '</label>
+        <value>ROADPART</value>
+        <condition>IsDefined(ROADPART)</condition>
+      </column>
+      <column>
+        <label>'FROMKMT: '</label>
+        <value>FROMKMT</value>
+        <condition>IsDefined(FROMKMT)</condition>
+      </column>
+      <column>
+        <label>'TOKMT: '</label>
+        <value>TOKMT</value>
+        <condition>IsDefined(TOKMT)</condition>
+      </column>
+      <column>
+        <label>'SIDEOFROAD: '</label>
+        <value>SIDEOFROAD</value>
+        <condition>IsDefined(SIDEOFROAD)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

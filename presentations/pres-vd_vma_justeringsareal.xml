@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vma_justeringsareal" plural="VD:vma_justeringsareal" value="VD:vma_justeringsareal" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vma_justeringsareal'</label>
+        <value>'VD:vma_justeringsareal'</value>
+      </column>
+      <column>
+        <label>'JUSTAREAL_ID: '</label>
+        <value>JUSTAREAL_ID</value>
+        <condition>IsDefined(JUSTAREAL_ID)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'KMT: '</label>
+        <value>KMT</value>
+        <condition>IsDefined(KMT)</condition>
+      </column>
+      <column>
+        <label>'FRA_KM: '</label>
+        <value>FRA_KM</value>
+        <condition>IsDefined(FRA_KM)</condition>
+      </column>
+      <column>
+        <label>'FRA_M: '</label>
+        <value>FRA_M</value>
+        <condition>IsDefined(FRA_M)</condition>
+      </column>
+      <column>
+        <label>'CPR_VEJNAVN: '</label>
+        <value>CPR_VEJNAVN</value>
+        <condition>IsDefined(CPR_VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'JUSTAREAL_VEJSIDE: '</label>
+        <value>JUSTAREAL_VEJSIDE</value>
+        <condition>IsDefined(JUSTAREAL_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'KODE_JUSTAREAL_VEJSIDE: '</label>
+        <value>KODE_JUSTAREAL_VEJSIDE</value>
+        <condition>IsDefined(KODE_JUSTAREAL_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'JUSTAREAL_TPE: '</label>
+        <value>JUSTAREAL_TPE</value>
+        <condition>IsDefined(JUSTAREAL_TPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_JUSTAREAL_TPE: '</label>
+        <value>KODE_JUSTAREAL_TPE</value>
+        <condition>IsDefined(KODE_JUSTAREAL_TPE)</condition>
+      </column>
+      <column>
+        <label>'JUSTAREAL_TYPE: '</label>
+        <value>JUSTAREAL_TYPE</value>
+        <condition>IsDefined(JUSTAREAL_TYPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_JUSTAREAL_TYPE: '</label>
+        <value>KODE_JUSTAREAL_TYPE</value>
+        <condition>IsDefined(KODE_JUSTAREAL_TYPE)</condition>
+      </column>
+      <column>
+        <label>'JUSTAREAL_AREAL: '</label>
+        <value>JUSTAREAL_AREAL</value>
+        <condition>IsDefined(JUSTAREAL_AREAL)</condition>
+      </column>
+      <column>
+        <label>'JUSTAREAL_LBM: '</label>
+        <value>JUSTAREAL_LBM</value>
+        <condition>IsDefined(JUSTAREAL_LBM)</condition>
+      </column>
+      <column>
+        <label>'JUSTAREAL_BEMAERK: '</label>
+        <value>JUSTAREAL_BEMAERK</value>
+        <condition>IsDefined(JUSTAREAL_BEMAERK)</condition>
+      </column>
+      <column>
+        <label>'JUSTAREAL_BRUGER: '</label>
+        <value>JUSTAREAL_BRUGER</value>
+        <condition>IsDefined(JUSTAREAL_BRUGER)</condition>
+      </column>
+      <column>
+        <label>'JUSTAREAL_SENEST_RET: '</label>
+        <value>JUSTAREAL_SENEST_RET</value>
+        <condition>IsDefined(JUSTAREAL_SENEST_RET)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

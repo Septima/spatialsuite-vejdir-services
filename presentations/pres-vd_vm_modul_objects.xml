@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_modul_objects" plural="VD:vm_modul_objects" value="VD:vm_modul_objects" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_modul_objects'</label>
+        <value>'VD:vm_modul_objects'</value>
+      </column>
+      <column>
+        <label>'OBJECT_ID: '</label>
+        <value>OBJECT_ID</value>
+        <condition>IsDefined(OBJECT_ID)</condition>
+      </column>
+      <column>
+        <label>'MODUL_OBJECT_TYPE: '</label>
+        <value>MODUL_OBJECT_TYPE</value>
+        <condition>IsDefined(MODUL_OBJECT_TYPE)</condition>
+      </column>
+      <column>
+        <label>'MODUL_OBJECT_SUBTYPE: '</label>
+        <value>MODUL_OBJECT_SUBTYPE</value>
+        <condition>IsDefined(MODUL_OBJECT_SUBTYPE)</condition>
+      </column>
+      <column>
+        <label>'MODUL_OBJECT_NAME: '</label>
+        <value>MODUL_OBJECT_NAME</value>
+        <condition>IsDefined(MODUL_OBJECT_NAME)</condition>
+      </column>
+      <column>
+        <label>'MODUL_OBJECT_URL: '</label>
+        <value>MODUL_OBJECT_URL</value>
+        <condition>IsDefined(MODUL_OBJECT_URL)</condition>
+      </column>
+      <column>
+        <label>'CREATED_USER: '</label>
+        <value>CREATED_USER</value>
+        <condition>IsDefined(CREATED_USER)</condition>
+      </column>
+      <column>
+        <label>'CREATED_DATE: '</label>
+        <value>CREATED_DATE</value>
+        <condition>IsDefined(CREATED_DATE)</condition>
+      </column>
+      <column>
+        <label>'MODIFIED_USER: '</label>
+        <value>MODIFIED_USER</value>
+        <condition>IsDefined(MODIFIED_USER)</condition>
+      </column>
+      <column>
+        <label>'MODIFIED_DATE: '</label>
+        <value>MODIFIED_DATE</value>
+        <condition>IsDefined(MODIFIED_DATE)</condition>
+      </column>
+      <column>
+        <label>'WKT: '</label>
+        <value>WKT</value>
+        <condition>IsDefined(WKT)</condition>
+      </column>
+      <column>
+        <label>'MODUL_OBJECT_TYPE_TEXT: '</label>
+        <value>MODUL_OBJECT_TYPE_TEXT</value>
+        <condition>IsDefined(MODUL_OBJECT_TYPE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'MODUL_OBJECT_SUBTYPE_TEXT: '</label>
+        <value>MODUL_OBJECT_SUBTYPE_TEXT</value>
+        <condition>IsDefined(MODUL_OBJECT_SUBTYPE_TEXT)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:CSEGEOMETRYVIEW" plural="VD:CSEGEOMETRYVIEW" value="VD:CSEGEOMETRYVIEW" />
+    <columns>
+      <column format="heading">
+        <label>'VD:CSEGEOMETRYVIEW'</label>
+        <value>'VD:CSEGEOMETRYVIEW'</value>
+      </column>
+      <column>
+        <label>'ogc_fid: '</label>
+        <value>ogc_fid</value>
+        <condition>IsDefined(ogc_fid)</condition>
+      </column>
+      <column>
+        <label>'EQUIPID: '</label>
+        <value>EQUIPID</value>
+        <condition>IsDefined(EQUIPID)</condition>
+      </column>
+      <column>
+        <label>'ROADNUMBER: '</label>
+        <value>ROADNUMBER</value>
+        <condition>IsDefined(ROADNUMBER)</condition>
+      </column>
+      <column>
+        <label>'ROADPART: '</label>
+        <value>ROADPART</value>
+        <condition>IsDefined(ROADPART)</condition>
+      </column>
+      <column>
+        <label>'FROMKM: '</label>
+        <value>FROMKM</value>
+        <condition>IsDefined(FROMKM)</condition>
+      </column>
+      <column>
+        <label>'FROMM: '</label>
+        <value>FROMM</value>
+        <condition>IsDefined(FROMM)</condition>
+      </column>
+      <column>
+        <label>'SIDEOFROAD: '</label>
+        <value>SIDEOFROAD</value>
+        <condition>IsDefined(SIDEOFROAD)</condition>
+      </column>
+      <column>
+        <label>'TYPEID: '</label>
+        <value>TYPEID</value>
+        <condition>IsDefined(TYPEID)</condition>
+      </column>
+      <column>
+        <label>'SUBTYPEID: '</label>
+        <value>SUBTYPEID</value>
+        <condition>IsDefined(SUBTYPEID)</condition>
+      </column>
+      <column>
+        <label>'EQUIPCOUNT: '</label>
+        <value>EQUIPCOUNT</value>
+        <condition>IsDefined(EQUIPCOUNT)</condition>
+      </column>
+      <column>
+        <label>'EQUIPLENGTH: '</label>
+        <value>EQUIPLENGTH</value>
+        <condition>IsDefined(EQUIPLENGTH)</condition>
+      </column>
+      <column>
+        <label>'EQUIPAREA: '</label>
+        <value>EQUIPAREA</value>
+        <condition>IsDefined(EQUIPAREA)</condition>
+      </column>
+      <column>
+        <label>'CATEGORYID: '</label>
+        <value>CATEGORYID</value>
+        <condition>IsDefined(CATEGORYID)</condition>
+      </column>
+      <column>
+        <label>'SRVICEAREAID: '</label>
+        <value>SRVICEAREAID</value>
+        <condition>IsDefined(SRVICEAREAID)</condition>
+      </column>
+      <column>
+        <label>'FUNCTIONTYPEID: '</label>
+        <value>FUNCTIONTYPEID</value>
+        <condition>IsDefined(FUNCTIONTYPEID)</condition>
+      </column>
+      <column>
+        <label>'CREATEDATE: '</label>
+        <value>CREATEDATE</value>
+        <condition>IsDefined(CREATEDATE)</condition>
+      </column>
+      <column>
+        <label>'MODIFIEDDATE: '</label>
+        <value>MODIFIEDDATE</value>
+        <condition>IsDefined(MODIFIEDDATE)</condition>
+      </column>
+      <column>
+        <label>'SUBTYPE: '</label>
+        <value>SUBTYPE</value>
+        <condition>IsDefined(SUBTYPE)</condition>
+      </column>
+      <column>
+        <label>'TYPE: '</label>
+        <value>TYPE</value>
+        <condition>IsDefined(TYPE)</condition>
+      </column>
+      <column>
+        <label>'SUPERTYPE: '</label>
+        <value>SUPERTYPE</value>
+        <condition>IsDefined(SUPERTYPE)</condition>
+      </column>
+      <column>
+        <label>'SUPERTYPEID: '</label>
+        <value>SUPERTYPEID</value>
+        <condition>IsDefined(SUPERTYPEID)</condition>
+      </column>
+      <column>
+        <label>'ATTACHMENT: '</label>
+        <value>ATTACHMENT</value>
+        <condition>IsDefined(ATTACHMENT)</condition>
+      </column>
+      <column>
+        <label>'FUNCTIONTYPE: '</label>
+        <value>FUNCTIONTYPE</value>
+        <condition>IsDefined(FUNCTIONTYPE)</condition>
+      </column>
+      <column>
+        <label>'CATEGORY: '</label>
+        <value>CATEGORY</value>
+        <condition>IsDefined(CATEGORY)</condition>
+      </column>
+      <column>
+        <label>'TOKM: '</label>
+        <value>TOKM</value>
+        <condition>IsDefined(TOKM)</condition>
+      </column>
+      <column>
+        <label>'TOM: '</label>
+        <value>TOM</value>
+        <condition>IsDefined(TOM)</condition>
+      </column>
+      <column>
+        <label>'ELEMENTNUMBER: '</label>
+        <value>ELEMENTNUMBER</value>
+        <condition>IsDefined(ELEMENTNUMBER)</condition>
+      </column>
+      <column>
+        <label>'ELEMENTNAME: '</label>
+        <value>ELEMENTNAME</value>
+        <condition>IsDefined(ELEMENTNAME)</condition>
+      </column>
+      <column>
+        <label>'AREACENTRE: '</label>
+        <value>AREACENTRE</value>
+        <condition>IsDefined(AREACENTRE)</condition>
+      </column>
+      <column>
+        <label>'ROADTYPE: '</label>
+        <value>ROADTYPE</value>
+        <condition>IsDefined(ROADTYPE)</condition>
+      </column>
+      <column>
+        <label>'AVERAGETRAFFICLOAD: '</label>
+        <value>AVERAGETRAFFICLOAD</value>
+        <condition>IsDefined(AVERAGETRAFFICLOAD)</condition>
+      </column>
+      <column>
+        <label>'SERVICEAREA: '</label>
+        <value>SERVICEAREA</value>
+        <condition>IsDefined(SERVICEAREA)</condition>
+      </column>
+      <column>
+        <label>'SERVICEAREATYPE: '</label>
+        <value>SERVICEAREATYPE</value>
+        <condition>IsDefined(SERVICEAREATYPE)</condition>
+      </column>
+      <column>
+        <label>'SERVICEAREATYPEID: '</label>
+        <value>SERVICEAREATYPEID</value>
+        <condition>IsDefined(SERVICEAREATYPEID)</condition>
+      </column>
+      <column>
+        <label>'AUTHORITY: '</label>
+        <value>AUTHORITY</value>
+        <condition>IsDefined(AUTHORITY)</condition>
+      </column>
+      <column>
+        <label>'ZONE: '</label>
+        <value>ZONE</value>
+        <condition>IsDefined(ZONE)</condition>
+      </column>
+      <column>
+        <label>'DISTRIBUTIONID: '</label>
+        <value>DISTRIBUTIONID</value>
+        <condition>IsDefined(DISTRIBUTIONID)</condition>
+      </column>
+      <column>
+        <label>'GEOMETRYTYPE: '</label>
+        <value>GEOMETRYTYPE</value>
+        <condition>IsDefined(GEOMETRYTYPE)</condition>
+      </column>
+      <column>
+        <label>'FROMKMT: '</label>
+        <value>FROMKMT</value>
+        <condition>IsDefined(FROMKMT)</condition>
+      </column>
+      <column>
+        <label>'TOKMT: '</label>
+        <value>TOKMT</value>
+        <condition>IsDefined(TOKMT)</condition>
+      </column>
+      <column>
+        <label>'POSITIONNUMBER: '</label>
+        <value>POSITIONNUMBER</value>
+        <condition>IsDefined(POSITIONNUMBER)</condition>
+      </column>
+      <column>
+        <label>'AREACENTRECODE: '</label>
+        <value>AREACENTRECODE</value>
+        <condition>IsDefined(AREACENTRECODE)</condition>
+      </column>
+      <column>
+        <label>'ROADTYPECODE: '</label>
+        <value>ROADTYPECODE</value>
+        <condition>IsDefined(ROADTYPECODE)</condition>
+      </column>
+      <column>
+        <label>'AUTHORITYCODE: '</label>
+        <value>AUTHORITYCODE</value>
+        <condition>IsDefined(AUTHORITYCODE)</condition>
+      </column>
+      <column>
+        <label>'ZONECODE: '</label>
+        <value>ZONECODE</value>
+        <condition>IsDefined(ZONECODE)</condition>
+      </column>
+      <column>
+        <label>'MODIFIEDBY: '</label>
+        <value>MODIFIEDBY</value>
+        <condition>IsDefined(MODIFIEDBY)</condition>
+      </column>
+      <column>
+        <label>'ENTERPRISE: '</label>
+        <value>ENTERPRISE</value>
+        <condition>IsDefined(ENTERPRISE)</condition>
+      </column>
+      <column>
+        <label>'DELETED: '</label>
+        <value>DELETED</value>
+        <condition>IsDefined(DELETED)</condition>
+      </column>
+      <column>
+        <label>'DISTRIBUTIONVERSION: '</label>
+        <value>DISTRIBUTIONVERSION</value>
+        <condition>IsDefined(DISTRIBUTIONVERSION)</condition>
+      </column>
+      <column>
+        <label>'EXTRACTIONDATE: '</label>
+        <value>EXTRACTIONDATE</value>
+        <condition>IsDefined(EXTRACTIONDATE)</condition>
+      </column>
+      <column>
+        <label>'APPLICATION: '</label>
+        <value>APPLICATION</value>
+        <condition>IsDefined(APPLICATION)</condition>
+      </column>
+      <column>
+        <label>'NUMBERTODO: '</label>
+        <value>NUMBERTODO</value>
+        <condition>IsDefined(NUMBERTODO)</condition>
+      </column>
+      <column>
+        <label>'PLACEOFSERVICE: '</label>
+        <value>PLACEOFSERVICE</value>
+        <condition>IsDefined(PLACEOFSERVICE)</condition>
+      </column>
+      <column>
+        <label>'ENTERPRISEAREA: '</label>
+        <value>ENTERPRISEAREA</value>
+        <condition>IsDefined(ENTERPRISEAREA)</condition>
+      </column>
+      <column>
+        <label>'SIDEOFROADCODE: '</label>
+        <value>SIDEOFROADCODE</value>
+        <condition>IsDefined(SIDEOFROADCODE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

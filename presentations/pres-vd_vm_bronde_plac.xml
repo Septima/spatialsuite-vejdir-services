@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_bronde_plac" plural="VD:vm_bronde_plac" value="VD:vm_bronde_plac" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_bronde_plac'</label>
+        <value>'VD:vm_bronde_plac'</value>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'KMT: '</label>
+        <value>KMT</value>
+        <condition>IsDefined(KMT)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'VEJBESKRIVELSE: '</label>
+        <value>VEJBESKRIVELSE</value>
+        <condition>IsDefined(VEJBESKRIVELSE)</condition>
+      </column>
+      <column>
+        <label>'BROEND_TYPE: '</label>
+        <value>BROEND_TYPE</value>
+        <condition>IsDefined(BROEND_TYPE)</condition>
+      </column>
+      <column>
+        <label>'DRAINMANVEJSIDE: '</label>
+        <value>DRAINMANVEJSIDE</value>
+        <condition>IsDefined(DRAINMANVEJSIDE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

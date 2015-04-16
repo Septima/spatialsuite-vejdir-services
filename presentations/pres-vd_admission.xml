@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:ADMISSION" plural="VD:ADMISSION" value="VD:ADMISSION" />
+    <columns>
+      <column format="heading">
+        <label>'VD:ADMISSION'</label>
+        <value>'VD:ADMISSION'</value>
+      </column>
+      <column>
+        <label>'ADMIS_ID: '</label>
+        <value>ADMIS_ID</value>
+        <condition>IsDefined(ADMIS_ID)</condition>
+      </column>
+      <column>
+        <label>'SEG_ID: '</label>
+        <value>SEG_ID</value>
+        <condition>IsDefined(SEG_ID)</condition>
+      </column>
+      <column>
+        <label>'SEG_FRA: '</label>
+        <value>SEG_FRA</value>
+        <condition>IsDefined(SEG_FRA)</condition>
+      </column>
+      <column>
+        <label>'PUNKT_RETNING: '</label>
+        <value>PUNKT_RETNING</value>
+        <condition>IsDefined(PUNKT_RETNING)</condition>
+      </column>
+      <column>
+        <label>'SIDEOFROAD: '</label>
+        <value>SIDEOFROAD</value>
+        <condition>IsDefined(SIDEOFROAD)</condition>
+      </column>
+      <column>
+        <label>'ADM_DOC_ID: '</label>
+        <value>ADM_DOC_ID</value>
+        <condition>IsDefined(ADM_DOC_ID)</condition>
+      </column>
+      <column>
+        <label>'ADMISSION_TYPE: '</label>
+        <value>ADMISSION_TYPE</value>
+        <condition>IsDefined(ADMISSION_TYPE)</condition>
+      </column>
+      <column>
+        <label>'RIGHT_OF_ADMISSION: '</label>
+        <value>RIGHT_OF_ADMISSION</value>
+        <condition>IsDefined(RIGHT_OF_ADMISSION)</condition>
+      </column>
+      <column>
+        <label>'GEOMETRY_ORIGIN: '</label>
+        <value>GEOMETRY_ORIGIN</value>
+        <condition>IsDefined(GEOMETRY_ORIGIN)</condition>
+      </column>
+      <column>
+        <label>'GEOMETRY_PRECISION: '</label>
+        <value>GEOMETRY_PRECISION</value>
+        <condition>IsDefined(GEOMETRY_PRECISION)</condition>
+      </column>
+      <column>
+        <label>'REMARK: '</label>
+        <value>REMARK</value>
+        <condition>IsDefined(REMARK)</condition>
+      </column>
+      <column>
+        <label>'CREATED_USER: '</label>
+        <value>CREATED_USER</value>
+        <condition>IsDefined(CREATED_USER)</condition>
+      </column>
+      <column>
+        <label>'CREATED_DATE: '</label>
+        <value>CREATED_DATE</value>
+        <condition>IsDefined(CREATED_DATE)</condition>
+      </column>
+      <column>
+        <label>'MODIFIED_USER: '</label>
+        <value>MODIFIED_USER</value>
+        <condition>IsDefined(MODIFIED_USER)</condition>
+      </column>
+      <column>
+        <label>'MODIFIED_DATE: '</label>
+        <value>MODIFIED_DATE</value>
+        <condition>IsDefined(MODIFIED_DATE)</condition>
+      </column>
+      <column>
+        <label>'CHANGE_DATE: '</label>
+        <value>CHANGE_DATE</value>
+        <condition>IsDefined(CHANGE_DATE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

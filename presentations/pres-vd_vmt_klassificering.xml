@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vmt_klassificering" plural="VD:vmt_klassificering" value="VD:vmt_klassificering" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vmt_klassificering'</label>
+        <value>'VD:vmt_klassificering'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'CPR_VEJNAVN: '</label>
+        <value>CPR_VEJNAVN</value>
+        <condition>IsDefined(CPR_VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'LAENGDE: '</label>
+        <value>LAENGDE</value>
+        <condition>IsDefined(LAENGDE)</condition>
+      </column>
+      <column>
+        <label>'ADM_VEJSTATUS: '</label>
+        <value>ADM_VEJSTATUS</value>
+        <condition>IsDefined(ADM_VEJSTATUS)</condition>
+      </column>
+      <column>
+        <label>'KODE_ADM_VEJSTATUS: '</label>
+        <value>KODE_ADM_VEJSTATUS</value>
+        <condition>IsDefined(KODE_ADM_VEJSTATUS)</condition>
+      </column>
+      <column>
+        <label>'ADM_VEJKLASSE: '</label>
+        <value>ADM_VEJKLASSE</value>
+        <condition>IsDefined(ADM_VEJKLASSE)</condition>
+      </column>
+      <column>
+        <label>'KODE_ADM_VEJKLASSE: '</label>
+        <value>KODE_ADM_VEJKLASSE</value>
+        <condition>IsDefined(KODE_ADM_VEJKLASSE)</condition>
+      </column>
+      <column>
+        <label>'INDUSTRI: '</label>
+        <value>INDUSTRI</value>
+        <condition>IsDefined(INDUSTRI)</condition>
+      </column>
+      <column>
+        <label>'ADM_VEJTYPE: '</label>
+        <value>ADM_VEJTYPE</value>
+        <condition>IsDefined(ADM_VEJTYPE)</condition>
+      </column>
+      <column>
+        <label>'STIKLASSE: '</label>
+        <value>STIKLASSE</value>
+        <condition>IsDefined(STIKLASSE)</condition>
+      </column>
+      <column>
+        <label>'VEJSERVICENIVEAU: '</label>
+        <value>VEJSERVICENIVEAU</value>
+        <condition>IsDefined(VEJSERVICENIVEAU)</condition>
+      </column>
+      <column>
+        <label>'ADMIN_VEDLIGEHOLD_NI: '</label>
+        <value>ADMIN_VEDLIGEHOLD_NI</value>
+        <condition>IsDefined(ADMIN_VEDLIGEHOLD_NI)</condition>
+      </column>
+      <column>
+        <label>'ADMIN_VINTERVEJSERVI: '</label>
+        <value>ADMIN_VINTERVEJSERVI</value>
+        <condition>IsDefined(ADMIN_VINTERVEJSERVI)</condition>
+      </column>
+      <column>
+        <label>'ADMIN_VINTERSTISERVI: '</label>
+        <value>ADMIN_VINTERSTISERVI</value>
+        <condition>IsDefined(ADMIN_VINTERSTISERVI)</condition>
+      </column>
+      <column>
+        <label>'ADM_BRUGER: '</label>
+        <value>ADM_BRUGER</value>
+        <condition>IsDefined(ADM_BRUGER)</condition>
+      </column>
+      <column>
+        <label>'ADM_SENEST_RETTET: '</label>
+        <value>ADM_SENEST_RETTET</value>
+        <condition>IsDefined(ADM_SENEST_RETTET)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

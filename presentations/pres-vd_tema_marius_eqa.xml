@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:TEMA_MARIUS_EQA" plural="VD:TEMA_MARIUS_EQA" value="VD:TEMA_MARIUS_EQA" />
+    <columns>
+      <column format="heading">
+        <label>'VD:TEMA_MARIUS_EQA'</label>
+        <value>'VD:TEMA_MARIUS_EQA'</value>
+      </column>
+      <column>
+        <label>'CONCATTYPE: '</label>
+        <value>CONCATTYPE</value>
+        <condition>IsDefined(CONCATTYPE)</condition>
+      </column>
+      <column>
+        <label>'EQA_SUPERTYPE_TEXT: '</label>
+        <value>EQA_SUPERTYPE_TEXT</value>
+        <condition>IsDefined(EQA_SUPERTYPE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'EQUIPMENTTYPE: '</label>
+        <value>EQUIPMENTTYPE</value>
+        <condition>IsDefined(EQUIPMENTTYPE)</condition>
+      </column>
+      <column>
+        <label>'EQA_SUBTYPE_TEXT: '</label>
+        <value>EQA_SUBTYPE_TEXT</value>
+        <condition>IsDefined(EQA_SUBTYPE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'EQA_COUNT: '</label>
+        <value>EQA_COUNT</value>
+        <condition>IsDefined(EQA_COUNT)</condition>
+      </column>
+      <column>
+        <label>'EQA_HEIGHT: '</label>
+        <value>EQA_HEIGHT</value>
+        <condition>IsDefined(EQA_HEIGHT)</condition>
+      </column>
+      <column>
+        <label>'EQA_WIDTH: '</label>
+        <value>EQA_WIDTH</value>
+        <condition>IsDefined(EQA_WIDTH)</condition>
+      </column>
+      <column>
+        <label>'EQA_LENGTH: '</label>
+        <value>EQA_LENGTH</value>
+        <condition>IsDefined(EQA_LENGTH)</condition>
+      </column>
+      <column>
+        <label>'EQA_AREA: '</label>
+        <value>EQA_AREA</value>
+        <condition>IsDefined(EQA_AREA)</condition>
+      </column>
+      <column>
+        <label>'EQA_YEAR: '</label>
+        <value>EQA_YEAR</value>
+        <condition>IsDefined(EQA_YEAR)</condition>
+      </column>
+      <column>
+        <label>'EQA_FUNCTYPE_TEXT: '</label>
+        <value>EQA_FUNCTYPE_TEXT</value>
+        <condition>IsDefined(EQA_FUNCTYPE_TEXT)</condition>
+      </column>
+      <column>
+        <label>'EQA_FKEY: '</label>
+        <value>EQA_FKEY</value>
+        <condition>IsDefined(EQA_FKEY)</condition>
+      </column>
+      <column>
+        <label>'REMARK: '</label>
+        <value>REMARK</value>
+        <condition>IsDefined(REMARK)</condition>
+      </column>
+      <column>
+        <label>'MODIFIED_USER: '</label>
+        <value>MODIFIED_USER</value>
+        <condition>IsDefined(MODIFIED_USER)</condition>
+      </column>
+      <column>
+        <label>'MODIFIED_DATE: '</label>
+        <value>MODIFIED_DATE</value>
+        <condition>IsDefined(MODIFIED_DATE)</condition>
+      </column>
+      <column>
+        <label>'EQA_READONLY: '</label>
+        <value>EQA_READONLY</value>
+        <condition>IsDefined(EQA_READONLY)</condition>
+      </column>
+      <column>
+        <label>'EQA_ID: '</label>
+        <value>EQA_ID</value>
+        <condition>IsDefined(EQA_ID)</condition>
+      </column>
+      <column>
+        <label>'SA_ID: '</label>
+        <value>SA_ID</value>
+        <condition>IsDefined(SA_ID)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER_NAVN: '</label>
+        <value>BESTYRER_NAVN</value>
+        <condition>IsDefined(BESTYRER_NAVN)</condition>
+      </column>
+      <column>
+        <label>'COORDTYPE: '</label>
+        <value>COORDTYPE</value>
+        <condition>IsDefined(COORDTYPE)</condition>
+      </column>
+      <column>
+        <label>'AUTH_MAINT_NAME: '</label>
+        <value>AUTH_MAINT_NAME</value>
+        <condition>IsDefined(AUTH_MAINT_NAME)</condition>
+      </column>
+      <column>
+        <label>'COLOR: '</label>
+        <value>COLOR</value>
+        <condition>IsDefined(COLOR)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

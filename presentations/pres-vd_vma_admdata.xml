@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vma_admdata" plural="VD:vma_admdata" value="VD:vma_admdata" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vma_admdata'</label>
+        <value>'VD:vma_admdata'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRA_KM: '</label>
+        <value>FRA_KM</value>
+        <condition>IsDefined(FRA_KM)</condition>
+      </column>
+      <column>
+        <label>'FRA_M: '</label>
+        <value>FRA_M</value>
+        <condition>IsDefined(FRA_M)</condition>
+      </column>
+      <column>
+        <label>'TIL_KM: '</label>
+        <value>TIL_KM</value>
+        <condition>IsDefined(TIL_KM)</condition>
+      </column>
+      <column>
+        <label>'TIL_M: '</label>
+        <value>TIL_M</value>
+        <condition>IsDefined(TIL_M)</condition>
+      </column>
+      <column>
+        <label>'CPR_VEJNAVN: '</label>
+        <value>CPR_VEJNAVN</value>
+        <condition>IsDefined(CPR_VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'KODE_ADM_VEJSTATUS: '</label>
+        <value>KODE_ADM_VEJSTATUS</value>
+        <condition>IsDefined(KODE_ADM_VEJSTATUS)</condition>
+      </column>
+      <column>
+        <label>'ADM_VEJSTATUS: '</label>
+        <value>ADM_VEJSTATUS</value>
+        <condition>IsDefined(ADM_VEJSTATUS)</condition>
+      </column>
+      <column>
+        <label>'KODE_ADM_VEJTYPE: '</label>
+        <value>KODE_ADM_VEJTYPE</value>
+        <condition>IsDefined(KODE_ADM_VEJTYPE)</condition>
+      </column>
+      <column>
+        <label>'ADM_VEJTYPE: '</label>
+        <value>ADM_VEJTYPE</value>
+        <condition>IsDefined(ADM_VEJTYPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_STITYPE: '</label>
+        <value>KODE_STITYPE</value>
+        <condition>IsDefined(KODE_STITYPE)</condition>
+      </column>
+      <column>
+        <label>'STITYPE: '</label>
+        <value>STITYPE</value>
+        <condition>IsDefined(STITYPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_ADM_VEJKLASSE: '</label>
+        <value>KODE_ADM_VEJKLASSE</value>
+        <condition>IsDefined(KODE_ADM_VEJKLASSE)</condition>
+      </column>
+      <column>
+        <label>'ADM_VEJKLASSE: '</label>
+        <value>ADM_VEJKLASSE</value>
+        <condition>IsDefined(ADM_VEJKLASSE)</condition>
+      </column>
+      <column>
+        <label>'KODE_STIKLASSE: '</label>
+        <value>KODE_STIKLASSE</value>
+        <condition>IsDefined(KODE_STIKLASSE)</condition>
+      </column>
+      <column>
+        <label>'STIKLASSE: '</label>
+        <value>STIKLASSE</value>
+        <condition>IsDefined(STIKLASSE)</condition>
+      </column>
+      <column>
+        <label>'KODE_DISTRIKT: '</label>
+        <value>KODE_DISTRIKT</value>
+        <condition>IsDefined(KODE_DISTRIKT)</condition>
+      </column>
+      <column>
+        <label>'DISTRIKT: '</label>
+        <value>DISTRIKT</value>
+        <condition>IsDefined(DISTRIKT)</condition>
+      </column>
+      <column>
+        <label>'KODE_PLANZONE: '</label>
+        <value>KODE_PLANZONE</value>
+        <condition>IsDefined(KODE_PLANZONE)</condition>
+      </column>
+      <column>
+        <label>'PLANZONE: '</label>
+        <value>PLANZONE</value>
+        <condition>IsDefined(PLANZONE)</condition>
+      </column>
+      <column>
+        <label>'ALTERNATIVT_VEJNR: '</label>
+        <value>ALTERNATIVT_VEJNR</value>
+        <condition>IsDefined(ALTERNATIVT_VEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADM_VEJBREDDE: '</label>
+        <value>ADM_VEJBREDDE</value>
+        <condition>IsDefined(ADM_VEJBREDDE)</condition>
+      </column>
+      <column>
+        <label>'AFTALENR: '</label>
+        <value>AFTALENR</value>
+        <condition>IsDefined(AFTALENR)</condition>
+      </column>
+      <column>
+        <label>'AFTALETEKST: '</label>
+        <value>AFTALETEKST</value>
+        <condition>IsDefined(AFTALETEKST)</condition>
+      </column>
+      <column>
+        <label>'ANLAEGSBREDDE: '</label>
+        <value>ANLAEGSBREDDE</value>
+        <condition>IsDefined(ANLAEGSBREDDE)</condition>
+      </column>
+      <column>
+        <label>'BEMAERK_VEJFORTEGN: '</label>
+        <value>BEMAERK_VEJFORTEGN</value>
+        <condition>IsDefined(BEMAERK_VEJFORTEGN)</condition>
+      </column>
+      <column>
+        <label>'BEMAERK_DELSTRAEK: '</label>
+        <value>BEMAERK_DELSTRAEK</value>
+        <condition>IsDefined(BEMAERK_DELSTRAEK)</condition>
+      </column>
+      <column>
+        <label>'BESKRIVELSE_FRA: '</label>
+        <value>BESKRIVELSE_FRA</value>
+        <condition>IsDefined(BESKRIVELSE_FRA)</condition>
+      </column>
+      <column>
+        <label>'BESKRIVELSE_TIL: '</label>
+        <value>BESKRIVELSE_TIL</value>
+        <condition>IsDefined(BESKRIVELSE_TIL)</condition>
+      </column>
+      <column>
+        <label>'KODE_BYDELSKODE: '</label>
+        <value>KODE_BYDELSKODE</value>
+        <condition>IsDefined(KODE_BYDELSKODE)</condition>
+      </column>
+      <column>
+        <label>'BYDELSKODE: '</label>
+        <value>BYDELSKODE</value>
+        <condition>IsDefined(BYDELSKODE)</condition>
+      </column>
+      <column>
+        <label>'KODE_FORURENET_JORD: '</label>
+        <value>KODE_FORURENET_JORD</value>
+        <condition>IsDefined(KODE_FORURENET_JORD)</condition>
+      </column>
+      <column>
+        <label>'FORURENET_JORD: '</label>
+        <value>FORURENET_JORD</value>
+        <condition>IsDefined(FORURENET_JORD)</condition>
+      </column>
+      <column>
+        <label>'ADMIN_FREDET_GT: '</label>
+        <value>ADMIN_FREDET_GT</value>
+        <condition>IsDefined(ADMIN_FREDET_GT)</condition>
+      </column>
+      <column>
+        <label>'FRIT_FELT_1: '</label>
+        <value>FRIT_FELT_1</value>
+        <condition>IsDefined(FRIT_FELT_1)</condition>
+      </column>
+      <column>
+        <label>'FRIT_FELT_2: '</label>
+        <value>FRIT_FELT_2</value>
+        <condition>IsDefined(FRIT_FELT_2)</condition>
+      </column>
+      <column>
+        <label>'KODE_INDUSTRI: '</label>
+        <value>KODE_INDUSTRI</value>
+        <condition>IsDefined(KODE_INDUSTRI)</condition>
+      </column>
+      <column>
+        <label>'INDUSTRI: '</label>
+        <value>INDUSTRI</value>
+        <condition>IsDefined(INDUSTRI)</condition>
+      </column>
+      <column>
+        <label>'UNDERVEJKLASSE: '</label>
+        <value>UNDERVEJKLASSE</value>
+        <condition>IsDefined(UNDERVEJKLASSE)</condition>
+      </column>
+      <column>
+        <label>'HASTIGHEDSKLASSE: '</label>
+        <value>HASTIGHEDSKLASSE</value>
+        <condition>IsDefined(HASTIGHEDSKLASSE)</condition>
+      </column>
+      <column>
+        <label>'KODE_MEDTAG_LAENGDE: '</label>
+        <value>KODE_MEDTAG_LAENGDE</value>
+        <condition>IsDefined(KODE_MEDTAG_LAENGDE)</condition>
+      </column>
+      <column>
+        <label>'MEDTAG_LAENGDE: '</label>
+        <value>MEDTAG_LAENGDE</value>
+        <condition>IsDefined(MEDTAG_LAENGDE)</condition>
+      </column>
+      <column>
+        <label>'KODE_MIDTERRABAT: '</label>
+        <value>KODE_MIDTERRABAT</value>
+        <condition>IsDefined(KODE_MIDTERRABAT)</condition>
+      </column>
+      <column>
+        <label>'MIDTERRABAT: '</label>
+        <value>MIDTERRABAT</value>
+        <condition>IsDefined(MIDTERRABAT)</condition>
+      </column>
+      <column>
+        <label>'KODE_TRAFIKTP_TRAFIKTYPE1: '</label>
+        <value>KODE_TRAFIKTP_TRAFIKTYPE1</value>
+        <condition>IsDefined(KODE_TRAFIKTP_TRAFIKTYPE1)</condition>
+      </column>
+      <column>
+        <label>'TRAFIKTP_TRAFIKTYPE1: '</label>
+        <value>TRAFIKTP_TRAFIKTYPE1</value>
+        <condition>IsDefined(TRAFIKTP_TRAFIKTYPE1)</condition>
+      </column>
+      <column>
+        <label>'KODE_STISERVICENIVEAU: '</label>
+        <value>KODE_STISERVICENIVEAU</value>
+        <condition>IsDefined(KODE_STISERVICENIVEAU)</condition>
+      </column>
+      <column>
+        <label>'STISERVICENIVEAU: '</label>
+        <value>STISERVICENIVEAU</value>
+        <condition>IsDefined(STISERVICENIVEAU)</condition>
+      </column>
+      <column>
+        <label>'ADMIN_UDBUDT_STR_BEM: '</label>
+        <value>ADMIN_UDBUDT_STR_BEM</value>
+        <condition>IsDefined(ADMIN_UDBUDT_STR_BEM)</condition>
+      </column>
+      <column>
+        <label>'KODE_ADMIN_UDBUDT_STR_TYP: '</label>
+        <value>KODE_ADMIN_UDBUDT_STR_TYP</value>
+        <condition>IsDefined(KODE_ADMIN_UDBUDT_STR_TYP)</condition>
+      </column>
+      <column>
+        <label>'ADMIN_UDBUDT_STR_TYP: '</label>
+        <value>ADMIN_UDBUDT_STR_TYP</value>
+        <condition>IsDefined(ADMIN_UDBUDT_STR_TYP)</condition>
+      </column>
+      <column>
+        <label>'KODE_VEJSERVICENIVEAU: '</label>
+        <value>KODE_VEJSERVICENIVEAU</value>
+        <condition>IsDefined(KODE_VEJSERVICENIVEAU)</condition>
+      </column>
+      <column>
+        <label>'VEJSERVICENIVEAU: '</label>
+        <value>VEJSERVICENIVEAU</value>
+        <condition>IsDefined(VEJSERVICENIVEAU)</condition>
+      </column>
+      <column>
+        <label>'KODE_VEJTYPE_CYKELSTI: '</label>
+        <value>KODE_VEJTYPE_CYKELSTI</value>
+        <condition>IsDefined(KODE_VEJTYPE_CYKELSTI)</condition>
+      </column>
+      <column>
+        <label>'VEJTYPE_CYKELSTI: '</label>
+        <value>VEJTYPE_CYKELSTI</value>
+        <condition>IsDefined(VEJTYPE_CYKELSTI)</condition>
+      </column>
+      <column>
+        <label>'KODE_VEJTYPE_FORTOV: '</label>
+        <value>KODE_VEJTYPE_FORTOV</value>
+        <condition>IsDefined(KODE_VEJTYPE_FORTOV)</condition>
+      </column>
+      <column>
+        <label>'VEJTYPE_FORTOV: '</label>
+        <value>VEJTYPE_FORTOV</value>
+        <condition>IsDefined(VEJTYPE_FORTOV)</condition>
+      </column>
+      <column>
+        <label>'KODE_VEJTYPE_KOEREBANE: '</label>
+        <value>KODE_VEJTYPE_KOEREBANE</value>
+        <condition>IsDefined(KODE_VEJTYPE_KOEREBANE)</condition>
+      </column>
+      <column>
+        <label>'VEJTYPE_KOEREBANE: '</label>
+        <value>VEJTYPE_KOEREBANE</value>
+        <condition>IsDefined(VEJTYPE_KOEREBANE)</condition>
+      </column>
+      <column>
+        <label>'KODE_ADMIN_VEDLIGEHOLD_NI: '</label>
+        <value>KODE_ADMIN_VEDLIGEHOLD_NI</value>
+        <condition>IsDefined(KODE_ADMIN_VEDLIGEHOLD_NI)</condition>
+      </column>
+      <column>
+        <label>'ADMIN_VEDLIGEHOLD_NI: '</label>
+        <value>ADMIN_VEDLIGEHOLD_NI</value>
+        <condition>IsDefined(ADMIN_VEDLIGEHOLD_NI)</condition>
+      </column>
+      <column>
+        <label>'KODE_ADMIN_VINTERSTISERVI: '</label>
+        <value>KODE_ADMIN_VINTERSTISERVI</value>
+        <condition>IsDefined(KODE_ADMIN_VINTERSTISERVI)</condition>
+      </column>
+      <column>
+        <label>'ADMIN_VINTERSTISERVI: '</label>
+        <value>ADMIN_VINTERSTISERVI</value>
+        <condition>IsDefined(ADMIN_VINTERSTISERVI)</condition>
+      </column>
+      <column>
+        <label>'KODE_ADMIN_VINTERVEJSERVI: '</label>
+        <value>KODE_ADMIN_VINTERVEJSERVI</value>
+        <condition>IsDefined(KODE_ADMIN_VINTERVEJSERVI)</condition>
+      </column>
+      <column>
+        <label>'ADMIN_VINTERVEJSERVI: '</label>
+        <value>ADMIN_VINTERVEJSERVI</value>
+        <condition>IsDefined(ADMIN_VINTERVEJSERVI)</condition>
+      </column>
+      <column>
+        <label>'ANLAEGSDATO: '</label>
+        <value>ANLAEGSDATO</value>
+        <condition>IsDefined(ANLAEGSDATO)</condition>
+      </column>
+      <column>
+        <label>'BILAGNR: '</label>
+        <value>BILAGNR</value>
+        <condition>IsDefined(BILAGNR)</condition>
+      </column>
+      <column>
+        <label>'DOKUMENTART: '</label>
+        <value>DOKUMENTART</value>
+        <condition>IsDefined(DOKUMENTART)</condition>
+      </column>
+      <column>
+        <label>'DOKUMENTEMNE: '</label>
+        <value>DOKUMENTEMNE</value>
+        <condition>IsDefined(DOKUMENTEMNE)</condition>
+      </column>
+      <column>
+        <label>'FORPLIGTIGEDE: '</label>
+        <value>FORPLIGTIGEDE</value>
+        <condition>IsDefined(FORPLIGTIGEDE)</condition>
+      </column>
+      <column>
+        <label>'OVERTAGELSESDATO: '</label>
+        <value>OVERTAGELSESDATO</value>
+        <condition>IsDefined(OVERTAGELSESDATO)</condition>
+      </column>
+      <column>
+        <label>'PROJDATO: '</label>
+        <value>PROJDATO</value>
+        <condition>IsDefined(PROJDATO)</condition>
+      </column>
+      <column>
+        <label>'UDL_TINGLYSNINGSDATO: '</label>
+        <value>UDL_TINGLYSNINGSDATO</value>
+        <condition>IsDefined(UDL_TINGLYSNINGSDATO)</condition>
+      </column>
+      <column>
+        <label>'KODE_UDLAEGS_GRUNDLAG: '</label>
+        <value>KODE_UDLAEGS_GRUNDLAG</value>
+        <condition>IsDefined(KODE_UDLAEGS_GRUNDLAG)</condition>
+      </column>
+      <column>
+        <label>'UDLAEGS_GRUNDLAG: '</label>
+        <value>UDLAEGS_GRUNDLAG</value>
+        <condition>IsDefined(UDLAEGS_GRUNDLAG)</condition>
+      </column>
+      <column>
+        <label>'UDLAEGSDATO: '</label>
+        <value>UDLAEGSDATO</value>
+        <condition>IsDefined(UDLAEGSDATO)</condition>
+      </column>
+      <column>
+        <label>'UDMATRIKULERET: '</label>
+        <value>UDMATRIKULERET</value>
+        <condition>IsDefined(UDMATRIKULERET)</condition>
+      </column>
+      <column>
+        <label>'UDSTEDELSESDATO: '</label>
+        <value>UDSTEDELSESDATO</value>
+        <condition>IsDefined(UDSTEDELSESDATO)</condition>
+      </column>
+      <column>
+        <label>'KODE_KOMMUNE: '</label>
+        <value>KODE_KOMMUNE</value>
+        <condition>IsDefined(KODE_KOMMUNE)</condition>
+      </column>
+      <column>
+        <label>'KOMMUNE: '</label>
+        <value>KOMMUNE</value>
+        <condition>IsDefined(KOMMUNE)</condition>
+      </column>
+      <column>
+        <label>'ADM_STEDNAVN: '</label>
+        <value>ADM_STEDNAVN</value>
+        <condition>IsDefined(ADM_STEDNAVN)</condition>
+      </column>
+      <column>
+        <label>'ADM_BRUGER: '</label>
+        <value>ADM_BRUGER</value>
+        <condition>IsDefined(ADM_BRUGER)</condition>
+      </column>
+      <column>
+        <label>'ADM_SENEST_RETTET: '</label>
+        <value>ADM_SENEST_RETTET</value>
+        <condition>IsDefined(ADM_SENEST_RETTET)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

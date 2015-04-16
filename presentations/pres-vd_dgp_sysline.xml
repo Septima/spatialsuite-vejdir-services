@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:DGP_SYSLINE" plural="VD:DGP_SYSLINE" value="VD:DGP_SYSLINE" />
+    <columns>
+      <column format="heading">
+        <label>'VD:DGP_SYSLINE'</label>
+        <value>'VD:DGP_SYSLINE'</value>
+      </column>
+      <column>
+        <label>'OGR_FID: '</label>
+        <value>OGR_FID</value>
+        <condition>IsDefined(OGR_FID)</condition>
+      </column>
+      <column>
+        <label>'LAGNAVN: '</label>
+        <value>LAGNAVN</value>
+        <condition>IsDefined(LAGNAVN)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

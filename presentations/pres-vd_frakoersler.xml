@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:Frakoersler" plural="VD:Frakoersler" value="VD:Frakoersler" />
+    <columns>
+      <column format="heading">
+        <label>'VD:Frakoersler'</label>
+        <value>'VD:Frakoersler'</value>
+      </column>
+      <column>
+        <label>'BESTYRELSE: '</label>
+        <value>BESTYRELSE</value>
+        <condition>IsDefined(BESTYRELSE)</condition>
+      </column>
+      <column>
+        <label>'VEJNR: '</label>
+        <value>VEJNR</value>
+        <condition>IsDefined(VEJNR)</condition>
+      </column>
+      <column>
+        <label>'VEJDEL: '</label>
+        <value>VEJDEL</value>
+        <condition>IsDefined(VEJDEL)</condition>
+      </column>
+      <column>
+        <label>'KMT: '</label>
+        <value>KMT</value>
+        <condition>IsDefined(KMT)</condition>
+      </column>
+      <column>
+        <label>'FRAKOERSEL_ID: '</label>
+        <value>FRAKOERSEL_ID</value>
+        <condition>IsDefined(FRAKOERSEL_ID)</condition>
+      </column>
+      <column>
+        <label>'FRAKOERSEL_NAVN: '</label>
+        <value>FRAKOERSEL_NAVN</value>
+        <condition>IsDefined(FRAKOERSEL_NAVN)</condition>
+      </column>
+      <column>
+        <label>'FRAKOERSEL_NR: '</label>
+        <value>FRAKOERSEL_NR</value>
+        <condition>IsDefined(FRAKOERSEL_NR)</condition>
+      </column>
+      <column>
+        <label>'FRAKOERSEL_VEJSIDE: '</label>
+        <value>FRAKOERSEL_VEJSIDE</value>
+        <condition>IsDefined(FRAKOERSEL_VEJSIDE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

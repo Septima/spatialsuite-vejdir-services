@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vmt_vejliste" plural="VD:vmt_vejliste" value="VD:vmt_vejliste" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vmt_vejliste'</label>
+        <value>'VD:vmt_vejliste'</value>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER_NAVN: '</label>
+        <value>BESTYRER_NAVN</value>
+        <condition>IsDefined(BESTYRER_NAVN)</condition>
+      </column>
+      <column>
+        <label>'KOMMUNE: '</label>
+        <value>KOMMUNE</value>
+        <condition>IsDefined(KOMMUNE)</condition>
+      </column>
+      <column>
+        <label>'POLITIKREDS: '</label>
+        <value>POLITIKREDS</value>
+        <condition>IsDefined(POLITIKREDS)</condition>
+      </column>
+      <column>
+        <label>'DISTRIKT: '</label>
+        <value>DISTRIKT</value>
+        <condition>IsDefined(DISTRIKT)</condition>
+      </column>
+      <column>
+        <label>'VDOMRAADE: '</label>
+        <value>VDOMRAADE</value>
+        <condition>IsDefined(VDOMRAADE)</condition>
+      </column>
+      <column>
+        <label>'CPR_VEJKODE: '</label>
+        <value>CPR_VEJKODE</value>
+        <condition>IsDefined(CPR_VEJKODE)</condition>
+      </column>
+      <column>
+        <label>'CPR_VEJNAVN: '</label>
+        <value>CPR_VEJNAVN</value>
+        <condition>IsDefined(CPR_VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'VEJBESKRIVELSE: '</label>
+        <value>VEJBESKRIVELSE</value>
+        <condition>IsDefined(VEJBESKRIVELSE)</condition>
+      </column>
+      <column>
+        <label>'LAENGDE: '</label>
+        <value>LAENGDE</value>
+        <condition>IsDefined(LAENGDE)</condition>
+      </column>
+      <column>
+        <label>'VEJDATO: '</label>
+        <value>VEJDATO</value>
+        <condition>IsDefined(VEJDATO)</condition>
+      </column>
+      <column>
+        <label>'F1_VEJNET_SUBTYPE: '</label>
+        <value>F1_VEJNET_SUBTYPE</value>
+        <condition>IsDefined(F1_VEJNET_SUBTYPE)</condition>
+      </column>
+      <column>
+        <label>'ADM_VEJSTATUS: '</label>
+        <value>ADM_VEJSTATUS</value>
+        <condition>IsDefined(ADM_VEJSTATUS)</condition>
+      </column>
+      <column>
+        <label>'ADM_VEJKLASSE: '</label>
+        <value>ADM_VEJKLASSE</value>
+        <condition>IsDefined(ADM_VEJKLASSE)</condition>
+      </column>
+      <column>
+        <label>'STIKLASSE: '</label>
+        <value>STIKLASSE</value>
+        <condition>IsDefined(STIKLASSE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

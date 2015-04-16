@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:VEJE_MELLEM_KRYDS_REPL" plural="VD:VEJE_MELLEM_KRYDS_REPL" value="VD:VEJE_MELLEM_KRYDS_REPL" />
+    <columns>
+      <column format="heading">
+        <label>'VD:VEJE_MELLEM_KRYDS_REPL'</label>
+        <value>'VD:VEJE_MELLEM_KRYDS_REPL'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'KRYDS_IDENTIFIKATION: '</label>
+        <value>KRYDS_IDENTIFIKATION</value>
+        <condition>IsDefined(KRYDS_IDENTIFIKATION)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

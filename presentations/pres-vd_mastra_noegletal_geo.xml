@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:MASTRA_NOEGLETAL_GEO" plural="VD:MASTRA_NOEGLETAL_GEO" value="VD:MASTRA_NOEGLETAL_GEO" />
+    <columns>
+      <column format="heading">
+        <label>'VD:MASTRA_NOEGLETAL_GEO'</label>
+        <value>'VD:MASTRA_NOEGLETAL_GEO'</value>
+      </column>
+      <column>
+        <label>'DATABASE_NAVN: '</label>
+        <value>DATABASE_NAVN</value>
+        <condition>IsDefined(DATABASE_NAVN)</condition>
+      </column>
+      <column>
+        <label>'SORT_KOLONNE: '</label>
+        <value>SORT_KOLONNE</value>
+        <condition>IsDefined(SORT_KOLONNE)</condition>
+      </column>
+      <column>
+        <label>'DATAEJER: '</label>
+        <value>DATAEJER</value>
+        <condition>IsDefined(DATAEJER)</condition>
+      </column>
+      <column>
+        <label>'SNIT_ID: '</label>
+        <value>SNIT_ID</value>
+        <condition>IsDefined(SNIT_ID)</condition>
+      </column>
+      <column>
+        <label>'STATUSDATO: '</label>
+        <value>STATUSDATO</value>
+        <condition>IsDefined(STATUSDATO)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER_ID: '</label>
+        <value>BESTYRER_ID</value>
+        <condition>IsDefined(BESTYRER_ID)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'VEJDEL: '</label>
+        <value>VEJDEL</value>
+        <condition>IsDefined(VEJDEL)</condition>
+      </column>
+      <column>
+        <label>'VEJNAVN: '</label>
+        <value>VEJNAVN</value>
+        <condition>IsDefined(VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'LOKATION: '</label>
+        <value>LOKATION</value>
+        <condition>IsDefined(LOKATION)</condition>
+      </column>
+      <column>
+        <label>'KOMMUNE: '</label>
+        <value>KOMMUNE</value>
+        <condition>IsDefined(KOMMUNE)</condition>
+      </column>
+      <column>
+        <label>'KOERETOEJSART: '</label>
+        <value>KOERETOEJSART</value>
+        <condition>IsDefined(KOERETOEJSART)</condition>
+      </column>
+      <column>
+        <label>'AAR: '</label>
+        <value>AAR</value>
+        <condition>IsDefined(AAR)</condition>
+      </column>
+      <column>
+        <label>'AADT: '</label>
+        <value>AADT</value>
+        <condition>IsDefined(AADT)</condition>
+      </column>
+      <column>
+        <label>'HDT: '</label>
+        <value>HDT</value>
+        <condition>IsDefined(HDT)</condition>
+      </column>
+      <column>
+        <label>'JDT: '</label>
+        <value>JDT</value>
+        <condition>IsDefined(JDT)</condition>
+      </column>
+      <column>
+        <label>'TRAFIKTYPE: '</label>
+        <value>TRAFIKTYPE</value>
+        <condition>IsDefined(TRAFIKTYPE)</condition>
+      </column>
+      <column>
+        <label>'GNS_HASTIGHED: '</label>
+        <value>GNS_HASTIGHED</value>
+        <condition>IsDefined(GNS_HASTIGHED)</condition>
+      </column>
+      <column>
+        <label>'TALTE_DAGE: '</label>
+        <value>TALTE_DAGE</value>
+        <condition>IsDefined(TALTE_DAGE)</condition>
+      </column>
+      <column>
+        <label>'AE10SS: '</label>
+        <value>AE10SS</value>
+        <condition>IsDefined(AE10SS)</condition>
+      </column>
+      <column>
+        <label>'AE10BY: '</label>
+        <value>AE10BY</value>
+        <condition>IsDefined(AE10BY)</condition>
+      </column>
+      <column>
+        <label>'KILOMETER: '</label>
+        <value>KILOMETER</value>
+        <condition>IsDefined(KILOMETER)</condition>
+      </column>
+      <column>
+        <label>'METER: '</label>
+        <value>METER</value>
+        <condition>IsDefined(METER)</condition>
+      </column>
+      <column>
+        <label>'LBIL_AADT: '</label>
+        <value>LBIL_AADT</value>
+        <condition>IsDefined(LBIL_AADT)</condition>
+      </column>
+      <column>
+        <label>'HAST_GRAENSE: '</label>
+        <value>HAST_GRAENSE</value>
+        <condition>IsDefined(HAST_GRAENSE)</condition>
+      </column>
+      <column>
+        <label>'FRAKTIL_PCT_15: '</label>
+        <value>FRAKTIL_PCT_15</value>
+        <condition>IsDefined(FRAKTIL_PCT_15)</condition>
+      </column>
+      <column>
+        <label>'FRAKTIL_PCT_85: '</label>
+        <value>FRAKTIL_PCT_85</value>
+        <condition>IsDefined(FRAKTIL_PCT_85)</condition>
+      </column>
+      <column>
+        <label>'PCT_OVER_HASTGR: '</label>
+        <value>PCT_OVER_HASTGR</value>
+        <condition>IsDefined(PCT_OVER_HASTGR)</condition>
+      </column>
+      <column>
+        <label>'PCT_OVER_HASTGR_P10: '</label>
+        <value>PCT_OVER_HASTGR_P10</value>
+        <condition>IsDefined(PCT_OVER_HASTGR_P10)</condition>
+      </column>
+      <column>
+        <label>'PCT_OVER_HASTGR_P20: '</label>
+        <value>PCT_OVER_HASTGR_P20</value>
+        <condition>IsDefined(PCT_OVER_HASTGR_P20)</condition>
+      </column>
+      <column>
+        <label>'LBIL_PCT: '</label>
+        <value>LBIL_PCT</value>
+        <condition>IsDefined(LBIL_PCT)</condition>
+      </column>
+      <column>
+        <label>'STOERSTE_TIME: '</label>
+        <value>STOERSTE_TIME</value>
+        <condition>IsDefined(STOERSTE_TIME)</condition>
+      </column>
+      <column>
+        <label>'STOERSTE_START_DATO_TID: '</label>
+        <value>STOERSTE_START_DATO_TID</value>
+        <condition>IsDefined(STOERSTE_START_DATO_TID)</condition>
+      </column>
+      <column>
+        <label>'MORGENSPIDS_TIME: '</label>
+        <value>MORGENSPIDS_TIME</value>
+        <condition>IsDefined(MORGENSPIDS_TIME)</condition>
+      </column>
+      <column>
+        <label>'MORGENSPIDS_START_TID: '</label>
+        <value>MORGENSPIDS_START_TID</value>
+        <condition>IsDefined(MORGENSPIDS_START_TID)</condition>
+      </column>
+      <column>
+        <label>'AFTENSPIDS_TIME: '</label>
+        <value>AFTENSPIDS_TIME</value>
+        <condition>IsDefined(AFTENSPIDS_TIME)</condition>
+      </column>
+      <column>
+        <label>'AFTENSPIDS_START_TID: '</label>
+        <value>AFTENSPIDS_START_TID</value>
+        <condition>IsDefined(AFTENSPIDS_START_TID)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

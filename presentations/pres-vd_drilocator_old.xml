@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:drilocator_old" plural="VD:drilocator_old" value="VD:drilocator_old" />
+    <columns>
+      <column format="heading">
+        <label>'VD:drilocator_old'</label>
+        <value>'VD:drilocator_old'</value>
+      </column>
+      <column>
+        <label>'id: '</label>
+        <value>id</value>
+        <condition>IsDefined(id)</condition>
+      </column>
+      <column>
+        <label>'tegnnr: '</label>
+        <value>tegnnr</value>
+        <condition>IsDefined(tegnnr)</condition>
+      </column>
+      <column>
+        <label>'art: '</label>
+        <value>art</value>
+        <condition>IsDefined(art)</condition>
+      </column>
+      <column>
+        <label>'underart: '</label>
+        <value>underart</value>
+        <condition>IsDefined(underart)</condition>
+      </column>
+      <column>
+        <label>'url: '</label>
+        <value>url</value>
+        <condition>IsDefined(url)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

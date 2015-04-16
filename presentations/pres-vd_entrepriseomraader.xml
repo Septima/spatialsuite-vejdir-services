@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:Entrepriseomraader" plural="VD:Entrepriseomraader" value="VD:Entrepriseomraader" />
+    <columns>
+      <column format="heading">
+        <label>'VD:Entrepriseomraader'</label>
+        <value>'VD:Entrepriseomraader'</value>
+      </column>
+      <column>
+        <label>'LBNR: '</label>
+        <value>LBNR</value>
+        <condition>IsDefined(LBNR)</condition>
+      </column>
+      <column>
+        <label>'KATEGORI: '</label>
+        <value>KATEGORI</value>
+        <condition>IsDefined(KATEGORI)</condition>
+      </column>
+      <column>
+        <label>'OBJEKTTYPE: '</label>
+        <value>OBJEKTTYPE</value>
+        <condition>IsDefined(OBJEKTTYPE)</condition>
+      </column>
+      <column>
+        <label>'OBJEKTKODE: '</label>
+        <value>OBJEKTKODE</value>
+        <condition>IsDefined(OBJEKTKODE)</condition>
+      </column>
+      <column>
+        <label>'TAL: '</label>
+        <value>TAL</value>
+        <condition>IsDefined(TAL)</condition>
+      </column>
+      <column>
+        <label>'GRAENSE: '</label>
+        <value>GRAENSE</value>
+        <condition>IsDefined(GRAENSE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

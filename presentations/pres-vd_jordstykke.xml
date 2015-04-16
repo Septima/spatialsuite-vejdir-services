@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:jordstykke" plural="VD:jordstykke" value="VD:jordstykke" />
+    <columns>
+      <column format="heading">
+        <label>'VD:jordstykke'</label>
+        <value>'VD:jordstykke'</value>
+      </column>
+      <column>
+        <label>'UUID: '</label>
+        <value>UUID</value>
+        <condition>IsDefined(UUID)</condition>
+      </column>
+      <column>
+        <label>'FEAT_ID: '</label>
+        <value>FEAT_ID</value>
+        <condition>IsDefined(FEAT_ID)</condition>
+      </column>
+      <column>
+        <label>'FEAT_KODE: '</label>
+        <value>FEAT_KODE</value>
+        <condition>IsDefined(FEAT_KODE)</condition>
+      </column>
+      <column>
+        <label>'FEAT_TYPE: '</label>
+        <value>FEAT_TYPE</value>
+        <condition>IsDefined(FEAT_TYPE)</condition>
+      </column>
+      <column>
+        <label>'ELAVSNAVN: '</label>
+        <value>ELAVSNAVN</value>
+        <condition>IsDefined(ELAVSNAVN)</condition>
+      </column>
+      <column>
+        <label>'ELAVSKODE: '</label>
+        <value>ELAVSKODE</value>
+        <condition>IsDefined(ELAVSKODE)</condition>
+      </column>
+      <column>
+        <label>'MATRNR: '</label>
+        <value>MATRNR</value>
+        <condition>IsDefined(MATRNR)</condition>
+      </column>
+      <column>
+        <label>'KMS_SAGSID: '</label>
+        <value>KMS_SAGSID</value>
+        <condition>IsDefined(KMS_SAGSID)</condition>
+      </column>
+      <column>
+        <label>'KMS_JOURNR: '</label>
+        <value>KMS_JOURNR</value>
+        <condition>IsDefined(KMS_JOURNR)</condition>
+      </column>
+      <column>
+        <label>'SKELSAGSID: '</label>
+        <value>SKELSAGSID</value>
+        <condition>IsDefined(SKELSAGSID)</condition>
+      </column>
+      <column>
+        <label>'SUPMSAGSID: '</label>
+        <value>SUPMSAGSID</value>
+        <condition>IsDefined(SUPMSAGSID)</condition>
+      </column>
+      <column>
+        <label>'KOMNAVN: '</label>
+        <value>KOMNAVN</value>
+        <condition>IsDefined(KOMNAVN)</condition>
+      </column>
+      <column>
+        <label>'KOMKODE: '</label>
+        <value>KOMKODE</value>
+        <condition>IsDefined(KOMKODE)</condition>
+      </column>
+      <column>
+        <label>'SOGNNAVN: '</label>
+        <value>SOGNNAVN</value>
+        <condition>IsDefined(SOGNNAVN)</condition>
+      </column>
+      <column>
+        <label>'SOGNKODE: '</label>
+        <value>SOGNKODE</value>
+        <condition>IsDefined(SOGNKODE)</condition>
+      </column>
+      <column>
+        <label>'REGIONNAVN: '</label>
+        <value>REGIONNAVN</value>
+        <condition>IsDefined(REGIONNAVN)</condition>
+      </column>
+      <column>
+        <label>'REGIONKODE: '</label>
+        <value>REGIONKODE</value>
+        <condition>IsDefined(REGIONKODE)</condition>
+      </column>
+      <column>
+        <label>'RETSKRNAVN: '</label>
+        <value>RETSKRNAVN</value>
+        <condition>IsDefined(RETSKRNAVN)</condition>
+      </column>
+      <column>
+        <label>'RETSKRKODE: '</label>
+        <value>RETSKRKODE</value>
+        <condition>IsDefined(RETSKRKODE)</condition>
+      </column>
+      <column>
+        <label>'MODERJORD: '</label>
+        <value>MODERJORD</value>
+        <condition>IsDefined(MODERJORD)</condition>
+      </column>
+      <column>
+        <label>'REGAREAL: '</label>
+        <value>REGAREAL</value>
+        <condition>IsDefined(REGAREAL)</condition>
+      </column>
+      <column>
+        <label>'AREALBEREG: '</label>
+        <value>AREALBEREG</value>
+        <condition>IsDefined(AREALBEREG)</condition>
+      </column>
+      <column>
+        <label>'VEJAREAL: '</label>
+        <value>VEJAREAL</value>
+        <condition>IsDefined(VEJAREAL)</condition>
+      </column>
+      <column>
+        <label>'VEJAREALBE: '</label>
+        <value>VEJAREALBE</value>
+        <condition>IsDefined(VEJAREALBE)</condition>
+      </column>
+      <column>
+        <label>'VANDAREALB: '</label>
+        <value>VANDAREALB</value>
+        <condition>IsDefined(VANDAREALB)</condition>
+      </column>
+      <column>
+        <label>'FAELLESLOD: '</label>
+        <value>FAELLESLOD</value>
+        <condition>IsDefined(FAELLESLOD)</condition>
+      </column>
+      <column>
+        <label>'ESR_EJDNR: '</label>
+        <value>ESR_EJDNR</value>
+        <condition>IsDefined(ESR_EJDNR)</condition>
+      </column>
+      <column>
+        <label>'SFE_EJDNR: '</label>
+        <value>SFE_EJDNR</value>
+        <condition>IsDefined(SFE_EJDNR)</condition>
+      </column>
+      <column>
+        <label>'SFE_SAGSID: '</label>
+        <value>SFE_SAGSID</value>
+        <condition>IsDefined(SFE_SAGSID)</condition>
+      </column>
+      <column>
+        <label>'SFE_DATO: '</label>
+        <value>SFE_DATO</value>
+        <condition>IsDefined(SFE_DATO)</condition>
+      </column>
+      <column>
+        <label>'SFE_JOURNR: '</label>
+        <value>SFE_JOURNR</value>
+        <condition>IsDefined(SFE_JOURNR)</condition>
+      </column>
+      <column>
+        <label>'SFE_NOTE: '</label>
+        <value>SFE_NOTE</value>
+        <condition>IsDefined(SFE_NOTE)</condition>
+      </column>
+      <column>
+        <label>'LAND_NOTE: '</label>
+        <value>LAND_NOTE</value>
+        <condition>IsDefined(LAND_NOTE)</condition>
+      </column>
+      <column>
+        <label>'AREALTYPE: '</label>
+        <value>AREALTYPE</value>
+        <condition>IsDefined(AREALTYPE)</condition>
+      </column>
+      <column>
+        <label>'DQ_INDEX: '</label>
+        <value>DQ_INDEX</value>
+        <condition>IsDefined(DQ_INDEX)</condition>
+      </column>
+      <column>
+        <label>'REGISTDATO: '</label>
+        <value>REGISTDATO</value>
+        <condition>IsDefined(REGISTDATO)</condition>
+      </column>
+      <column>
+        <label>'GEOMDATO: '</label>
+        <value>GEOMDATO</value>
+        <condition>IsDefined(GEOMDATO)</condition>
+      </column>
+      <column>
+        <label>'PUBLIDATO: '</label>
+        <value>PUBLIDATO</value>
+        <condition>IsDefined(PUBLIDATO)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:DKN1KM_UH" plural="VD:DKN1KM_UH" value="VD:DKN1KM_UH" />
+    <columns>
+      <column format="heading">
+        <label>'VD:DKN1KM_UH'</label>
+        <value>'VD:DKN1KM_UH'</value>
+      </column>
+      <column>
+        <label>'P: '</label>
+        <value>P</value>
+        <condition>IsDefined(P)</condition>
+      </column>
+      <column>
+        <label>'N: '</label>
+        <value>N</value>
+        <condition>IsDefined(N)</condition>
+      </column>
+      <column>
+        <label>'KVADRATID: '</label>
+        <value>KVADRATID</value>
+        <condition>IsDefined(KVADRATID)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

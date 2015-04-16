@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vma_sporkoering" plural="VD:vma_sporkoering" value="VD:vma_sporkoering" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vma_sporkoering'</label>
+        <value>'VD:vma_sporkoering'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRA_KM: '</label>
+        <value>FRA_KM</value>
+        <condition>IsDefined(FRA_KM)</condition>
+      </column>
+      <column>
+        <label>'FRA_M: '</label>
+        <value>FRA_M</value>
+        <condition>IsDefined(FRA_M)</condition>
+      </column>
+      <column>
+        <label>'TIL_KM: '</label>
+        <value>TIL_KM</value>
+        <condition>IsDefined(TIL_KM)</condition>
+      </column>
+      <column>
+        <label>'TIL_M: '</label>
+        <value>TIL_M</value>
+        <condition>IsDefined(TIL_M)</condition>
+      </column>
+      <column>
+        <label>'CPR_VEJNAVN: '</label>
+        <value>CPR_VEJNAVN</value>
+        <condition>IsDefined(CPR_VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'SPORK_VEJSIDE: '</label>
+        <value>SPORK_VEJSIDE</value>
+        <condition>IsDefined(SPORK_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'KODE_SPORK_VEJSIDE: '</label>
+        <value>KODE_SPORK_VEJSIDE</value>
+        <condition>IsDefined(KODE_SPORK_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'SPORK_TPE: '</label>
+        <value>SPORK_TPE</value>
+        <condition>IsDefined(SPORK_TPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_SPORK_TPE: '</label>
+        <value>KODE_SPORK_TPE</value>
+        <condition>IsDefined(KODE_SPORK_TPE)</condition>
+      </column>
+      <column>
+        <label>'SPORK_TYPE: '</label>
+        <value>SPORK_TYPE</value>
+        <condition>IsDefined(SPORK_TYPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_SPORK_TYPE: '</label>
+        <value>KODE_SPORK_TYPE</value>
+        <condition>IsDefined(KODE_SPORK_TYPE)</condition>
+      </column>
+      <column>
+        <label>'SPORK_MAALEDATO: '</label>
+        <value>SPORK_MAALEDATO</value>
+        <condition>IsDefined(SPORK_MAALEDATO)</condition>
+      </column>
+      <column>
+        <label>'SPORK_VENSTRE_MIDDEL: '</label>
+        <value>SPORK_VENSTRE_MIDDEL</value>
+        <condition>IsDefined(SPORK_VENSTRE_MIDDEL)</condition>
+      </column>
+      <column>
+        <label>'SPORK_VENSTRE_O05: '</label>
+        <value>SPORK_VENSTRE_O05</value>
+        <condition>IsDefined(SPORK_VENSTRE_O05)</condition>
+      </column>
+      <column>
+        <label>'SPORK_VENSTRE_O10: '</label>
+        <value>SPORK_VENSTRE_O10</value>
+        <condition>IsDefined(SPORK_VENSTRE_O10)</condition>
+      </column>
+      <column>
+        <label>'SPORK_VENSTRE_O15: '</label>
+        <value>SPORK_VENSTRE_O15</value>
+        <condition>IsDefined(SPORK_VENSTRE_O15)</condition>
+      </column>
+      <column>
+        <label>'SPORK_VENSTRE_O20: '</label>
+        <value>SPORK_VENSTRE_O20</value>
+        <condition>IsDefined(SPORK_VENSTRE_O20)</condition>
+      </column>
+      <column>
+        <label>'SPORK_VENSTRE_FYLD: '</label>
+        <value>SPORK_VENSTRE_FYLD</value>
+        <condition>IsDefined(SPORK_VENSTRE_FYLD)</condition>
+      </column>
+      <column>
+        <label>'SPORK_HOEJRE_MIDDEL: '</label>
+        <value>SPORK_HOEJRE_MIDDEL</value>
+        <condition>IsDefined(SPORK_HOEJRE_MIDDEL)</condition>
+      </column>
+      <column>
+        <label>'SPORK_HOEJRE_O05: '</label>
+        <value>SPORK_HOEJRE_O05</value>
+        <condition>IsDefined(SPORK_HOEJRE_O05)</condition>
+      </column>
+      <column>
+        <label>'SPORK_HOEJRE_O10: '</label>
+        <value>SPORK_HOEJRE_O10</value>
+        <condition>IsDefined(SPORK_HOEJRE_O10)</condition>
+      </column>
+      <column>
+        <label>'SPORK_HOEJRE_O15: '</label>
+        <value>SPORK_HOEJRE_O15</value>
+        <condition>IsDefined(SPORK_HOEJRE_O15)</condition>
+      </column>
+      <column>
+        <label>'SPORK_HOEJRE_O20: '</label>
+        <value>SPORK_HOEJRE_O20</value>
+        <condition>IsDefined(SPORK_HOEJRE_O20)</condition>
+      </column>
+      <column>
+        <label>'SPORK_HOEJRE_FYLD: '</label>
+        <value>SPORK_HOEJRE_FYLD</value>
+        <condition>IsDefined(SPORK_HOEJRE_FYLD)</condition>
+      </column>
+      <column>
+        <label>'SPORDYBDE: '</label>
+        <value>SPORDYBDE</value>
+        <condition>IsDefined(SPORDYBDE)</condition>
+      </column>
+      <column>
+        <label>'SPORK_BRUGER: '</label>
+        <value>SPORK_BRUGER</value>
+        <condition>IsDefined(SPORK_BRUGER)</condition>
+      </column>
+      <column>
+        <label>'SPORK_SENEST_RETTET: '</label>
+        <value>SPORK_SENEST_RETTET</value>
+        <condition>IsDefined(SPORK_SENEST_RETTET)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

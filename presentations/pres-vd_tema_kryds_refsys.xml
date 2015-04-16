@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:TEMA_KRYDS_REFSYS" plural="VD:TEMA_KRYDS_REFSYS" value="VD:TEMA_KRYDS_REFSYS" />
+    <columns>
+      <column format="heading">
+        <label>'VD:TEMA_KRYDS_REFSYS'</label>
+        <value>'VD:TEMA_KRYDS_REFSYS'</value>
+      </column>
+      <column>
+        <label>'KRYDS_IDENTIFIKATION: '</label>
+        <value>KRYDS_IDENTIFIKATION</value>
+        <condition>IsDefined(KRYDS_IDENTIFIKATION)</condition>
+      </column>
+      <column>
+        <label>'BEN_BENNUMMER: '</label>
+        <value>BEN_BENNUMMER</value>
+        <condition>IsDefined(BEN_BENNUMMER)</condition>
+      </column>
+      <column>
+        <label>'BEN_ADMVEJNR: '</label>
+        <value>BEN_ADMVEJNR</value>
+        <condition>IsDefined(BEN_ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'BEN_ADMVEJDEL: '</label>
+        <value>BEN_ADMVEJDEL</value>
+        <condition>IsDefined(BEN_ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'BEN_KMT: '</label>
+        <value>BEN_KMT</value>
+        <condition>IsDefined(BEN_KMT)</condition>
+      </column>
+      <column>
+        <label>'CPR_VEJNAVN: '</label>
+        <value>CPR_VEJNAVN</value>
+        <condition>IsDefined(CPR_VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'KRYDS_TYPE: '</label>
+        <value>KRYDS_TYPE</value>
+        <condition>IsDefined(KRYDS_TYPE)</condition>
+      </column>
+      <column>
+        <label>'KRYDS_ANTAL_BEN: '</label>
+        <value>KRYDS_ANTAL_BEN</value>
+        <condition>IsDefined(KRYDS_ANTAL_BEN)</condition>
+      </column>
+      <column>
+        <label>'KRYDS_SIGNALREG: '</label>
+        <value>KRYDS_SIGNALREG</value>
+        <condition>IsDefined(KRYDS_SIGNALREG)</condition>
+      </column>
+      <column>
+        <label>'KRYDS_SORTPLETDATO: '</label>
+        <value>KRYDS_SORTPLETDATO</value>
+        <condition>IsDefined(KRYDS_SORTPLETDATO)</condition>
+      </column>
+      <column>
+        <label>'KRYDS_AABNINGSDATO: '</label>
+        <value>KRYDS_AABNINGSDATO</value>
+        <condition>IsDefined(KRYDS_AABNINGSDATO)</condition>
+      </column>
+      <column>
+        <label>'KRYDS_NAVN: '</label>
+        <value>KRYDS_NAVN</value>
+        <condition>IsDefined(KRYDS_NAVN)</condition>
+      </column>
+      <column>
+        <label>'KRYDS_BEMAERKNING: '</label>
+        <value>KRYDS_BEMAERKNING</value>
+        <condition>IsDefined(KRYDS_BEMAERKNING)</condition>
+      </column>
+      <column>
+        <label>'VEJCENTER: '</label>
+        <value>VEJCENTER</value>
+        <condition>IsDefined(VEJCENTER)</condition>
+      </column>
+      <column>
+        <label>'KOMMUNE: '</label>
+        <value>KOMMUNE</value>
+        <condition>IsDefined(KOMMUNE)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

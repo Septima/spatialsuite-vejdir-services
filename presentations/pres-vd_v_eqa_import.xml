@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:V_EQA_IMPORT" plural="VD:V_EQA_IMPORT" value="VD:V_EQA_IMPORT" />
+    <columns>
+      <column format="heading">
+        <label>'VD:V_EQA_IMPORT'</label>
+        <value>'VD:V_EQA_IMPORT'</value>
+      </column>
+      <column>
+        <label>'EQUIPMENTTYPE: '</label>
+        <value>EQUIPMENTTYPE</value>
+        <condition>IsDefined(EQUIPMENTTYPE)</condition>
+      </column>
+      <column>
+        <label>'BATCHID: '</label>
+        <value>BATCHID</value>
+        <condition>IsDefined(BATCHID)</condition>
+      </column>
+      <column>
+        <label>'EQAID: '</label>
+        <value>EQAID</value>
+        <condition>IsDefined(EQAID)</condition>
+      </column>
+      <column>
+        <label>'UNDERTYPE: '</label>
+        <value>UNDERTYPE</value>
+        <condition>IsDefined(UNDERTYPE)</condition>
+      </column>
+      <column>
+        <label>'FUNKTIONSTYPE: '</label>
+        <value>FUNKTIONSTYPE</value>
+        <condition>IsDefined(FUNKTIONSTYPE)</condition>
+      </column>
+      <column>
+        <label>'HOEJDE: '</label>
+        <value>HOEJDE</value>
+        <condition>IsDefined(HOEJDE)</condition>
+      </column>
+      <column>
+        <label>'BREDDE: '</label>
+        <value>BREDDE</value>
+        <condition>IsDefined(BREDDE)</condition>
+      </column>
+      <column>
+        <label>'LAENGDE: '</label>
+        <value>LAENGDE</value>
+        <condition>IsDefined(LAENGDE)</condition>
+      </column>
+      <column>
+        <label>'AREAL: '</label>
+        <value>AREAL</value>
+        <condition>IsDefined(AREAL)</condition>
+      </column>
+      <column>
+        <label>'ANTAL: '</label>
+        <value>ANTAL</value>
+        <condition>IsDefined(ANTAL)</condition>
+      </column>
+      <column>
+        <label>'REMARK: '</label>
+        <value>REMARK</value>
+        <condition>IsDefined(REMARK)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'VEJSIDE: '</label>
+        <value>VEJSIDE</value>
+        <condition>IsDefined(VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'FRAKM: '</label>
+        <value>FRAKM</value>
+        <condition>IsDefined(FRAKM)</condition>
+      </column>
+      <column>
+        <label>'FRAM: '</label>
+        <value>FRAM</value>
+        <condition>IsDefined(FRAM)</condition>
+      </column>
+      <column>
+        <label>'TILKM: '</label>
+        <value>TILKM</value>
+        <condition>IsDefined(TILKM)</condition>
+      </column>
+      <column>
+        <label>'TILM: '</label>
+        <value>TILM</value>
+        <condition>IsDefined(TILM)</condition>
+      </column>
+      <column>
+        <label>'SERVICEOMRAADEID: '</label>
+        <value>SERVICEOMRAADEID</value>
+        <condition>IsDefined(SERVICEOMRAADEID)</condition>
+      </column>
+      <column>
+        <label>'SERVICEOMRAADENAVN: '</label>
+        <value>SERVICEOMRAADENAVN</value>
+        <condition>IsDefined(SERVICEOMRAADENAVN)</condition>
+      </column>
+      <column>
+        <label>'FIRMA: '</label>
+        <value>FIRMA</value>
+        <condition>IsDefined(FIRMA)</condition>
+      </column>
+      <column>
+        <label>'DATO: '</label>
+        <value>DATO</value>
+        <condition>IsDefined(DATO)</condition>
+      </column>
+      <column>
+        <label>'OPMAALINGSAAR: '</label>
+        <value>OPMAALINGSAAR</value>
+        <condition>IsDefined(OPMAALINGSAAR)</condition>
+      </column>
+      <column>
+        <label>'COORDTYPE: '</label>
+        <value>COORDTYPE</value>
+        <condition>IsDefined(COORDTYPE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

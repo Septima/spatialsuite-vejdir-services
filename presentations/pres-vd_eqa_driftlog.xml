@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:EQA_DRIFTLOG" plural="VD:EQA_DRIFTLOG" value="VD:EQA_DRIFTLOG" />
+    <columns>
+      <column format="heading">
+        <label>'VD:EQA_DRIFTLOG'</label>
+        <value>'VD:EQA_DRIFTLOG'</value>
+      </column>
+      <column>
+        <label>'ID: '</label>
+        <value>ID</value>
+        <condition>IsDefined(ID)</condition>
+      </column>
+      <column>
+        <label>'DATOTID: '</label>
+        <value>DATOTID</value>
+        <condition>IsDefined(DATOTID)</condition>
+      </column>
+      <column>
+        <label>'INVENTARTYPE: '</label>
+        <value>INVENTARTYPE</value>
+        <condition>IsDefined(INVENTARTYPE)</condition>
+      </column>
+      <column>
+        <label>'JOB_ID: '</label>
+        <value>JOB_ID</value>
+        <condition>IsDefined(JOB_ID)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'VEJNR: '</label>
+        <value>VEJNR</value>
+        <condition>IsDefined(VEJNR)</condition>
+      </column>
+      <column>
+        <label>'VEJDEL: '</label>
+        <value>VEJDEL</value>
+        <condition>IsDefined(VEJDEL)</condition>
+      </column>
+      <column>
+        <label>'VEJSIDE: '</label>
+        <value>VEJSIDE</value>
+        <condition>IsDefined(VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'KM: '</label>
+        <value>KM</value>
+        <condition>IsDefined(KM)</condition>
+      </column>
+      <column>
+        <label>'METER: '</label>
+        <value>METER</value>
+        <condition>IsDefined(METER)</condition>
+      </column>
+      <column>
+        <label>'VEJTYPE: '</label>
+        <value>VEJTYPE</value>
+        <condition>IsDefined(VEJTYPE)</condition>
+      </column>
+      <column>
+        <label>'ADM_VEJTYPE: '</label>
+        <value>ADM_VEJTYPE</value>
+        <condition>IsDefined(ADM_VEJTYPE)</condition>
+      </column>
+      <column>
+        <label>'DRI_ZONE: '</label>
+        <value>DRI_ZONE</value>
+        <condition>IsDefined(DRI_ZONE)</condition>
+      </column>
+      <column>
+        <label>'STATUS: '</label>
+        <value>STATUS</value>
+        <condition>IsDefined(STATUS)</condition>
+      </column>
+      <column>
+        <label>'REMARK: '</label>
+        <value>REMARK</value>
+        <condition>IsDefined(REMARK)</condition>
+      </column>
+      <column>
+        <label>'JOBTYPE: '</label>
+        <value>JOBTYPE</value>
+        <condition>IsDefined(JOBTYPE)</condition>
+      </column>
+      <column>
+        <label>'JOBUNDERTYPE: '</label>
+        <value>JOBUNDERTYPE</value>
+        <condition>IsDefined(JOBUNDERTYPE)</condition>
+      </column>
+      <column>
+        <label>'ANSVARLIG: '</label>
+        <value>ANSVARLIG</value>
+        <condition>IsDefined(ANSVARLIG)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

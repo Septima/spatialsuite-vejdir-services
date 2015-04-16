@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vma_notesbog_str" plural="VD:vma_notesbog_str" value="VD:vma_notesbog_str" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vma_notesbog_str'</label>
+        <value>'VD:vma_notesbog_str'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRA_KM: '</label>
+        <value>FRA_KM</value>
+        <condition>IsDefined(FRA_KM)</condition>
+      </column>
+      <column>
+        <label>'FRA_M: '</label>
+        <value>FRA_M</value>
+        <condition>IsDefined(FRA_M)</condition>
+      </column>
+      <column>
+        <label>'TIL_KM: '</label>
+        <value>TIL_KM</value>
+        <condition>IsDefined(TIL_KM)</condition>
+      </column>
+      <column>
+        <label>'TIL_M: '</label>
+        <value>TIL_M</value>
+        <condition>IsDefined(TIL_M)</condition>
+      </column>
+      <column>
+        <label>'CPR_VEJNAVN: '</label>
+        <value>CPR_VEJNAVN</value>
+        <condition>IsDefined(CPR_VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'KODE_NOTESTRK_GRUPPE: '</label>
+        <value>KODE_NOTESTRK_GRUPPE</value>
+        <condition>IsDefined(KODE_NOTESTRK_GRUPPE)</condition>
+      </column>
+      <column>
+        <label>'NOTESTRK_GRUPPE: '</label>
+        <value>NOTESTRK_GRUPPE</value>
+        <condition>IsDefined(NOTESTRK_GRUPPE)</condition>
+      </column>
+      <column>
+        <label>'NOTESTRK_TAL1: '</label>
+        <value>NOTESTRK_TAL1</value>
+        <condition>IsDefined(NOTESTRK_TAL1)</condition>
+      </column>
+      <column>
+        <label>'NOTESTRK_TAL2: '</label>
+        <value>NOTESTRK_TAL2</value>
+        <condition>IsDefined(NOTESTRK_TAL2)</condition>
+      </column>
+      <column>
+        <label>'NOTESTRK_TAL3: '</label>
+        <value>NOTESTRK_TAL3</value>
+        <condition>IsDefined(NOTESTRK_TAL3)</condition>
+      </column>
+      <column>
+        <label>'NOTESTRK_TAL4: '</label>
+        <value>NOTESTRK_TAL4</value>
+        <condition>IsDefined(NOTESTRK_TAL4)</condition>
+      </column>
+      <column>
+        <label>'NOTESTRK_TAL5: '</label>
+        <value>NOTESTRK_TAL5</value>
+        <condition>IsDefined(NOTESTRK_TAL5)</condition>
+      </column>
+      <column>
+        <label>'NOTESTRK_TEKST1: '</label>
+        <value>NOTESTRK_TEKST1</value>
+        <condition>IsDefined(NOTESTRK_TEKST1)</condition>
+      </column>
+      <column>
+        <label>'NOTESTRK_TEKST2: '</label>
+        <value>NOTESTRK_TEKST2</value>
+        <condition>IsDefined(NOTESTRK_TEKST2)</condition>
+      </column>
+      <column>
+        <label>'NOTESTRK_TEKST3: '</label>
+        <value>NOTESTRK_TEKST3</value>
+        <condition>IsDefined(NOTESTRK_TEKST3)</condition>
+      </column>
+      <column>
+        <label>'NOTESTRK_TEKST4: '</label>
+        <value>NOTESTRK_TEKST4</value>
+        <condition>IsDefined(NOTESTRK_TEKST4)</condition>
+      </column>
+      <column>
+        <label>'NOTESTRK_TEKST5: '</label>
+        <value>NOTESTRK_TEKST5</value>
+        <condition>IsDefined(NOTESTRK_TEKST5)</condition>
+      </column>
+      <column>
+        <label>'NOTESTRK_BRUGER: '</label>
+        <value>NOTESTRK_BRUGER</value>
+        <condition>IsDefined(NOTESTRK_BRUGER)</condition>
+      </column>
+      <column>
+        <label>'NOTESTRK_SENEST_RETT: '</label>
+        <value>NOTESTRK_SENEST_RETT</value>
+        <condition>IsDefined(NOTESTRK_SENEST_RETT)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

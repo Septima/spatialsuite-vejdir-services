@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile>
+  <themegroups>
+    <themegroup displayname="vejman" expanded="false" name="vejman" type="checkbutton" />
+  </themegroups>
+  <themes>
+    <theme module="vejman_services" name="theme-vd_admission">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:ADMISSION</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_csegeometryview">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:CSEGEOMETRYVIEW</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_csegeometryview_ora">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:CSEGEOMETRYVIEW_ORA</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_cvf_veje">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:CVF_VEJE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_dgp_ggk">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:DGP_GGK</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_dgp_sysline">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:DGP_SYSLINE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_dkn100km_uh">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:DKN100KM_UH</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_dkn100m_uh">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:DKN100M_UH</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_dkn10km_uh">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:DKN10KM_UH</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_dkn1km_uh">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:DKN1KM_UH</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_dkn250m_uh">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:DKN250M_UH</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_dkn500m_uh">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:DKN500M_UH</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_eqa_driftlog">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:EQA_DRIFTLOG</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_entrepriseomraader">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:ENTREPRISEOMRAADER</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_frakoersler">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:FRAKOERSLER</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_gps_track">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:GPS_TRACK</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_gps_track_today">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:GPS_TRACK_TODAY</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_kommuner">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:KOMMUNER</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_loccode">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:LOCCODE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_mariusdistribution_preview">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:MARIUSDISTRIBUTION_PREVIEW</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_mastra_noegletal_geo">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:MASTRA_NOEGLETAL_GEO</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_min_anl">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:MIN_ANL</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_provision">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:PROVISION</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_st_anl">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:ST_ANL</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_stier-materialiseret">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:STIER-MATERIALISERET</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_tema_admission">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:TEMA_ADMISSION</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_tema_kryds_refsys">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:TEMA_KRYDS_REFSYS</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_tema_marius_eqa">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:TEMA_MARIUS_EQA</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_tema_marius_sa">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:TEMA_MARIUS_SA</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_tema_provision">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:TEMA_PROVISION</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_tema_veje">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:TEMA_VEJE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_tema_vejliste">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:TEMA_VEJLISTE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_tabttid">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:TABTTID</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_veje_mellem_kryds_repl">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VEJE_MELLEM_KRYDS_REPL</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vejmidte">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VEJMIDTE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vw_skadespoint">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VW_SKADESPOINT</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_v_eqa_import">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:V_EQA_IMPORT</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_v_provision_rep">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:V_PROVISION_REP</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_adm_marks">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:ADM_MARKS</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_drilocator">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:DRILOCATOR</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_drilocator_old">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:DRILOCATOR_OLD</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_fot-1081">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:FOT-1081</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_fot-1082">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:FOT-1082</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_fot-1083">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:FOT-1083</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_fot-1084">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:FOT-1084</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_fot-1085">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:FOT-1085</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_gps_vejnet">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:GPS_VEJNET</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_gps_vmt_offset">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:GPS_VMT_OFFSET</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_jernbane-kbh-ringsted">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:JERNBANE-KBH-RINGSTED</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_jordstykke">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:JORDSTYKKE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_kommunegraenser">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:KOMMUNEGRAENSER</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_noedtlf">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:NOEDTLF</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_odense_admdata">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:ODENSE_ADMDATA</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_ojtest">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:OJTEST</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_optagetvej">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:OPTAGETVEJ</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_stoejkurver">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:STOEJKURVER</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_stoejskaerme">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:STOEJSKAERME</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_stratnet">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:STRATNET</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_tra_dgoods">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:TRA_DGOODS</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_tra_heavynetwork">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:TRA_HEAVYNETWORK</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_tra_servicearea">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:TRA_SERVICEAREA</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_aabningsaar">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_AABNINGSAAR</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_trafficcount">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_TRAFFICCOUNT</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_vejservice">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_VEJSERVICE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_adgang">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_ADGANG</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_adgang_pub">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_ADGANG_PUB</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_adm_trafik">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_ADM_TRAFIK</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_admcpr">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_ADMCPR</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_admdata">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_ADMDATA</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_aroute">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_AROUTE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_autovaern">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_AUTOVAERN</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_bbr">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_BBR</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_begraensninger">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_BEGRAENSNINGER</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_blackspot">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_BLACKSPOT</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_bredde_belaeg">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_BREDDE_BELAEG</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_bronde_plac">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_BRONDE_PLAC</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_busfortov_vside">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_BUSFORTOV_VSIDE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_busfortov_vside_15">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_BUSFORTOV_VSIDE_15</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_bygvaerk">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_BYGVAERK</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_cpr_vejnavn">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_CPR_VEJNAVN</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_cycleway">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_CYCLEWAY</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_cykelsti_vside">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_CYKELSTI_VSIDE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_cykelsti_vside_15">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_CYKELSTI_VSIDE_15</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_dir_route">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_DIR_ROUTE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_drizone">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_DRIZONE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_droute_cached">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_DROUTE_CACHED</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_equiparea_l_geo">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_EQUIPAREA_L_GEO</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_flowmap">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_FLOWMAP</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_fortov_vside">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_FORTOV_VSIDE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_fortov_vside_15">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_FORTOV_VSIDE_15</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_fortovcykelsti_vs">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_FORTOVCYKELSTI_VS</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_gravetill">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_GRAVETILL</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_gravetill_geom_lag">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_GRAVETILL_GEOM_LAG</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_gvs">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_GVS</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_helkmmarks">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_HELKMMARKS</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_hsd">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_HSD</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_klassificering">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_KLASSIFICERING</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_koerebanebredde">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_KOEREBANEBREDDE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_komfort">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_KOMFORT</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_lgd">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_LGD</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_mapinet">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_MAPINET</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_modul_objects">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_MODUL_OBJECTS</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_nabo_trafik">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_NABO_TRAFIK</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_noedtelefon">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_NOEDTELEFON</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_noisedistance">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_NOISEDISTANCE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_passability">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_PASSABILITY</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_pathproj">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_PATHPROJ</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_permissions_completion">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_PERMISSIONS_COMPLETION</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_permissions_gt_dig_character">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_PERMISSIONS_GT_DIG_CHARACTER</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_permissions_gt_warranty">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_PERMISSIONS_GT_WARRANTY</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_permissions_missing_completion">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_PERMISSIONS_MISSING_COMPLETION</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_permissions_rov_tech_category">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_PERMISSIONS_ROV_TECH_CATEGORY</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_prov_adg">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_PROV_ADG</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_prov_adg_pub">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_PROV_ADG_PUB</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_prov_bui">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_PROV_BUI</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_prov_bui_pub">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_PROV_BUI_PUB</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_prov_bui_pub1">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_PROV_BUI_PUB1</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_prov_ovr">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_PROV_OVR</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_prov_ovs">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_PROV_OVS</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_raadighed">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_RAADIGHED</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_route">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_ROUTE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_servicearea_l_geo">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_SERVICEAREA_L_GEO</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_skadespoint">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_SKADESPOINT</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_skilte">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_SKILTE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_slidlag">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_SLIDLAG</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_slidlag_1">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_SLIDLAG_1</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_sti_vside">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_STI_VSIDE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_sti_vside_15">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_STI_VSIDE_15</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_stratnet">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_STRATNET</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_ternveje">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_TERNVEJE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_tic_sagsoversigt">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_TIC_SAGSOVERSIGT</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_tilladelser">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_TILLADELSER</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_tpe">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_TPE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_tpe_vstype">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_TPE_VSTYPE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_udbudt_strk">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_UDBUDT_STRK</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_veje_m_kryds_vside">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_VEJE_M_KRYDS_VSIDE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_veje_m_kryds_vside_10">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_VEJE_M_KRYDS_VSIDE_10</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_veje_mellem_kryds">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_VEJE_MELLEM_KRYDS</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_veje_vside">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_VEJE_VSIDE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_veje_vside_10">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_VEJE_VSIDE_10</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_vejlgd_vejid">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_VEJLGD_VEJID</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_vejstatus">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_VEJSTATUS</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vm_vintervedligehold">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VM_VINTERVEDLIGEHOLD</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_admdata">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_ADMDATA</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_admvejdelstype">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_ADMVEJDELSTYPE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_dgoods">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_DGOODS</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_ensretning">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_ENSRETNING</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_fremkomgis">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_FREMKOMGIS</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_friktion">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_FRIKTION</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_hastgraenser">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_HASTGRAENSER</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_heavynetwork">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_HEAVYNETWORK</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_jaevnhed">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_JAEVNHED</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_justeringsareal">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_JUSTERINGSAREAL</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_modulvogntog">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_MODULVOGNTOG</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_notesbog_punkt">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_NOTESBOG_PUNKT</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_notesbog_str">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_NOTESBOG_STR</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_restriktion">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_RESTRIKTION</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_sporkoering">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_SPORKOERING</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_tekstur">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_TEKSTUR</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_traffic">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_TRAFFIC</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_vejarbejder">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_VEJARBEJDER</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vma_vejnettype">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMA_VEJNETTYPE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vmc_vejforlob">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMC_VEJFORLOB</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vmt_hastgraenser">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMT_HASTGRAENSER</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vmt_klassificering">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMT_KLASSIFICERING</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vmt_veje">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMT_VEJE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="vejman_services" name="theme-vd_vmt_vejliste">
+      <themeselector>
+        <group>vejman</group>
+        <displayname>VD:VMT_VEJLISTE</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+  </themes>
+</profile>

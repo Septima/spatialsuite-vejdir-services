@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:gps_vmt_offset" plural="VD:gps_vmt_offset" value="VD:gps_vmt_offset" />
+    <columns>
+      <column format="heading">
+        <label>'VD:gps_vmt_offset'</label>
+        <value>'VD:gps_vmt_offset'</value>
+      </column>
+      <column>
+        <label>'ADM_VEJ_NR: '</label>
+        <value>ADM_VEJ_NR</value>
+        <condition>IsDefined(ADM_VEJ_NR)</condition>
+      </column>
+      <column>
+        <label>'VEJ_DEL: '</label>
+        <value>VEJ_DEL</value>
+        <condition>IsDefined(VEJ_DEL)</condition>
+      </column>
+      <column>
+        <label>'HELKM: '</label>
+        <value>HELKM</value>
+        <condition>IsDefined(HELKM)</condition>
+      </column>
+      <column>
+        <label>'SIDEOFROAD: '</label>
+        <value>SIDEOFROAD</value>
+        <condition>IsDefined(SIDEOFROAD)</condition>
+      </column>
+      <column>
+        <label>'OFFSET: '</label>
+        <value>OFFSET</value>
+        <condition>IsDefined(OFFSET)</condition>
+      </column>
+      <column>
+        <label>'RETNING: '</label>
+        <value>RETNING</value>
+        <condition>IsDefined(RETNING)</condition>
+      </column>
+      <column>
+        <label>'RETNING_TEXT: '</label>
+        <value>RETNING_TEXT</value>
+        <condition>IsDefined(RETNING_TEXT)</condition>
+      </column>
+      <column>
+        <label>'AAR: '</label>
+        <value>AAR</value>
+        <condition>IsDefined(AAR)</condition>
+      </column>
+      <column>
+        <label>'UGE: '</label>
+        <value>UGE</value>
+        <condition>IsDefined(UGE)</condition>
+      </column>
+      <column>
+        <label>'ANTAL_TURE: '</label>
+        <value>ANTAL_TURE</value>
+        <condition>IsDefined(ANTAL_TURE)</condition>
+      </column>
+      <column>
+        <label>'VEJTYPE: '</label>
+        <value>VEJTYPE</value>
+        <condition>IsDefined(VEJTYPE)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

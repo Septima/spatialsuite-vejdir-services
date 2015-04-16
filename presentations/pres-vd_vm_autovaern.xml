@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_autovaern" plural="VD:vm_autovaern" value="VD:vm_autovaern" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_autovaern'</label>
+        <value>'VD:vm_autovaern'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'FRAKM: '</label>
+        <value>FRAKM</value>
+        <condition>IsDefined(FRAKM)</condition>
+      </column>
+      <column>
+        <label>'FRAM: '</label>
+        <value>FRAM</value>
+        <condition>IsDefined(FRAM)</condition>
+      </column>
+      <column>
+        <label>'TILKM: '</label>
+        <value>TILKM</value>
+        <condition>IsDefined(TILKM)</condition>
+      </column>
+      <column>
+        <label>'TILM: '</label>
+        <value>TILM</value>
+        <condition>IsDefined(TILM)</condition>
+      </column>
+      <column>
+        <label>'LAENGDE: '</label>
+        <value>LAENGDE</value>
+        <condition>IsDefined(LAENGDE)</condition>
+      </column>
+      <column>
+        <label>'AUTOVAERN_VEJSIDE: '</label>
+        <value>AUTOVAERN_VEJSIDE</value>
+        <condition>IsDefined(AUTOVAERN_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'AUTOVAERN_TPE: '</label>
+        <value>AUTOVAERN_TPE</value>
+        <condition>IsDefined(AUTOVAERN_TPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_AUTOVAERN_TYPE: '</label>
+        <value>KODE_AUTOVAERN_TYPE</value>
+        <condition>IsDefined(KODE_AUTOVAERN_TYPE)</condition>
+      </column>
+      <column>
+        <label>'AUTOVAERN_TYPE: '</label>
+        <value>AUTOVAERN_TYPE</value>
+        <condition>IsDefined(AUTOVAERN_TYPE)</condition>
+      </column>
+      <column>
+        <label>'AUTOVAERN_BEMAERKN: '</label>
+        <value>AUTOVAERN_BEMAERKN</value>
+        <condition>IsDefined(AUTOVAERN_BEMAERKN)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:ojtest" plural="VD:ojtest" value="VD:ojtest" />
+    <columns>
+      <column format="heading">
+        <label>'VD:ojtest'</label>
+        <value>'VD:ojtest'</value>
+      </column>
+      <column>
+        <label>'ogc_fid: '</label>
+        <value>ogc_fid</value>
+        <condition>IsDefined(ogc_fid)</condition>
+      </column>
+      <column>
+        <label>'VMRUTE_ID: '</label>
+        <value>VMRUTE_ID</value>
+        <condition>IsDefined(VMRUTE_ID)</condition>
+      </column>
+      <column>
+        <label>'VMRUTE_NUMMER: '</label>
+        <value>VMRUTE_NUMMER</value>
+        <condition>IsDefined(VMRUTE_NUMMER)</condition>
+      </column>
+      <column>
+        <label>'VMRUTE_NAVN: '</label>
+        <value>VMRUTE_NAVN</value>
+        <condition>IsDefined(VMRUTE_NAVN)</condition>
+      </column>
+      <column>
+        <label>'VMRUTE_SUPERTYPE: '</label>
+        <value>VMRUTE_SUPERTYPE</value>
+        <condition>IsDefined(VMRUTE_SUPERTYPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_VMRUTE_SUPERTYPE: '</label>
+        <value>KODE_VMRUTE_SUPERTYPE</value>
+        <condition>IsDefined(KODE_VMRUTE_SUPERTYPE)</condition>
+      </column>
+      <column>
+        <label>'VMRUTE_TYPE: '</label>
+        <value>VMRUTE_TYPE</value>
+        <condition>IsDefined(VMRUTE_TYPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_VMRUTE_TYPE: '</label>
+        <value>KODE_VMRUTE_TYPE</value>
+        <condition>IsDefined(KODE_VMRUTE_TYPE)</condition>
+      </column>
+      <column>
+        <label>'VMRUTE_BESTYRER: '</label>
+        <value>VMRUTE_BESTYRER</value>
+        <condition>IsDefined(VMRUTE_BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'KODE_VMRUTE_BESTYRER: '</label>
+        <value>KODE_VMRUTE_BESTYRER</value>
+        <condition>IsDefined(KODE_VMRUTE_BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'VMRUTE_RETNING: '</label>
+        <value>VMRUTE_RETNING</value>
+        <condition>IsDefined(VMRUTE_RETNING)</condition>
+      </column>
+      <column>
+        <label>'KODE_VMRUTE_RETNING: '</label>
+        <value>KODE_VMRUTE_RETNING</value>
+        <condition>IsDefined(KODE_VMRUTE_RETNING)</condition>
+      </column>
+      <column>
+        <label>'VMRUTE_BESKRIVELSE: '</label>
+        <value>VMRUTE_BESKRIVELSE</value>
+        <condition>IsDefined(VMRUTE_BESKRIVELSE)</condition>
+      </column>
+      <column>
+        <label>'VMRUTE_RET_BESKRIV: '</label>
+        <value>VMRUTE_RET_BESKRIV</value>
+        <condition>IsDefined(VMRUTE_RET_BESKRIV)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+  <endpoint endpointtype="wms" name="vejman_wms">
+    <service>http://vmgeoserver.vd.dk/geoserver/wms?</service>
+    <parameters>
+      <servicename />
+    </parameters>
+  </endpoint>
+  <datasource endpoint="vejman_wms" name="vd_admission_wms">
+    <wms>
+      <layers>VD:ADMISSION</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_csegeometryview_wms">
+    <wms>
+      <layers>VD:CSEGEOMETRYVIEW</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_csegeometryview_ora_wms">
+    <wms>
+      <layers>VD:CSEGEOMETRYVIEW_ORA</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_cvf_veje_wms">
+    <wms>
+      <layers>VD:CVF_VEJE</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_dgp_ggk_wms">
+    <wms>
+      <layers>VD:DGP_GGK</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_dgp_sysline_wms">
+    <wms>
+      <layers>VD:DGP_SYSLINE</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_dkn100km_uh_wms">
+    <wms>
+      <layers>VD:DKN100KM_UH</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_dkn100m_uh_wms">
+    <wms>
+      <layers>VD:DKN100M_UH</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_dkn10km_uh_wms">
+    <wms>
+      <layers>VD:DKN10KM_UH</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_dkn1km_uh_wms">
+    <wms>
+      <layers>VD:DKN1KM_UH</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_dkn250m_uh_wms">
+    <wms>
+      <layers>VD:DKN250M_UH</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_dkn500m_uh_wms">
+    <wms>
+      <layers>VD:DKN500M_UH</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_eqa_driftlog_wms">
+    <wms>
+      <layers>VD:EQA_DRIFTLOG</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_entrepriseomraader_wms">
+    <wms>
+      <layers>VD:Entrepriseomraader</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_frakoersler_wms">
+    <wms>
+      <layers>VD:Frakoersler</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_gps_track_wms">
+    <wms>
+      <layers>VD:GPS_TRACK</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_gps_track_today_wms">
+    <wms>
+      <layers>VD:GPS_TRACK_TODAY</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_kommuner_wms">
+    <wms>
+      <layers>VD:Kommuner</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_loccode_wms">
+    <wms>
+      <layers>VD:LOCCODE</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_mariusdistribution_preview_wms">
+    <wms>
+      <layers>VD:MARIUSDISTRIBUTION_PREVIEW</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_mastra_noegletal_geo_wms">
+    <wms>
+      <layers>VD:MASTRA_NOEGLETAL_GEO</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_min_anl_wms">
+    <wms>
+      <layers>VD:MIN_ANL</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_provision_wms">
+    <wms>
+      <layers>VD:PROVISION</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_st_anl_wms">
+    <wms>
+      <layers>VD:ST_ANL</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_stier-materialiseret_wms">
+    <wms>
+      <layers>VD:Stier-materialiseret</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_tema_admission_wms">
+    <wms>
+      <layers>VD:TEMA_ADMISSION</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_tema_kryds_refsys_wms">
+    <wms>
+      <layers>VD:TEMA_KRYDS_REFSYS</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_tema_marius_eqa_wms">
+    <wms>
+      <layers>VD:TEMA_MARIUS_EQA</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_tema_marius_sa_wms">
+    <wms>
+      <layers>VD:TEMA_MARIUS_SA</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_tema_provision_wms">
+    <wms>
+      <layers>VD:TEMA_PROVISION</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_tema_veje_wms">
+    <wms>
+      <layers>VD:TEMA_VEJE</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_tema_vejliste_wms">
+    <wms>
+      <layers>VD:TEMA_VEJLISTE</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_tabttid_wms">
+    <wms>
+      <layers>VD:TabtTid</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_veje_mellem_kryds_repl_wms">
+    <wms>
+      <layers>VD:VEJE_MELLEM_KRYDS_REPL</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vejmidte_wms">
+    <wms>
+      <layers>VD:VEJMIDTE</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vw_skadespoint_wms">
+    <wms>
+      <layers>VD:VW_SKADESPOINT</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_v_eqa_import_wms">
+    <wms>
+      <layers>VD:V_EQA_IMPORT</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_v_provision_rep_wms">
+    <wms>
+      <layers>VD:V_PROVISION_REP</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_adm_marks_wms">
+    <wms>
+      <layers>VD:adm_marks</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_drilocator_wms">
+    <wms>
+      <layers>VD:drilocator</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_drilocator_old_wms">
+    <wms>
+      <layers>VD:drilocator_old</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_fot-1081_wms">
+    <wms>
+      <layers>VD:fot-1081</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_fot-1082_wms">
+    <wms>
+      <layers>VD:fot-1082</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_fot-1083_wms">
+    <wms>
+      <layers>VD:fot-1083</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_fot-1084_wms">
+    <wms>
+      <layers>VD:fot-1084</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_fot-1085_wms">
+    <wms>
+      <layers>VD:fot-1085</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_gps_vejnet_wms">
+    <wms>
+      <layers>VD:gps_vejnet</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_gps_vmt_offset_wms">
+    <wms>
+      <layers>VD:gps_vmt_offset</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_jernbane-kbh-ringsted_wms">
+    <wms>
+      <layers>VD:jernbane-kbh-ringsted</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_jordstykke_wms">
+    <wms>
+      <layers>VD:jordstykke</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_kommunegraenser_wms">
+    <wms>
+      <layers>VD:kommunegraenser</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_noedtlf_wms">
+    <wms>
+      <layers>VD:noedtlf</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_odense_admdata_wms">
+    <wms>
+      <layers>VD:odense_admdata</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_ojtest_wms">
+    <wms>
+      <layers>VD:ojtest</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_optagetvej_wms">
+    <wms>
+      <layers>VD:optagetvej</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_stoejkurver_wms">
+    <wms>
+      <layers>VD:stoejkurver</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_stoejskaerme_wms">
+    <wms>
+      <layers>VD:stoejskaerme</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_stratnet_wms">
+    <wms>
+      <layers>VD:stratnet</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_tra_dgoods_wms">
+    <wms>
+      <layers>VD:tra_dgoods</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_tra_heavynetwork_wms">
+    <wms>
+      <layers>VD:tra_heavynetwork</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_tra_servicearea_wms">
+    <wms>
+      <layers>VD:tra_servicearea</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_aabningsaar_wms">
+    <wms>
+      <layers>VD:vm_Aabningsaar</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_trafficcount_wms">
+    <wms>
+      <layers>VD:vm_Trafficcount</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_vejservice_wms">
+    <wms>
+      <layers>VD:vm_Vejservice</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_adgang_wms">
+    <wms>
+      <layers>VD:vm_adgang</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_adgang_pub_wms">
+    <wms>
+      <layers>VD:vm_adgang_pub</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_adm_trafik_wms">
+    <wms>
+      <layers>VD:vm_adm_trafik</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_admcpr_wms">
+    <wms>
+      <layers>VD:vm_admcpr</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_admdata_wms">
+    <wms>
+      <layers>VD:vm_admdata</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_aroute_wms">
+    <wms>
+      <layers>VD:vm_aroute</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_autovaern_wms">
+    <wms>
+      <layers>VD:vm_autovaern</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_bbr_wms">
+    <wms>
+      <layers>VD:vm_bbr</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_begraensninger_wms">
+    <wms>
+      <layers>VD:vm_begraensninger</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_blackspot_wms">
+    <wms>
+      <layers>VD:vm_blackspot</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_bredde_belaeg_wms">
+    <wms>
+      <layers>VD:vm_bredde_belaeg</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_bronde_plac_wms">
+    <wms>
+      <layers>VD:vm_bronde_plac</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_busfortov_vside_wms">
+    <wms>
+      <layers>VD:vm_busfortov_vside</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_busfortov_vside_15_wms">
+    <wms>
+      <layers>VD:vm_busfortov_vside_15</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_bygvaerk_wms">
+    <wms>
+      <layers>VD:vm_bygvaerk</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_cpr_vejnavn_wms">
+    <wms>
+      <layers>VD:vm_cpr_vejnavn</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_cycleway_wms">
+    <wms>
+      <layers>VD:vm_cycleway</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_cykelsti_vside_wms">
+    <wms>
+      <layers>VD:vm_cykelsti_vside</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_cykelsti_vside_15_wms">
+    <wms>
+      <layers>VD:vm_cykelsti_vside_15</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_dir_route_wms">
+    <wms>
+      <layers>VD:vm_dir_route</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_drizone_wms">
+    <wms>
+      <layers>VD:vm_drizone</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_droute_cached_wms">
+    <wms>
+      <layers>VD:vm_droute_cached</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_equiparea_l_geo_wms">
+    <wms>
+      <layers>VD:vm_equiparea_l_geo</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_flowmap_wms">
+    <wms>
+      <layers>VD:vm_flowmap</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_fortov_vside_wms">
+    <wms>
+      <layers>VD:vm_fortov_vside</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_fortov_vside_15_wms">
+    <wms>
+      <layers>VD:vm_fortov_vside_15</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_fortovcykelsti_vs_wms">
+    <wms>
+      <layers>VD:vm_fortovcykelsti_vs</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_gravetill_wms">
+    <wms>
+      <layers>VD:vm_gravetill</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_gravetill_geom_lag_wms">
+    <wms>
+      <layers>VD:vm_gravetill_geom_lag</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_gvs_wms">
+    <wms>
+      <layers>VD:vm_gvs</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_helkmmarks_wms">
+    <wms>
+      <layers>VD:vm_helkmmarks</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_hsd_wms">
+    <wms>
+      <layers>VD:vm_hsd</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_klassificering_wms">
+    <wms>
+      <layers>VD:vm_klassificering</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_koerebanebredde_wms">
+    <wms>
+      <layers>VD:vm_koerebanebredde</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_komfort_wms">
+    <wms>
+      <layers>VD:vm_komfort</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_lgd_wms">
+    <wms>
+      <layers>VD:vm_lgd</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_mapinet_wms">
+    <wms>
+      <layers>VD:vm_mapinet</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_modul_objects_wms">
+    <wms>
+      <layers>VD:vm_modul_objects</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_nabo_trafik_wms">
+    <wms>
+      <layers>VD:vm_nabo_trafik</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_noedtelefon_wms">
+    <wms>
+      <layers>VD:vm_noedtelefon</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_noisedistance_wms">
+    <wms>
+      <layers>VD:vm_noisedistance</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_passability_wms">
+    <wms>
+      <layers>VD:vm_passability</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_pathproj_wms">
+    <wms>
+      <layers>VD:vm_pathproj</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_permissions_completion_wms">
+    <wms>
+      <layers>VD:vm_permissions_completion</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_permissions_gt_dig_character_wms">
+    <wms>
+      <layers>VD:vm_permissions_gt_dig_character</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_permissions_gt_warranty_wms">
+    <wms>
+      <layers>VD:vm_permissions_gt_warranty</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_permissions_missing_completion_wms">
+    <wms>
+      <layers>VD:vm_permissions_missing_completion</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_permissions_rov_tech_category_wms">
+    <wms>
+      <layers>VD:vm_permissions_rov_tech_category</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_prov_adg_wms">
+    <wms>
+      <layers>VD:vm_prov_adg</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_prov_adg_pub_wms">
+    <wms>
+      <layers>VD:vm_prov_adg_pub</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_prov_bui_wms">
+    <wms>
+      <layers>VD:vm_prov_bui</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_prov_bui_pub_wms">
+    <wms>
+      <layers>VD:vm_prov_bui_pub</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_prov_bui_pub1_wms">
+    <wms>
+      <layers>VD:vm_prov_bui_pub1</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_prov_ovr_wms">
+    <wms>
+      <layers>VD:vm_prov_ovr</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_prov_ovs_wms">
+    <wms>
+      <layers>VD:vm_prov_ovs</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_raadighed_wms">
+    <wms>
+      <layers>VD:vm_raadighed</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_route_wms">
+    <wms>
+      <layers>VD:vm_route</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_servicearea_l_geo_wms">
+    <wms>
+      <layers>VD:vm_servicearea_l_geo</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_skadespoint_wms">
+    <wms>
+      <layers>VD:vm_skadespoint</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_skilte_wms">
+    <wms>
+      <layers>VD:vm_skilte</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_slidlag_wms">
+    <wms>
+      <layers>VD:vm_slidlag</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_slidlag_1_wms">
+    <wms>
+      <layers>VD:vm_slidlag_1</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_sti_vside_wms">
+    <wms>
+      <layers>VD:vm_sti_vside</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_sti_vside_15_wms">
+    <wms>
+      <layers>VD:vm_sti_vside_15</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_stratnet_wms">
+    <wms>
+      <layers>VD:vm_stratnet</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_ternveje_wms">
+    <wms>
+      <layers>VD:vm_ternveje</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_tic_sagsoversigt_wms">
+    <wms>
+      <layers>VD:vm_tic_sagsoversigt</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_tilladelser_wms">
+    <wms>
+      <layers>VD:vm_tilladelser</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_tpe_wms">
+    <wms>
+      <layers>VD:vm_tpe</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_tpe_vstype_wms">
+    <wms>
+      <layers>VD:vm_tpe_vstype</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_udbudt_strk_wms">
+    <wms>
+      <layers>VD:vm_udbudt_strk</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_veje_m_kryds_vside_wms">
+    <wms>
+      <layers>VD:vm_veje_m_kryds_vside</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_veje_m_kryds_vside_10_wms">
+    <wms>
+      <layers>VD:vm_veje_m_kryds_vside_10</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_veje_mellem_kryds_wms">
+    <wms>
+      <layers>VD:vm_veje_mellem_kryds</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_veje_vside_wms">
+    <wms>
+      <layers>VD:vm_veje_vside</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_veje_vside_10_wms">
+    <wms>
+      <layers>VD:vm_veje_vside_10</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_vejlgd_vejid_wms">
+    <wms>
+      <layers>VD:vm_vejlgd_vejid</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_vejstatus_wms">
+    <wms>
+      <layers>VD:vm_vejstatus</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vm_vintervedligehold_wms">
+    <wms>
+      <layers>VD:vm_vintervedligehold</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_admdata_wms">
+    <wms>
+      <layers>VD:vma_admdata</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_admvejdelstype_wms">
+    <wms>
+      <layers>VD:vma_admvejdelstype</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_dgoods_wms">
+    <wms>
+      <layers>VD:vma_dgoods</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_ensretning_wms">
+    <wms>
+      <layers>VD:vma_ensretning</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_fremkomgis_wms">
+    <wms>
+      <layers>VD:vma_fremkomgis</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_friktion_wms">
+    <wms>
+      <layers>VD:vma_friktion</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_hastgraenser_wms">
+    <wms>
+      <layers>VD:vma_hastgraenser</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_heavynetwork_wms">
+    <wms>
+      <layers>VD:vma_heavynetwork</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_jaevnhed_wms">
+    <wms>
+      <layers>VD:vma_jaevnhed</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_justeringsareal_wms">
+    <wms>
+      <layers>VD:vma_justeringsareal</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_modulvogntog_wms">
+    <wms>
+      <layers>VD:vma_modulvogntog</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_notesbog_punkt_wms">
+    <wms>
+      <layers>VD:vma_notesbog_punkt</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_notesbog_str_wms">
+    <wms>
+      <layers>VD:vma_notesbog_str</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_restriktion_wms">
+    <wms>
+      <layers>VD:vma_restriktion</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_sporkoering_wms">
+    <wms>
+      <layers>VD:vma_sporkoering</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_tekstur_wms">
+    <wms>
+      <layers>VD:vma_tekstur</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_traffic_wms">
+    <wms>
+      <layers>VD:vma_traffic</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_vejarbejder_wms">
+    <wms>
+      <layers>VD:vma_vejarbejder</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vma_vejnettype_wms">
+    <wms>
+      <layers>VD:vma_vejnettype</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vmc_vejforlob_wms">
+    <wms>
+      <layers>VD:vmc_vejforlob</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vmt_hastgraenser_wms">
+    <wms>
+      <layers>VD:vmt_hastgraenser</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vmt_klassificering_wms">
+    <wms>
+      <layers>VD:vmt_klassificering</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vmt_veje_wms">
+    <wms>
+      <layers>VD:vmt_veje</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="vejman_wms" name="vd_vmt_vejliste_wms">
+    <wms>
+      <layers>VD:vmt_vejliste</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+</datasources>

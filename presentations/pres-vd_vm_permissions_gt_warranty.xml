@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_permissions_gt_warranty" plural="VD:vm_permissions_gt_warranty" value="VD:vm_permissions_gt_warranty" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_permissions_gt_warranty'</label>
+        <value>'VD:vm_permissions_gt_warranty'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'VEJNAVN: '</label>
+        <value>VEJNAVN</value>
+        <condition>IsDefined(VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'PERMISSION_NUMBER: '</label>
+        <value>PERMISSION_NUMBER</value>
+        <condition>IsDefined(PERMISSION_NUMBER)</condition>
+      </column>
+      <column>
+        <label>'WEBGTNR: '</label>
+        <value>WEBGTNR</value>
+        <condition>IsDefined(WEBGTNR)</condition>
+      </column>
+      <column>
+        <label>'START_DATE: '</label>
+        <value>START_DATE</value>
+        <condition>IsDefined(START_DATE)</condition>
+      </column>
+      <column>
+        <label>'END_DATE: '</label>
+        <value>END_DATE</value>
+        <condition>IsDefined(END_DATE)</condition>
+      </column>
+      <column>
+        <label>'EXTENDED_TO_DATE: '</label>
+        <value>EXTENDED_TO_DATE</value>
+        <condition>IsDefined(EXTENDED_TO_DATE)</condition>
+      </column>
+      <column>
+        <label>'TYPE_KODE: '</label>
+        <value>TYPE_KODE</value>
+        <condition>IsDefined(TYPE_KODE)</condition>
+      </column>
+      <column>
+        <label>'TYPE: '</label>
+        <value>TYPE</value>
+        <condition>IsDefined(TYPE)</condition>
+      </column>
+      <column>
+        <label>'STATUS_KODE: '</label>
+        <value>STATUS_KODE</value>
+        <condition>IsDefined(STATUS_KODE)</condition>
+      </column>
+      <column>
+        <label>'STATUS: '</label>
+        <value>STATUS</value>
+        <condition>IsDefined(STATUS)</condition>
+      </column>
+      <column>
+        <label>'VARIANT_KODE: '</label>
+        <value>VARIANT_KODE</value>
+        <condition>IsDefined(VARIANT_KODE)</condition>
+      </column>
+      <column>
+        <label>'VARIANT: '</label>
+        <value>VARIANT</value>
+        <condition>IsDefined(VARIANT)</condition>
+      </column>
+      <column>
+        <label>'DIG_CHARACTER_CODE: '</label>
+        <value>DIG_CHARACTER_CODE</value>
+        <condition>IsDefined(DIG_CHARACTER_CODE)</condition>
+      </column>
+      <column>
+        <label>'DIG_CHARACTER: '</label>
+        <value>DIG_CHARACTER</value>
+        <condition>IsDefined(DIG_CHARACTER)</condition>
+      </column>
+      <column>
+        <label>'APPLICANT_NAME: '</label>
+        <value>APPLICANT_NAME</value>
+        <condition>IsDefined(APPLICANT_NAME)</condition>
+      </column>
+      <column>
+        <label>'CONTRACTOR_NAME: '</label>
+        <value>CONTRACTOR_NAME</value>
+        <condition>IsDefined(CONTRACTOR_NAME)</condition>
+      </column>
+      <column>
+        <label>'PROPRIETOR_NAME: '</label>
+        <value>PROPRIETOR_NAME</value>
+        <condition>IsDefined(PROPRIETOR_NAME)</condition>
+      </column>
+      <column>
+        <label>'MARKER_NAME: '</label>
+        <value>MARKER_NAME</value>
+        <condition>IsDefined(MARKER_NAME)</condition>
+      </column>
+      <column>
+        <label>'MARKER_PHONE_EVENING: '</label>
+        <value>MARKER_PHONE_EVENING</value>
+        <condition>IsDefined(MARKER_PHONE_EVENING)</condition>
+      </column>
+      <column>
+        <label>'NETWORK: '</label>
+        <value>NETWORK</value>
+        <condition>IsDefined(NETWORK)</condition>
+      </column>
+      <column>
+        <label>'SUBJECT: '</label>
+        <value>SUBJECT</value>
+        <condition>IsDefined(SUBJECT)</condition>
+      </column>
+      <column>
+        <label>'SUBJECT_CODE: '</label>
+        <value>SUBJECT_CODE</value>
+        <condition>IsDefined(SUBJECT_CODE)</condition>
+      </column>
+      <column>
+        <label>'SAGSBEH_NAVN: '</label>
+        <value>SAGSBEH_NAVN</value>
+        <condition>IsDefined(SAGSBEH_NAVN)</condition>
+      </column>
+      <column>
+        <label>'PM_CASE_ID: '</label>
+        <value>PM_CASE_ID</value>
+        <condition>IsDefined(PM_CASE_ID)</condition>
+      </column>
+      <column>
+        <label>'CONNECTED_CASE: '</label>
+        <value>CONNECTED_CASE</value>
+        <condition>IsDefined(CONNECTED_CASE)</condition>
+      </column>
+      <column>
+        <label>'ADMINISTRATIVE_SECTION: '</label>
+        <value>ADMINISTRATIVE_SECTION</value>
+        <condition>IsDefined(ADMINISTRATIVE_SECTION)</condition>
+      </column>
+      <column>
+        <label>'MODIFIED_DATE: '</label>
+        <value>MODIFIED_DATE</value>
+        <condition>IsDefined(MODIFIED_DATE)</condition>
+      </column>
+      <column>
+        <label>'ACTUAL_END_DATE: '</label>
+        <value>ACTUAL_END_DATE</value>
+        <condition>IsDefined(ACTUAL_END_DATE)</condition>
+      </column>
+      <column>
+        <label>'HEARING_STATE: '</label>
+        <value>HEARING_STATE</value>
+        <condition>IsDefined(HEARING_STATE)</condition>
+      </column>
+      <column>
+        <label>'BUILDING_NO: '</label>
+        <value>BUILDING_NO</value>
+        <condition>IsDefined(BUILDING_NO)</condition>
+      </column>
+      <column>
+        <label>'WARRANTY_DATE: '</label>
+        <value>WARRANTY_DATE</value>
+        <condition>IsDefined(WARRANTY_DATE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

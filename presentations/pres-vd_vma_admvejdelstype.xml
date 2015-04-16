@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vma_admvejdelstype" plural="VD:vma_admvejdelstype" value="VD:vma_admvejdelstype" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vma_admvejdelstype'</label>
+        <value>'VD:vma_admvejdelstype'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'FRAKM: '</label>
+        <value>FRAKM</value>
+        <condition>IsDefined(FRAKM)</condition>
+      </column>
+      <column>
+        <label>'FRAM: '</label>
+        <value>FRAM</value>
+        <condition>IsDefined(FRAM)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'TILM: '</label>
+        <value>TILM</value>
+        <condition>IsDefined(TILM)</condition>
+      </column>
+      <column>
+        <label>'TILKM: '</label>
+        <value>TILKM</value>
+        <condition>IsDefined(TILKM)</condition>
+      </column>
+      <column>
+        <label>'CPR_VEJNAVN: '</label>
+        <value>CPR_VEJNAVN</value>
+        <condition>IsDefined(CPR_VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'F1_KODE_VEJNET_TYPE: '</label>
+        <value>F1_KODE_VEJNET_TYPE</value>
+        <condition>IsDefined(F1_KODE_VEJNET_TYPE)</condition>
+      </column>
+      <column>
+        <label>'F1_VEJNET_TYPE: '</label>
+        <value>F1_VEJNET_TYPE</value>
+        <condition>IsDefined(F1_VEJNET_TYPE)</condition>
+      </column>
+      <column>
+        <label>'F1_KODE_VEJNET_SUBTYPE: '</label>
+        <value>F1_KODE_VEJNET_SUBTYPE</value>
+        <condition>IsDefined(F1_KODE_VEJNET_SUBTYPE)</condition>
+      </column>
+      <column>
+        <label>'F1_VEJNET_SUBTYPE: '</label>
+        <value>F1_VEJNET_SUBTYPE</value>
+        <condition>IsDefined(F1_VEJNET_SUBTYPE)</condition>
+      </column>
+      <column>
+        <label>'F1_VEJNET_SENEST_RETTET: '</label>
+        <value>F1_VEJNET_SENEST_RETTET</value>
+        <condition>IsDefined(F1_VEJNET_SENEST_RETTET)</condition>
+      </column>
+      <column>
+        <label>'F1_VEJNET_BRUGER: '</label>
+        <value>F1_VEJNET_BRUGER</value>
+        <condition>IsDefined(F1_VEJNET_BRUGER)</condition>
+      </column>
+      <column>
+        <label>'VEJNET_SUBTYPE_FARVE: '</label>
+        <value>VEJNET_SUBTYPE_FARVE</value>
+        <condition>IsDefined(VEJNET_SUBTYPE_FARVE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

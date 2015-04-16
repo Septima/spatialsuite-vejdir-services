@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_fortovcykelsti_vs" plural="VD:vm_fortovcykelsti_vs" value="VD:vm_fortovcykelsti_vs" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_fortovcykelsti_vs'</label>
+        <value>'VD:vm_fortovcykelsti_vs'</value>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRA_KM: '</label>
+        <value>FRA_KM</value>
+        <condition>IsDefined(FRA_KM)</condition>
+      </column>
+      <column>
+        <label>'FRA_M: '</label>
+        <value>FRA_M</value>
+        <condition>IsDefined(FRA_M)</condition>
+      </column>
+      <column>
+        <label>'TIL_KM: '</label>
+        <value>TIL_KM</value>
+        <condition>IsDefined(TIL_KM)</condition>
+      </column>
+      <column>
+        <label>'TIL_M: '</label>
+        <value>TIL_M</value>
+        <condition>IsDefined(TIL_M)</condition>
+      </column>
+      <column>
+        <label>'CPR_VEJNAVN: '</label>
+        <value>CPR_VEJNAVN</value>
+        <condition>IsDefined(CPR_VEJNAVN)</condition>
+      </column>
+      <column>
+        <label>'TPE_VEJSIDE: '</label>
+        <value>TPE_VEJSIDE</value>
+        <condition>IsDefined(TPE_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'TPE_TPE: '</label>
+        <value>TPE_TPE</value>
+        <condition>IsDefined(TPE_TPE)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

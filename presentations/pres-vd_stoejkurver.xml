@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:stoejkurver" plural="VD:stoejkurver" value="VD:stoejkurver" />
+    <columns>
+      <column format="heading">
+        <label>'VD:stoejkurver'</label>
+        <value>'VD:stoejkurver'</value>
+      </column>
+      <column>
+        <label>'ogc_fid: '</label>
+        <value>ogc_fid</value>
+        <condition>IsDefined(ogc_fid)</condition>
+      </column>
+      <column>
+        <label>'isovalue: '</label>
+        <value>isovalue</value>
+        <condition>IsDefined(isovalue)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

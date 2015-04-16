@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:optagetvej" plural="VD:optagetvej" value="VD:optagetvej" />
+    <columns>
+      <column format="heading">
+        <label>'VD:optagetvej'</label>
+        <value>'VD:optagetvej'</value>
+      </column>
+      <column>
+        <label>'UUID: '</label>
+        <value>UUID</value>
+        <condition>IsDefined(UUID)</condition>
+      </column>
+      <column>
+        <label>'FEAT_ID: '</label>
+        <value>FEAT_ID</value>
+        <condition>IsDefined(FEAT_ID)</condition>
+      </column>
+      <column>
+        <label>'FEAT_KODE: '</label>
+        <value>FEAT_KODE</value>
+        <condition>IsDefined(FEAT_KODE)</condition>
+      </column>
+      <column>
+        <label>'FEAT_TYPE: '</label>
+        <value>FEAT_TYPE</value>
+        <condition>IsDefined(FEAT_TYPE)</condition>
+      </column>
+      <column>
+        <label>'ELAVSNAVN: '</label>
+        <value>ELAVSNAVN</value>
+        <condition>IsDefined(ELAVSNAVN)</condition>
+      </column>
+      <column>
+        <label>'ELAVSKODE: '</label>
+        <value>ELAVSKODE</value>
+        <condition>IsDefined(ELAVSKODE)</condition>
+      </column>
+      <column>
+        <label>'MATRNR: '</label>
+        <value>MATRNR</value>
+        <condition>IsDefined(MATRNR)</condition>
+      </column>
+      <column>
+        <label>'JORDST_ID: '</label>
+        <value>JORDST_ID</value>
+        <condition>IsDefined(JORDST_ID)</condition>
+      </column>
+      <column>
+        <label>'KMS_SAGSID: '</label>
+        <value>KMS_SAGSID</value>
+        <condition>IsDefined(KMS_SAGSID)</condition>
+      </column>
+      <column>
+        <label>'KMS_JOURNR: '</label>
+        <value>KMS_JOURNR</value>
+        <condition>IsDefined(KMS_JOURNR)</condition>
+      </column>
+      <column>
+        <label>'VEJBREDDE: '</label>
+        <value>VEJBREDDE</value>
+        <condition>IsDefined(VEJBREDDE)</condition>
+      </column>
+      <column>
+        <label>'VEJTYPE: '</label>
+        <value>VEJTYPE</value>
+        <condition>IsDefined(VEJTYPE)</condition>
+      </column>
+      <column>
+        <label>'PRODMETODE: '</label>
+        <value>PRODMETODE</value>
+        <condition>IsDefined(PRODMETODE)</condition>
+      </column>
+      <column>
+        <label>'DQ_INDEX: '</label>
+        <value>DQ_INDEX</value>
+        <condition>IsDefined(DQ_INDEX)</condition>
+      </column>
+      <column>
+        <label>'PUBLIDATO: '</label>
+        <value>PUBLIDATO</value>
+        <condition>IsDefined(PUBLIDATO)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

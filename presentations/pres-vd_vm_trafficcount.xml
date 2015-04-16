@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_Trafficcount" plural="VD:vm_Trafficcount" value="VD:vm_Trafficcount" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_Trafficcount'</label>
+        <value>'VD:vm_Trafficcount'</value>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'BESTYRER: '</label>
+        <value>BESTYRER</value>
+        <condition>IsDefined(BESTYRER)</condition>
+      </column>
+      <column>
+        <label>'VEJBESKRIVELSE: '</label>
+        <value>VEJBESKRIVELSE</value>
+        <condition>IsDefined(VEJBESKRIVELSE)</condition>
+      </column>
+      <column>
+        <label>'&#197;DT: '</label>
+        <value>&#197;DT</value>
+        <condition>IsDefined(&#197;DT)</condition>
+      </column>
+      <column>
+        <label>'&#197;DT_&#197;R: '</label>
+        <value>&#197;DT_&#197;R</value>
+        <condition>IsDefined(&#197;DT_&#197;R)</condition>
+      </column>
+      <column>
+        <label>'&#197;DT_T&#198;LLETYPE: '</label>
+        <value>&#197;DT_T&#198;LLETYPE</value>
+        <condition>IsDefined(&#197;DT_T&#198;LLETYPE)</condition>
+      </column>
+      <column>
+        <label>'&#197;DT_T&#198;LLE&#197;R: '</label>
+        <value>&#197;DT_T&#198;LLE&#197;R</value>
+        <condition>IsDefined(&#197;DT_T&#198;LLE&#197;R)</condition>
+      </column>
+      <column>
+        <label>'&#197;DT_OPREGN: '</label>
+        <value>&#197;DT_OPREGN</value>
+        <condition>IsDefined(&#197;DT_OPREGN)</condition>
+      </column>
+      <column>
+        <label>'JULID&#216;GN: '</label>
+        <value>JULID&#216;GN</value>
+        <condition>IsDefined(JULID&#216;GN)</condition>
+      </column>
+      <column>
+        <label>'JULID_&#197;R: '</label>
+        <value>JULID_&#197;R</value>
+        <condition>IsDefined(JULID_&#197;R)</condition>
+      </column>
+      <column>
+        <label>'JULID_T&#198;LLETYPE: '</label>
+        <value>JULID_T&#198;LLETYPE</value>
+        <condition>IsDefined(JULID_T&#198;LLETYPE)</condition>
+      </column>
+      <column>
+        <label>'JULID_T&#198;LLE&#197;R: '</label>
+        <value>JULID_T&#198;LLE&#197;R</value>
+        <condition>IsDefined(JULID_T&#198;LLE&#197;R)</condition>
+      </column>
+      <column>
+        <label>'JULID_OPREGN: '</label>
+        <value>JULID_OPREGN</value>
+        <condition>IsDefined(JULID_OPREGN)</condition>
+      </column>
+      <column>
+        <label>'HDT_D&#216;GN: '</label>
+        <value>HDT_D&#216;GN</value>
+        <condition>IsDefined(HDT_D&#216;GN)</condition>
+      </column>
+      <column>
+        <label>'HDT_&#197;R: '</label>
+        <value>HDT_&#197;R</value>
+        <condition>IsDefined(HDT_&#197;R)</condition>
+      </column>
+      <column>
+        <label>'HDT_T&#198;LLETYPE: '</label>
+        <value>HDT_T&#198;LLETYPE</value>
+        <condition>IsDefined(HDT_T&#198;LLETYPE)</condition>
+      </column>
+      <column>
+        <label>'HDT_T&#198;LLE&#197;R: '</label>
+        <value>HDT_T&#198;LLE&#197;R</value>
+        <condition>IsDefined(HDT_T&#198;LLE&#197;R)</condition>
+      </column>
+      <column>
+        <label>'HDT_OPREGN: '</label>
+        <value>HDT_OPREGN</value>
+        <condition>IsDefined(HDT_OPREGN)</condition>
+      </column>
+      <column>
+        <label>'LAST2: '</label>
+        <value>LAST2</value>
+        <condition>IsDefined(LAST2)</condition>
+      </column>
+      <column>
+        <label>'LAST2_&#197;R: '</label>
+        <value>LAST2_&#197;R</value>
+        <condition>IsDefined(LAST2_&#197;R)</condition>
+      </column>
+      <column>
+        <label>'LAST2_T&#198;LLETYPE: '</label>
+        <value>LAST2_T&#198;LLETYPE</value>
+        <condition>IsDefined(LAST2_T&#198;LLETYPE)</condition>
+      </column>
+      <column>
+        <label>'LAST2_T&#198;LLE&#197;R: '</label>
+        <value>LAST2_T&#198;LLE&#197;R</value>
+        <condition>IsDefined(LAST2_T&#198;LLE&#197;R)</condition>
+      </column>
+      <column>
+        <label>'LAST2_OPREGN: '</label>
+        <value>LAST2_OPREGN</value>
+        <condition>IsDefined(LAST2_OPREGN)</condition>
+      </column>
+      <column>
+        <label>'LAST3_5: '</label>
+        <value>LAST3_5</value>
+        <condition>IsDefined(LAST3_5)</condition>
+      </column>
+      <column>
+        <label>'LAST3_5_&#197;R: '</label>
+        <value>LAST3_5_&#197;R</value>
+        <condition>IsDefined(LAST3_5_&#197;R)</condition>
+      </column>
+      <column>
+        <label>'LAST3_5_T&#198;LLETYPE: '</label>
+        <value>LAST3_5_T&#198;LLETYPE</value>
+        <condition>IsDefined(LAST3_5_T&#198;LLETYPE)</condition>
+      </column>
+      <column>
+        <label>'LAST3_5_T&#198;LLE&#197;R: '</label>
+        <value>LAST3_5_T&#198;LLE&#197;R</value>
+        <condition>IsDefined(LAST3_5_T&#198;LLE&#197;R)</condition>
+      </column>
+      <column>
+        <label>'LAST3_5_OPREGN: '</label>
+        <value>LAST3_5_OPREGN</value>
+        <condition>IsDefined(LAST3_5_OPREGN)</condition>
+      </column>
+      <column>
+        <label>'&#198;10: '</label>
+        <value>&#198;10</value>
+        <condition>IsDefined(&#198;10)</condition>
+      </column>
+      <column>
+        <label>'&#198;10_&#197;R: '</label>
+        <value>&#198;10_&#197;R</value>
+        <condition>IsDefined(&#198;10_&#197;R)</condition>
+      </column>
+      <column>
+        <label>'&#198;10_T&#198;LLETYPE: '</label>
+        <value>&#198;10_T&#198;LLETYPE</value>
+        <condition>IsDefined(&#198;10_T&#198;LLETYPE)</condition>
+      </column>
+      <column>
+        <label>'&#198;10_T&#198;LLE&#197;R: '</label>
+        <value>&#198;10_T&#198;LLE&#197;R</value>
+        <condition>IsDefined(&#198;10_T&#198;LLE&#197;R)</condition>
+      </column>
+      <column>
+        <label>'&#198;10_OPREGN: '</label>
+        <value>&#198;10_OPREGN</value>
+        <condition>IsDefined(&#198;10_OPREGN)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:vm_komfort" plural="VD:vm_komfort" value="VD:vm_komfort" />
+    <columns>
+      <column format="heading">
+        <label>'VD:vm_komfort'</label>
+        <value>'VD:vm_komfort'</value>
+      </column>
+      <column>
+        <label>'ADMVEJNR: '</label>
+        <value>ADMVEJNR</value>
+        <condition>IsDefined(ADMVEJNR)</condition>
+      </column>
+      <column>
+        <label>'ADMVEJDEL: '</label>
+        <value>ADMVEJDEL</value>
+        <condition>IsDefined(ADMVEJDEL)</condition>
+      </column>
+      <column>
+        <label>'FRAKMT: '</label>
+        <value>FRAKMT</value>
+        <condition>IsDefined(FRAKMT)</condition>
+      </column>
+      <column>
+        <label>'FRAKM: '</label>
+        <value>FRAKM</value>
+        <condition>IsDefined(FRAKM)</condition>
+      </column>
+      <column>
+        <label>'FRAM: '</label>
+        <value>FRAM</value>
+        <condition>IsDefined(FRAM)</condition>
+      </column>
+      <column>
+        <label>'TILKMT: '</label>
+        <value>TILKMT</value>
+        <condition>IsDefined(TILKMT)</condition>
+      </column>
+      <column>
+        <label>'TILKM: '</label>
+        <value>TILKM</value>
+        <condition>IsDefined(TILKM)</condition>
+      </column>
+      <column>
+        <label>'TILM: '</label>
+        <value>TILM</value>
+        <condition>IsDefined(TILM)</condition>
+      </column>
+      <column>
+        <label>'KOMFORT_VEJSIDE: '</label>
+        <value>KOMFORT_VEJSIDE</value>
+        <condition>IsDefined(KOMFORT_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'KODE_KOMFORT_VEJSIDE: '</label>
+        <value>KODE_KOMFORT_VEJSIDE</value>
+        <condition>IsDefined(KODE_KOMFORT_VEJSIDE)</condition>
+      </column>
+      <column>
+        <label>'SIDEOFROAD: '</label>
+        <value>SIDEOFROAD</value>
+        <condition>IsDefined(SIDEOFROAD)</condition>
+      </column>
+      <column>
+        <label>'OFFSET: '</label>
+        <value>OFFSET</value>
+        <condition>IsDefined(OFFSET)</condition>
+      </column>
+      <column>
+        <label>'KOMFORT_TPE: '</label>
+        <value>KOMFORT_TPE</value>
+        <condition>IsDefined(KOMFORT_TPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_KOMFORT_TPE: '</label>
+        <value>KODE_KOMFORT_TPE</value>
+        <condition>IsDefined(KODE_KOMFORT_TPE)</condition>
+      </column>
+      <column>
+        <label>'KOMFORT_MAALEDATO: '</label>
+        <value>KOMFORT_MAALEDATO</value>
+        <condition>IsDefined(KOMFORT_MAALEDATO)</condition>
+      </column>
+      <column>
+        <label>'KOMFORT_V_MIDDEL: '</label>
+        <value>KOMFORT_V_MIDDEL</value>
+        <condition>IsDefined(KOMFORT_V_MIDDEL)</condition>
+      </column>
+      <column>
+        <label>'KOMFORT_H_MIDDEL: '</label>
+        <value>KOMFORT_H_MIDDEL</value>
+        <condition>IsDefined(KOMFORT_H_MIDDEL)</condition>
+      </column>
+      <column>
+        <label>'KOMFORT_MIDDEL: '</label>
+        <value>KOMFORT_MIDDEL</value>
+        <condition>IsDefined(KOMFORT_MIDDEL)</condition>
+      </column>
+      <column>
+        <label>'KOMFORT_BEGIVENHED: '</label>
+        <value>KOMFORT_BEGIVENHED</value>
+        <condition>IsDefined(KOMFORT_BEGIVENHED)</condition>
+      </column>
+      <column>
+        <label>'KOMFORT_TYPE: '</label>
+        <value>KOMFORT_TYPE</value>
+        <condition>IsDefined(KOMFORT_TYPE)</condition>
+      </column>
+      <column>
+        <label>'KODE_KOMFORT_TYPE: '</label>
+        <value>KODE_KOMFORT_TYPE</value>
+        <condition>IsDefined(KODE_KOMFORT_TYPE)</condition>
+      </column>
+      <column>
+        <label>'KOMFORT_BILLEDSTI: '</label>
+        <value>KOMFORT_BILLEDSTI</value>
+        <condition>IsDefined(KOMFORT_BILLEDSTI)</condition>
+      </column>
+      <column>
+        <label>'KOMFORT_SENEST_RET: '</label>
+        <value>KOMFORT_SENEST_RET</value>
+        <condition>IsDefined(KOMFORT_SENEST_RET)</condition>
+      </column>
+      <column>
+        <label>'KOMFORT_BRUGER: '</label>
+        <value>KOMFORT_BRUGER</value>
+        <condition>IsDefined(KOMFORT_BRUGER)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

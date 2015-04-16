@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:TabtTid" plural="VD:TabtTid" value="VD:TabtTid" />
+    <columns>
+      <column format="heading">
+        <label>'VD:TabtTid'</label>
+        <value>'VD:TabtTid'</value>
+      </column>
+      <column>
+        <label>'ID: '</label>
+        <value>ID</value>
+        <condition>IsDefined(ID)</condition>
+      </column>
+      <column>
+        <label>'FreeSpeed: '</label>
+        <value>FreeSpeed</value>
+        <condition>IsDefined(FreeSpeed)</condition>
+      </column>
+      <column>
+        <label>'Streetname: '</label>
+        <value>Streetname</value>
+        <condition>IsDefined(Streetname)</condition>
+      </column>
+      <column>
+        <label>'OpenYear: '</label>
+        <value>OpenYear</value>
+        <condition>IsDefined(OpenYear)</condition>
+      </column>
+      <column>
+        <label>'Speed: '</label>
+        <value>Speed</value>
+        <condition>IsDefined(Speed)</condition>
+      </column>
+      <column>
+        <label>'TabtTid_1: '</label>
+        <value>TabtTid_1</value>
+        <condition>IsDefined(TabtTid_1)</condition>
+      </column>
+      <column>
+        <label>'ET_ID: '</label>
+        <value>ET_ID</value>
+        <condition>IsDefined(ET_ID)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

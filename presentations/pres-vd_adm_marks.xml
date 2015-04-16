@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="VD:adm_marks" plural="VD:adm_marks" value="VD:adm_marks" />
+    <columns>
+      <column format="heading">
+        <label>'VD:adm_marks'</label>
+        <value>'VD:adm_marks'</value>
+      </column>
+      <column>
+        <label>'admvejnr: '</label>
+        <value>admvejnr</value>
+        <condition>IsDefined(admvejnr)</condition>
+      </column>
+      <column>
+        <label>'admvejdel: '</label>
+        <value>admvejdel</value>
+        <condition>IsDefined(admvejdel)</condition>
+      </column>
+      <column>
+        <label>'km: '</label>
+        <value>km</value>
+        <condition>IsDefined(km)</condition>
+      </column>
+      <column>
+        <label>'m: '</label>
+        <value>m</value>
+        <condition>IsDefined(m)</condition>
+      </column>
+      <column>
+        <label>'kmt: '</label>
+        <value>kmt</value>
+        <condition>IsDefined(kmt)</condition>
+      </column>
+      <column>
+        <label>'bestyrer: '</label>
+        <value>bestyrer</value>
+        <condition>IsDefined(bestyrer)</condition>
+      </column>
+      <column>
+        <label>'bestyrernavn: '</label>
+        <value>bestyrernavn</value>
+        <condition>IsDefined(bestyrernavn)</condition>
+      </column>
+      <column>
+        <label>'scale: '</label>
+        <value>scale</value>
+        <condition>IsDefined(scale)</condition>
+      </column>
+      <column>
+        <label>'dx: '</label>
+        <value>dx</value>
+        <condition>IsDefined(dx)</condition>
+      </column>
+      <column>
+        <label>'dy: '</label>
+        <value>dy</value>
+        <condition>IsDefined(dy)</condition>
+      </column>
+      <column>
+        <label>'angle: '</label>
+        <value>angle</value>
+        <condition>IsDefined(angle)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>
