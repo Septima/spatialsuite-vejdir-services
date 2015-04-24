@@ -9,8 +9,8 @@
     <spatialquery name="digitizeinfo" query="hgf-wkt" queryfile="[cbinfo.queries.dir]/custom/demo01/digitize_select" targetset="digitize_target" targetsetfile="[cbinfo.queries.dir]/custom/demo01/digitize_select"/>
     <defaults>
         <queryfile>[cbinfo.queries.dir]/standard/spatialqueries</queryfile>
-        <targetset>vejman_services</targetset>
-        <targetsetfile>[module:vejman_services.dir]/queries/targetset</targetsetfile>
+        <targetset>vejdir_services</targetset>
+        <targetsetfile>[module:vejdir_services.dir]/queries/targetset</targetsetfile>
         <resultlayout>infobox</resultlayout>
     </defaults>
 

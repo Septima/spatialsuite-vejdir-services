@@ -1,505 +1,505 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spatialqueries>
-  <targetset name="vejman_services">
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_admission',layers, ' ')" displayname="VD:ADMISSION" name="VD:ADMISSION" presentation="[module:vejman_services.dir]/presentations/pres-vd_admission">
+  <targetset name="vejdir_services">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_admission',layers, ' ')" displayname="VD:ADMISSION" name="VD:ADMISSION" presentation="[module:vejdir_services.dir]/presentations/pres-vd_admission">
       <datasource name="vd_admission" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_csegeometryview',layers, ' ')" displayname="VD:CSEGEOMETRYVIEW" name="VD:CSEGEOMETRYVIEW" presentation="[module:vejman_services.dir]/presentations/pres-vd_csegeometryview">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_csegeometryview',layers, ' ')" displayname="VD:CSEGEOMETRYVIEW" name="VD:CSEGEOMETRYVIEW" presentation="[module:vejdir_services.dir]/presentations/pres-vd_csegeometryview">
       <datasource name="vd_csegeometryview" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_csegeometryview_ora',layers, ' ')" displayname="VD:CSEGEOMETRYVIEW_ORA" name="VD:CSEGEOMETRYVIEW_ORA" presentation="[module:vejman_services.dir]/presentations/pres-vd_csegeometryview_ora">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_csegeometryview_ora',layers, ' ')" displayname="VD:CSEGEOMETRYVIEW_ORA" name="VD:CSEGEOMETRYVIEW_ORA" presentation="[module:vejdir_services.dir]/presentations/pres-vd_csegeometryview_ora">
       <datasource name="vd_csegeometryview_ora" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_cvf_veje',layers, ' ')" displayname="VD:CVF_VEJE" name="VD:CVF_VEJE" presentation="[module:vejman_services.dir]/presentations/pres-vd_cvf_veje">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_cvf_veje',layers, ' ')" displayname="VD:CVF_VEJE" name="VD:CVF_VEJE" presentation="[module:vejdir_services.dir]/presentations/pres-vd_cvf_veje">
       <datasource name="vd_cvf_veje" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dgp_ggk',layers, ' ')" displayname="VD:DGP_GGK" name="VD:DGP_GGK" presentation="[module:vejman_services.dir]/presentations/pres-vd_dgp_ggk">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dgp_ggk',layers, ' ')" displayname="VD:DGP_GGK" name="VD:DGP_GGK" presentation="[module:vejdir_services.dir]/presentations/pres-vd_dgp_ggk">
       <datasource name="vd_dgp_ggk" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dgp_sysline',layers, ' ')" displayname="VD:DGP_SYSLINE" name="VD:DGP_SYSLINE" presentation="[module:vejman_services.dir]/presentations/pres-vd_dgp_sysline">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dgp_sysline',layers, ' ')" displayname="VD:DGP_SYSLINE" name="VD:DGP_SYSLINE" presentation="[module:vejdir_services.dir]/presentations/pres-vd_dgp_sysline">
       <datasource name="vd_dgp_sysline" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dkn100km_uh',layers, ' ')" displayname="VD:DKN100KM_UH" name="VD:DKN100KM_UH" presentation="[module:vejman_services.dir]/presentations/pres-vd_dkn100km_uh">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dkn100km_uh',layers, ' ')" displayname="VD:DKN100KM_UH" name="VD:DKN100KM_UH" presentation="[module:vejdir_services.dir]/presentations/pres-vd_dkn100km_uh">
       <datasource name="vd_dkn100km_uh" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dkn100m_uh',layers, ' ')" displayname="VD:DKN100M_UH" name="VD:DKN100M_UH" presentation="[module:vejman_services.dir]/presentations/pres-vd_dkn100m_uh">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dkn100m_uh',layers, ' ')" displayname="VD:DKN100M_UH" name="VD:DKN100M_UH" presentation="[module:vejdir_services.dir]/presentations/pres-vd_dkn100m_uh">
       <datasource name="vd_dkn100m_uh" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dkn10km_uh',layers, ' ')" displayname="VD:DKN10KM_UH" name="VD:DKN10KM_UH" presentation="[module:vejman_services.dir]/presentations/pres-vd_dkn10km_uh">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dkn10km_uh',layers, ' ')" displayname="VD:DKN10KM_UH" name="VD:DKN10KM_UH" presentation="[module:vejdir_services.dir]/presentations/pres-vd_dkn10km_uh">
       <datasource name="vd_dkn10km_uh" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dkn1km_uh',layers, ' ')" displayname="VD:DKN1KM_UH" name="VD:DKN1KM_UH" presentation="[module:vejman_services.dir]/presentations/pres-vd_dkn1km_uh">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dkn1km_uh',layers, ' ')" displayname="VD:DKN1KM_UH" name="VD:DKN1KM_UH" presentation="[module:vejdir_services.dir]/presentations/pres-vd_dkn1km_uh">
       <datasource name="vd_dkn1km_uh" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dkn250m_uh',layers, ' ')" displayname="VD:DKN250M_UH" name="VD:DKN250M_UH" presentation="[module:vejman_services.dir]/presentations/pres-vd_dkn250m_uh">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dkn250m_uh',layers, ' ')" displayname="VD:DKN250M_UH" name="VD:DKN250M_UH" presentation="[module:vejdir_services.dir]/presentations/pres-vd_dkn250m_uh">
       <datasource name="vd_dkn250m_uh" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dkn500m_uh',layers, ' ')" displayname="VD:DKN500M_UH" name="VD:DKN500M_UH" presentation="[module:vejman_services.dir]/presentations/pres-vd_dkn500m_uh">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_dkn500m_uh',layers, ' ')" displayname="VD:DKN500M_UH" name="VD:DKN500M_UH" presentation="[module:vejdir_services.dir]/presentations/pres-vd_dkn500m_uh">
       <datasource name="vd_dkn500m_uh" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_eqa_driftlog',layers, ' ')" displayname="VD:EQA_DRIFTLOG" name="VD:EQA_DRIFTLOG" presentation="[module:vejman_services.dir]/presentations/pres-vd_eqa_driftlog">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_eqa_driftlog',layers, ' ')" displayname="VD:EQA_DRIFTLOG" name="VD:EQA_DRIFTLOG" presentation="[module:vejdir_services.dir]/presentations/pres-vd_eqa_driftlog">
       <datasource name="vd_eqa_driftlog" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_entrepriseomraader',layers, ' ')" displayname="VD:Entrepriseomraader" name="VD:Entrepriseomraader" presentation="[module:vejman_services.dir]/presentations/pres-vd_entrepriseomraader">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_entrepriseomraader',layers, ' ')" displayname="VD:Entrepriseomraader" name="VD:Entrepriseomraader" presentation="[module:vejdir_services.dir]/presentations/pres-vd_entrepriseomraader">
       <datasource name="vd_entrepriseomraader" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_frakoersler',layers, ' ')" displayname="VD:Frakoersler" name="VD:Frakoersler" presentation="[module:vejman_services.dir]/presentations/pres-vd_frakoersler">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_frakoersler',layers, ' ')" displayname="VD:Frakoersler" name="VD:Frakoersler" presentation="[module:vejdir_services.dir]/presentations/pres-vd_frakoersler">
       <datasource name="vd_frakoersler" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_gps_track',layers, ' ')" displayname="VD:GPS_TRACK" name="VD:GPS_TRACK" presentation="[module:vejman_services.dir]/presentations/pres-vd_gps_track">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_gps_track',layers, ' ')" displayname="VD:GPS_TRACK" name="VD:GPS_TRACK" presentation="[module:vejdir_services.dir]/presentations/pres-vd_gps_track">
       <datasource name="vd_gps_track" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_gps_track_today',layers, ' ')" displayname="VD:GPS_TRACK_TODAY" name="VD:GPS_TRACK_TODAY" presentation="[module:vejman_services.dir]/presentations/pres-vd_gps_track_today">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_gps_track_today',layers, ' ')" displayname="VD:GPS_TRACK_TODAY" name="VD:GPS_TRACK_TODAY" presentation="[module:vejdir_services.dir]/presentations/pres-vd_gps_track_today">
       <datasource name="vd_gps_track_today" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_kommuner',layers, ' ')" displayname="VD:Kommuner" name="VD:Kommuner" presentation="[module:vejman_services.dir]/presentations/pres-vd_kommuner">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_kommuner',layers, ' ')" displayname="VD:Kommuner" name="VD:Kommuner" presentation="[module:vejdir_services.dir]/presentations/pres-vd_kommuner">
       <datasource name="vd_kommuner" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_loccode',layers, ' ')" displayname="VD:LOCCODE" name="VD:LOCCODE" presentation="[module:vejman_services.dir]/presentations/pres-vd_loccode">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_loccode',layers, ' ')" displayname="VD:LOCCODE" name="VD:LOCCODE" presentation="[module:vejdir_services.dir]/presentations/pres-vd_loccode">
       <datasource name="vd_loccode" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_mariusdistribution_preview',layers, ' ')" displayname="VD:MARIUSDISTRIBUTION_PREVIEW" name="VD:MARIUSDISTRIBUTION_PREVIEW" presentation="[module:vejman_services.dir]/presentations/pres-vd_mariusdistribution_preview">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_mariusdistribution_preview',layers, ' ')" displayname="VD:MARIUSDISTRIBUTION_PREVIEW" name="VD:MARIUSDISTRIBUTION_PREVIEW" presentation="[module:vejdir_services.dir]/presentations/pres-vd_mariusdistribution_preview">
       <datasource name="vd_mariusdistribution_preview" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_mastra_noegletal_geo',layers, ' ')" displayname="VD:MASTRA_NOEGLETAL_GEO" name="VD:MASTRA_NOEGLETAL_GEO" presentation="[module:vejman_services.dir]/presentations/pres-vd_mastra_noegletal_geo">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_mastra_noegletal_geo',layers, ' ')" displayname="VD:MASTRA_NOEGLETAL_GEO" name="VD:MASTRA_NOEGLETAL_GEO" presentation="[module:vejdir_services.dir]/presentations/pres-vd_mastra_noegletal_geo">
       <datasource name="vd_mastra_noegletal_geo" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_min_anl',layers, ' ')" displayname="VD:MIN_ANL" name="VD:MIN_ANL" presentation="[module:vejman_services.dir]/presentations/pres-vd_min_anl">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_min_anl',layers, ' ')" displayname="VD:MIN_ANL" name="VD:MIN_ANL" presentation="[module:vejdir_services.dir]/presentations/pres-vd_min_anl">
       <datasource name="vd_min_anl" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_provision',layers, ' ')" displayname="VD:PROVISION" name="VD:PROVISION" presentation="[module:vejman_services.dir]/presentations/pres-vd_provision">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_provision',layers, ' ')" displayname="VD:PROVISION" name="VD:PROVISION" presentation="[module:vejdir_services.dir]/presentations/pres-vd_provision">
       <datasource name="vd_provision" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_st_anl',layers, ' ')" displayname="VD:ST_ANL" name="VD:ST_ANL" presentation="[module:vejman_services.dir]/presentations/pres-vd_st_anl">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_st_anl',layers, ' ')" displayname="VD:ST_ANL" name="VD:ST_ANL" presentation="[module:vejdir_services.dir]/presentations/pres-vd_st_anl">
       <datasource name="vd_st_anl" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_stier-materialiseret',layers, ' ')" displayname="VD:Stier-materialiseret" name="VD:Stier-materialiseret" presentation="[module:vejman_services.dir]/presentations/pres-vd_stier-materialiseret">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_stier-materialiseret',layers, ' ')" displayname="VD:Stier-materialiseret" name="VD:Stier-materialiseret" presentation="[module:vejdir_services.dir]/presentations/pres-vd_stier-materialiseret">
       <datasource name="vd_stier-materialiseret" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tema_admission',layers, ' ')" displayname="VD:TEMA_ADMISSION" name="VD:TEMA_ADMISSION" presentation="[module:vejman_services.dir]/presentations/pres-vd_tema_admission">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tema_admission',layers, ' ')" displayname="VD:TEMA_ADMISSION" name="VD:TEMA_ADMISSION" presentation="[module:vejdir_services.dir]/presentations/pres-vd_tema_admission">
       <datasource name="vd_tema_admission" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tema_kryds_refsys',layers, ' ')" displayname="VD:TEMA_KRYDS_REFSYS" name="VD:TEMA_KRYDS_REFSYS" presentation="[module:vejman_services.dir]/presentations/pres-vd_tema_kryds_refsys">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tema_kryds_refsys',layers, ' ')" displayname="VD:TEMA_KRYDS_REFSYS" name="VD:TEMA_KRYDS_REFSYS" presentation="[module:vejdir_services.dir]/presentations/pres-vd_tema_kryds_refsys">
       <datasource name="vd_tema_kryds_refsys" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tema_marius_eqa',layers, ' ')" displayname="VD:TEMA_MARIUS_EQA" name="VD:TEMA_MARIUS_EQA" presentation="[module:vejman_services.dir]/presentations/pres-vd_tema_marius_eqa">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tema_marius_eqa',layers, ' ')" displayname="VD:TEMA_MARIUS_EQA" name="VD:TEMA_MARIUS_EQA" presentation="[module:vejdir_services.dir]/presentations/pres-vd_tema_marius_eqa">
       <datasource name="vd_tema_marius_eqa" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tema_marius_sa',layers, ' ')" displayname="VD:TEMA_MARIUS_SA" name="VD:TEMA_MARIUS_SA" presentation="[module:vejman_services.dir]/presentations/pres-vd_tema_marius_sa">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tema_marius_sa',layers, ' ')" displayname="VD:TEMA_MARIUS_SA" name="VD:TEMA_MARIUS_SA" presentation="[module:vejdir_services.dir]/presentations/pres-vd_tema_marius_sa">
       <datasource name="vd_tema_marius_sa" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tema_provision',layers, ' ')" displayname="VD:TEMA_PROVISION" name="VD:TEMA_PROVISION" presentation="[module:vejman_services.dir]/presentations/pres-vd_tema_provision">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tema_provision',layers, ' ')" displayname="VD:TEMA_PROVISION" name="VD:TEMA_PROVISION" presentation="[module:vejdir_services.dir]/presentations/pres-vd_tema_provision">
       <datasource name="vd_tema_provision" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tema_veje',layers, ' ')" displayname="VD:TEMA_VEJE" name="VD:TEMA_VEJE" presentation="[module:vejman_services.dir]/presentations/pres-vd_tema_veje">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tema_veje',layers, ' ')" displayname="VD:TEMA_VEJE" name="VD:TEMA_VEJE" presentation="[module:vejdir_services.dir]/presentations/pres-vd_tema_veje">
       <datasource name="vd_tema_veje" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tema_vejliste',layers, ' ')" displayname="VD:TEMA_VEJLISTE" name="VD:TEMA_VEJLISTE" presentation="[module:vejman_services.dir]/presentations/pres-vd_tema_vejliste">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tema_vejliste',layers, ' ')" displayname="VD:TEMA_VEJLISTE" name="VD:TEMA_VEJLISTE" presentation="[module:vejdir_services.dir]/presentations/pres-vd_tema_vejliste">
       <datasource name="vd_tema_vejliste" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tabttid',layers, ' ')" displayname="VD:TabtTid" name="VD:TabtTid" presentation="[module:vejman_services.dir]/presentations/pres-vd_tabttid">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tabttid',layers, ' ')" displayname="VD:TabtTid" name="VD:TabtTid" presentation="[module:vejdir_services.dir]/presentations/pres-vd_tabttid">
       <datasource name="vd_tabttid" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_veje_mellem_kryds_repl',layers, ' ')" displayname="VD:VEJE_MELLEM_KRYDS_REPL" name="VD:VEJE_MELLEM_KRYDS_REPL" presentation="[module:vejman_services.dir]/presentations/pres-vd_veje_mellem_kryds_repl">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_veje_mellem_kryds_repl',layers, ' ')" displayname="VD:VEJE_MELLEM_KRYDS_REPL" name="VD:VEJE_MELLEM_KRYDS_REPL" presentation="[module:vejdir_services.dir]/presentations/pres-vd_veje_mellem_kryds_repl">
       <datasource name="vd_veje_mellem_kryds_repl" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vejmidte',layers, ' ')" displayname="VD:VEJMIDTE" name="VD:VEJMIDTE" presentation="[module:vejman_services.dir]/presentations/pres-vd_vejmidte">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vejmidte',layers, ' ')" displayname="VD:VEJMIDTE" name="VD:VEJMIDTE" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vejmidte">
       <datasource name="vd_vejmidte" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vw_skadespoint',layers, ' ')" displayname="VD:VW_SKADESPOINT" name="VD:VW_SKADESPOINT" presentation="[module:vejman_services.dir]/presentations/pres-vd_vw_skadespoint">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vw_skadespoint',layers, ' ')" displayname="VD:VW_SKADESPOINT" name="VD:VW_SKADESPOINT" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vw_skadespoint">
       <datasource name="vd_vw_skadespoint" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_v_eqa_import',layers, ' ')" displayname="VD:V_EQA_IMPORT" name="VD:V_EQA_IMPORT" presentation="[module:vejman_services.dir]/presentations/pres-vd_v_eqa_import">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_v_eqa_import',layers, ' ')" displayname="VD:V_EQA_IMPORT" name="VD:V_EQA_IMPORT" presentation="[module:vejdir_services.dir]/presentations/pres-vd_v_eqa_import">
       <datasource name="vd_v_eqa_import" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_v_provision_rep',layers, ' ')" displayname="VD:V_PROVISION_REP" name="VD:V_PROVISION_REP" presentation="[module:vejman_services.dir]/presentations/pres-vd_v_provision_rep">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_v_provision_rep',layers, ' ')" displayname="VD:V_PROVISION_REP" name="VD:V_PROVISION_REP" presentation="[module:vejdir_services.dir]/presentations/pres-vd_v_provision_rep">
       <datasource name="vd_v_provision_rep" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_adm_marks',layers, ' ')" displayname="VD:adm_marks" name="VD:adm_marks" presentation="[module:vejman_services.dir]/presentations/pres-vd_adm_marks">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_adm_marks',layers, ' ')" displayname="VD:adm_marks" name="VD:adm_marks" presentation="[module:vejdir_services.dir]/presentations/pres-vd_adm_marks">
       <datasource name="vd_adm_marks" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_drilocator',layers, ' ')" displayname="VD:drilocator" name="VD:drilocator" presentation="[module:vejman_services.dir]/presentations/pres-vd_drilocator">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_drilocator',layers, ' ')" displayname="VD:drilocator" name="VD:drilocator" presentation="[module:vejdir_services.dir]/presentations/pres-vd_drilocator">
       <datasource name="vd_drilocator" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_drilocator_old',layers, ' ')" displayname="VD:drilocator_old" name="VD:drilocator_old" presentation="[module:vejman_services.dir]/presentations/pres-vd_drilocator_old">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_drilocator_old',layers, ' ')" displayname="VD:drilocator_old" name="VD:drilocator_old" presentation="[module:vejdir_services.dir]/presentations/pres-vd_drilocator_old">
       <datasource name="vd_drilocator_old" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_fot-1081',layers, ' ')" displayname="VD:fot-1081" name="VD:fot-1081" presentation="[module:vejman_services.dir]/presentations/pres-vd_fot-1081">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_fot-1081',layers, ' ')" displayname="VD:fot-1081" name="VD:fot-1081" presentation="[module:vejdir_services.dir]/presentations/pres-vd_fot-1081">
       <datasource name="vd_fot-1081" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_fot-1082',layers, ' ')" displayname="VD:fot-1082" name="VD:fot-1082" presentation="[module:vejman_services.dir]/presentations/pres-vd_fot-1082">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_fot-1082',layers, ' ')" displayname="VD:fot-1082" name="VD:fot-1082" presentation="[module:vejdir_services.dir]/presentations/pres-vd_fot-1082">
       <datasource name="vd_fot-1082" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_fot-1083',layers, ' ')" displayname="VD:fot-1083" name="VD:fot-1083" presentation="[module:vejman_services.dir]/presentations/pres-vd_fot-1083">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_fot-1083',layers, ' ')" displayname="VD:fot-1083" name="VD:fot-1083" presentation="[module:vejdir_services.dir]/presentations/pres-vd_fot-1083">
       <datasource name="vd_fot-1083" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_fot-1084',layers, ' ')" displayname="VD:fot-1084" name="VD:fot-1084" presentation="[module:vejman_services.dir]/presentations/pres-vd_fot-1084">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_fot-1084',layers, ' ')" displayname="VD:fot-1084" name="VD:fot-1084" presentation="[module:vejdir_services.dir]/presentations/pres-vd_fot-1084">
       <datasource name="vd_fot-1084" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_fot-1085',layers, ' ')" displayname="VD:fot-1085" name="VD:fot-1085" presentation="[module:vejman_services.dir]/presentations/pres-vd_fot-1085">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_fot-1085',layers, ' ')" displayname="VD:fot-1085" name="VD:fot-1085" presentation="[module:vejdir_services.dir]/presentations/pres-vd_fot-1085">
       <datasource name="vd_fot-1085" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_gps_vejnet',layers, ' ')" displayname="VD:gps_vejnet" name="VD:gps_vejnet" presentation="[module:vejman_services.dir]/presentations/pres-vd_gps_vejnet">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_gps_vejnet',layers, ' ')" displayname="VD:gps_vejnet" name="VD:gps_vejnet" presentation="[module:vejdir_services.dir]/presentations/pres-vd_gps_vejnet">
       <datasource name="vd_gps_vejnet" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_gps_vmt_offset',layers, ' ')" displayname="VD:gps_vmt_offset" name="VD:gps_vmt_offset" presentation="[module:vejman_services.dir]/presentations/pres-vd_gps_vmt_offset">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_gps_vmt_offset',layers, ' ')" displayname="VD:gps_vmt_offset" name="VD:gps_vmt_offset" presentation="[module:vejdir_services.dir]/presentations/pres-vd_gps_vmt_offset">
       <datasource name="vd_gps_vmt_offset" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_jernbane-kbh-ringsted',layers, ' ')" displayname="VD:jernbane-kbh-ringsted" name="VD:jernbane-kbh-ringsted" presentation="[module:vejman_services.dir]/presentations/pres-vd_jernbane-kbh-ringsted">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_jernbane-kbh-ringsted',layers, ' ')" displayname="VD:jernbane-kbh-ringsted" name="VD:jernbane-kbh-ringsted" presentation="[module:vejdir_services.dir]/presentations/pres-vd_jernbane-kbh-ringsted">
       <datasource name="vd_jernbane-kbh-ringsted" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_jordstykke',layers, ' ')" displayname="VD:jordstykke" name="VD:jordstykke" presentation="[module:vejman_services.dir]/presentations/pres-vd_jordstykke">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_jordstykke',layers, ' ')" displayname="VD:jordstykke" name="VD:jordstykke" presentation="[module:vejdir_services.dir]/presentations/pres-vd_jordstykke">
       <datasource name="vd_jordstykke" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_kommunegraenser',layers, ' ')" displayname="VD:kommunegraenser" name="VD:kommunegraenser" presentation="[module:vejman_services.dir]/presentations/pres-vd_kommunegraenser">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_kommunegraenser',layers, ' ')" displayname="VD:kommunegraenser" name="VD:kommunegraenser" presentation="[module:vejdir_services.dir]/presentations/pres-vd_kommunegraenser">
       <datasource name="vd_kommunegraenser" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_noedtlf',layers, ' ')" displayname="VD:noedtlf" name="VD:noedtlf" presentation="[module:vejman_services.dir]/presentations/pres-vd_noedtlf">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_noedtlf',layers, ' ')" displayname="VD:noedtlf" name="VD:noedtlf" presentation="[module:vejdir_services.dir]/presentations/pres-vd_noedtlf">
       <datasource name="vd_noedtlf" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_odense_admdata',layers, ' ')" displayname="VD:odense_admdata" name="VD:odense_admdata" presentation="[module:vejman_services.dir]/presentations/pres-vd_odense_admdata">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_odense_admdata',layers, ' ')" displayname="VD:odense_admdata" name="VD:odense_admdata" presentation="[module:vejdir_services.dir]/presentations/pres-vd_odense_admdata">
       <datasource name="vd_odense_admdata" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_ojtest',layers, ' ')" displayname="VD:ojtest" name="VD:ojtest" presentation="[module:vejman_services.dir]/presentations/pres-vd_ojtest">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_ojtest',layers, ' ')" displayname="VD:ojtest" name="VD:ojtest" presentation="[module:vejdir_services.dir]/presentations/pres-vd_ojtest">
       <datasource name="vd_ojtest" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_optagetvej',layers, ' ')" displayname="VD:optagetvej" name="VD:optagetvej" presentation="[module:vejman_services.dir]/presentations/pres-vd_optagetvej">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_optagetvej',layers, ' ')" displayname="VD:optagetvej" name="VD:optagetvej" presentation="[module:vejdir_services.dir]/presentations/pres-vd_optagetvej">
       <datasource name="vd_optagetvej" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_stoejkurver',layers, ' ')" displayname="VD:stoejkurver" name="VD:stoejkurver" presentation="[module:vejman_services.dir]/presentations/pres-vd_stoejkurver">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_stoejkurver',layers, ' ')" displayname="VD:stoejkurver" name="VD:stoejkurver" presentation="[module:vejdir_services.dir]/presentations/pres-vd_stoejkurver">
       <datasource name="vd_stoejkurver" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_stoejskaerme',layers, ' ')" displayname="VD:stoejskaerme" name="VD:stoejskaerme" presentation="[module:vejman_services.dir]/presentations/pres-vd_stoejskaerme">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_stoejskaerme',layers, ' ')" displayname="VD:stoejskaerme" name="VD:stoejskaerme" presentation="[module:vejdir_services.dir]/presentations/pres-vd_stoejskaerme">
       <datasource name="vd_stoejskaerme" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_stratnet',layers, ' ')" displayname="VD:stratnet" name="VD:stratnet" presentation="[module:vejman_services.dir]/presentations/pres-vd_stratnet">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_stratnet',layers, ' ')" displayname="VD:stratnet" name="VD:stratnet" presentation="[module:vejdir_services.dir]/presentations/pres-vd_stratnet">
       <datasource name="vd_stratnet" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tra_dgoods',layers, ' ')" displayname="VD:tra_dgoods" name="VD:tra_dgoods" presentation="[module:vejman_services.dir]/presentations/pres-vd_tra_dgoods">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tra_dgoods',layers, ' ')" displayname="VD:tra_dgoods" name="VD:tra_dgoods" presentation="[module:vejdir_services.dir]/presentations/pres-vd_tra_dgoods">
       <datasource name="vd_tra_dgoods" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tra_heavynetwork',layers, ' ')" displayname="VD:tra_heavynetwork" name="VD:tra_heavynetwork" presentation="[module:vejman_services.dir]/presentations/pres-vd_tra_heavynetwork">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tra_heavynetwork',layers, ' ')" displayname="VD:tra_heavynetwork" name="VD:tra_heavynetwork" presentation="[module:vejdir_services.dir]/presentations/pres-vd_tra_heavynetwork">
       <datasource name="vd_tra_heavynetwork" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tra_servicearea',layers, ' ')" displayname="VD:tra_servicearea" name="VD:tra_servicearea" presentation="[module:vejman_services.dir]/presentations/pres-vd_tra_servicearea">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_tra_servicearea',layers, ' ')" displayname="VD:tra_servicearea" name="VD:tra_servicearea" presentation="[module:vejdir_services.dir]/presentations/pres-vd_tra_servicearea">
       <datasource name="vd_tra_servicearea" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_aabningsaar',layers, ' ')" displayname="VD:vm_Aabningsaar" name="VD:vm_Aabningsaar" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_aabningsaar">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_aabningsaar',layers, ' ')" displayname="VD:vm_Aabningsaar" name="VD:vm_Aabningsaar" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_aabningsaar">
       <datasource name="vd_vm_aabningsaar" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_trafficcount',layers, ' ')" displayname="VD:vm_Trafficcount" name="VD:vm_Trafficcount" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_trafficcount">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_trafficcount',layers, ' ')" displayname="VD:vm_Trafficcount" name="VD:vm_Trafficcount" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_trafficcount">
       <datasource name="vd_vm_trafficcount" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_vejservice',layers, ' ')" displayname="VD:vm_Vejservice" name="VD:vm_Vejservice" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_vejservice">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_vejservice',layers, ' ')" displayname="VD:vm_Vejservice" name="VD:vm_Vejservice" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_vejservice">
       <datasource name="vd_vm_vejservice" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_adgang',layers, ' ')" displayname="VD:vm_adgang" name="VD:vm_adgang" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_adgang">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_adgang',layers, ' ')" displayname="VD:vm_adgang" name="VD:vm_adgang" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_adgang">
       <datasource name="vd_vm_adgang" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_adgang_pub',layers, ' ')" displayname="VD:vm_adgang_pub" name="VD:vm_adgang_pub" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_adgang_pub">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_adgang_pub',layers, ' ')" displayname="VD:vm_adgang_pub" name="VD:vm_adgang_pub" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_adgang_pub">
       <datasource name="vd_vm_adgang_pub" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_adm_trafik',layers, ' ')" displayname="VD:vm_adm_trafik" name="VD:vm_adm_trafik" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_adm_trafik">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_adm_trafik',layers, ' ')" displayname="VD:vm_adm_trafik" name="VD:vm_adm_trafik" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_adm_trafik">
       <datasource name="vd_vm_adm_trafik" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_admcpr',layers, ' ')" displayname="VD:vm_admcpr" name="VD:vm_admcpr" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_admcpr">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_admcpr',layers, ' ')" displayname="VD:vm_admcpr" name="VD:vm_admcpr" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_admcpr">
       <datasource name="vd_vm_admcpr" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_admdata',layers, ' ')" displayname="VD:vm_admdata" name="VD:vm_admdata" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_admdata">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_admdata',layers, ' ')" displayname="VD:vm_admdata" name="VD:vm_admdata" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_admdata">
       <datasource name="vd_vm_admdata" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_aroute',layers, ' ')" displayname="VD:vm_aroute" name="VD:vm_aroute" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_aroute">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_aroute',layers, ' ')" displayname="VD:vm_aroute" name="VD:vm_aroute" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_aroute">
       <datasource name="vd_vm_aroute" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_autovaern',layers, ' ')" displayname="VD:vm_autovaern" name="VD:vm_autovaern" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_autovaern">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_autovaern',layers, ' ')" displayname="VD:vm_autovaern" name="VD:vm_autovaern" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_autovaern">
       <datasource name="vd_vm_autovaern" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_bbr',layers, ' ')" displayname="VD:vm_bbr" name="VD:vm_bbr" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_bbr">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_bbr',layers, ' ')" displayname="VD:vm_bbr" name="VD:vm_bbr" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_bbr">
       <datasource name="vd_vm_bbr" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_begraensninger',layers, ' ')" displayname="VD:vm_begraensninger" name="VD:vm_begraensninger" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_begraensninger">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_begraensninger',layers, ' ')" displayname="VD:vm_begraensninger" name="VD:vm_begraensninger" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_begraensninger">
       <datasource name="vd_vm_begraensninger" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_blackspot',layers, ' ')" displayname="VD:vm_blackspot" name="VD:vm_blackspot" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_blackspot">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_blackspot',layers, ' ')" displayname="VD:vm_blackspot" name="VD:vm_blackspot" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_blackspot">
       <datasource name="vd_vm_blackspot" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_bredde_belaeg',layers, ' ')" displayname="VD:vm_bredde_belaeg" name="VD:vm_bredde_belaeg" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_bredde_belaeg">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_bredde_belaeg',layers, ' ')" displayname="VD:vm_bredde_belaeg" name="VD:vm_bredde_belaeg" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_bredde_belaeg">
       <datasource name="vd_vm_bredde_belaeg" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_bronde_plac',layers, ' ')" displayname="VD:vm_bronde_plac" name="VD:vm_bronde_plac" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_bronde_plac">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_bronde_plac',layers, ' ')" displayname="VD:vm_bronde_plac" name="VD:vm_bronde_plac" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_bronde_plac">
       <datasource name="vd_vm_bronde_plac" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_busfortov_vside',layers, ' ')" displayname="VD:vm_busfortov_vside" name="VD:vm_busfortov_vside" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_busfortov_vside">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_busfortov_vside',layers, ' ')" displayname="VD:vm_busfortov_vside" name="VD:vm_busfortov_vside" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_busfortov_vside">
       <datasource name="vd_vm_busfortov_vside" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_busfortov_vside_15',layers, ' ')" displayname="VD:vm_busfortov_vside_15" name="VD:vm_busfortov_vside_15" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_busfortov_vside_15">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_busfortov_vside_15',layers, ' ')" displayname="VD:vm_busfortov_vside_15" name="VD:vm_busfortov_vside_15" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_busfortov_vside_15">
       <datasource name="vd_vm_busfortov_vside_15" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_bygvaerk',layers, ' ')" displayname="VD:vm_bygvaerk" name="VD:vm_bygvaerk" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_bygvaerk">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_bygvaerk',layers, ' ')" displayname="VD:vm_bygvaerk" name="VD:vm_bygvaerk" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_bygvaerk">
       <datasource name="vd_vm_bygvaerk" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_cpr_vejnavn',layers, ' ')" displayname="VD:vm_cpr_vejnavn" name="VD:vm_cpr_vejnavn" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_cpr_vejnavn">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_cpr_vejnavn',layers, ' ')" displayname="VD:vm_cpr_vejnavn" name="VD:vm_cpr_vejnavn" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_cpr_vejnavn">
       <datasource name="vd_vm_cpr_vejnavn" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_cycleway',layers, ' ')" displayname="VD:vm_cycleway" name="VD:vm_cycleway" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_cycleway">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_cycleway',layers, ' ')" displayname="VD:vm_cycleway" name="VD:vm_cycleway" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_cycleway">
       <datasource name="vd_vm_cycleway" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_cykelsti_vside',layers, ' ')" displayname="VD:vm_cykelsti_vside" name="VD:vm_cykelsti_vside" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_cykelsti_vside">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_cykelsti_vside',layers, ' ')" displayname="VD:vm_cykelsti_vside" name="VD:vm_cykelsti_vside" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_cykelsti_vside">
       <datasource name="vd_vm_cykelsti_vside" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_cykelsti_vside_15',layers, ' ')" displayname="VD:vm_cykelsti_vside_15" name="VD:vm_cykelsti_vside_15" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_cykelsti_vside_15">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_cykelsti_vside_15',layers, ' ')" displayname="VD:vm_cykelsti_vside_15" name="VD:vm_cykelsti_vside_15" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_cykelsti_vside_15">
       <datasource name="vd_vm_cykelsti_vside_15" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_dir_route',layers, ' ')" displayname="VD:vm_dir_route" name="VD:vm_dir_route" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_dir_route">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_dir_route',layers, ' ')" displayname="VD:vm_dir_route" name="VD:vm_dir_route" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_dir_route">
       <datasource name="vd_vm_dir_route" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_drizone',layers, ' ')" displayname="VD:vm_drizone" name="VD:vm_drizone" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_drizone">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_drizone',layers, ' ')" displayname="VD:vm_drizone" name="VD:vm_drizone" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_drizone">
       <datasource name="vd_vm_drizone" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_droute_cached',layers, ' ')" displayname="VD:vm_droute_cached" name="VD:vm_droute_cached" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_droute_cached">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_droute_cached',layers, ' ')" displayname="VD:vm_droute_cached" name="VD:vm_droute_cached" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_droute_cached">
       <datasource name="vd_vm_droute_cached" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_equiparea_l_geo',layers, ' ')" displayname="VD:vm_equiparea_l_geo" name="VD:vm_equiparea_l_geo" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_equiparea_l_geo">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_equiparea_l_geo',layers, ' ')" displayname="VD:vm_equiparea_l_geo" name="VD:vm_equiparea_l_geo" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_equiparea_l_geo">
       <datasource name="vd_vm_equiparea_l_geo" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_flowmap',layers, ' ')" displayname="VD:vm_flowmap" name="VD:vm_flowmap" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_flowmap">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_flowmap',layers, ' ')" displayname="VD:vm_flowmap" name="VD:vm_flowmap" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_flowmap">
       <datasource name="vd_vm_flowmap" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_fortov_vside',layers, ' ')" displayname="VD:vm_fortov_vside" name="VD:vm_fortov_vside" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_fortov_vside">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_fortov_vside',layers, ' ')" displayname="VD:vm_fortov_vside" name="VD:vm_fortov_vside" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_fortov_vside">
       <datasource name="vd_vm_fortov_vside" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_fortov_vside_15',layers, ' ')" displayname="VD:vm_fortov_vside_15" name="VD:vm_fortov_vside_15" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_fortov_vside_15">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_fortov_vside_15',layers, ' ')" displayname="VD:vm_fortov_vside_15" name="VD:vm_fortov_vside_15" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_fortov_vside_15">
       <datasource name="vd_vm_fortov_vside_15" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_fortovcykelsti_vs',layers, ' ')" displayname="VD:vm_fortovcykelsti_vs" name="VD:vm_fortovcykelsti_vs" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_fortovcykelsti_vs">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_fortovcykelsti_vs',layers, ' ')" displayname="VD:vm_fortovcykelsti_vs" name="VD:vm_fortovcykelsti_vs" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_fortovcykelsti_vs">
       <datasource name="vd_vm_fortovcykelsti_vs" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_gravetill',layers, ' ')" displayname="VD:vm_gravetill" name="VD:vm_gravetill" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_gravetill">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_gravetill',layers, ' ')" displayname="VD:vm_gravetill" name="VD:vm_gravetill" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_gravetill">
       <datasource name="vd_vm_gravetill" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_gravetill_geom_lag',layers, ' ')" displayname="VD:vm_gravetill_geom_lag" name="VD:vm_gravetill_geom_lag" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_gravetill_geom_lag">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_gravetill_geom_lag',layers, ' ')" displayname="VD:vm_gravetill_geom_lag" name="VD:vm_gravetill_geom_lag" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_gravetill_geom_lag">
       <datasource name="vd_vm_gravetill_geom_lag" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_gvs',layers, ' ')" displayname="VD:vm_gvs" name="VD:vm_gvs" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_gvs">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_gvs',layers, ' ')" displayname="VD:vm_gvs" name="VD:vm_gvs" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_gvs">
       <datasource name="vd_vm_gvs" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_helkmmarks',layers, ' ')" displayname="VD:vm_helkmmarks" name="VD:vm_helkmmarks" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_helkmmarks">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_helkmmarks',layers, ' ')" displayname="VD:vm_helkmmarks" name="VD:vm_helkmmarks" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_helkmmarks">
       <datasource name="vd_vm_helkmmarks" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_hsd',layers, ' ')" displayname="VD:vm_hsd" name="VD:vm_hsd" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_hsd">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_hsd',layers, ' ')" displayname="VD:vm_hsd" name="VD:vm_hsd" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_hsd">
       <datasource name="vd_vm_hsd" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_klassificering',layers, ' ')" displayname="VD:vm_klassificering" name="VD:vm_klassificering" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_klassificering">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_klassificering',layers, ' ')" displayname="VD:vm_klassificering" name="VD:vm_klassificering" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_klassificering">
       <datasource name="vd_vm_klassificering" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_koerebanebredde',layers, ' ')" displayname="VD:vm_koerebanebredde" name="VD:vm_koerebanebredde" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_koerebanebredde">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_koerebanebredde',layers, ' ')" displayname="VD:vm_koerebanebredde" name="VD:vm_koerebanebredde" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_koerebanebredde">
       <datasource name="vd_vm_koerebanebredde" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_komfort',layers, ' ')" displayname="VD:vm_komfort" name="VD:vm_komfort" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_komfort">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_komfort',layers, ' ')" displayname="VD:vm_komfort" name="VD:vm_komfort" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_komfort">
       <datasource name="vd_vm_komfort" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_lgd',layers, ' ')" displayname="VD:vm_lgd" name="VD:vm_lgd" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_lgd">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_lgd',layers, ' ')" displayname="VD:vm_lgd" name="VD:vm_lgd" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_lgd">
       <datasource name="vd_vm_lgd" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_mapinet',layers, ' ')" displayname="VD:vm_mapinet" name="VD:vm_mapinet" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_mapinet">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_mapinet',layers, ' ')" displayname="VD:vm_mapinet" name="VD:vm_mapinet" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_mapinet">
       <datasource name="vd_vm_mapinet" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_modul_objects',layers, ' ')" displayname="VD:vm_modul_objects" name="VD:vm_modul_objects" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_modul_objects">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_modul_objects',layers, ' ')" displayname="VD:vm_modul_objects" name="VD:vm_modul_objects" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_modul_objects">
       <datasource name="vd_vm_modul_objects" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_nabo_trafik',layers, ' ')" displayname="VD:vm_nabo_trafik" name="VD:vm_nabo_trafik" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_nabo_trafik">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_nabo_trafik',layers, ' ')" displayname="VD:vm_nabo_trafik" name="VD:vm_nabo_trafik" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_nabo_trafik">
       <datasource name="vd_vm_nabo_trafik" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_noedtelefon',layers, ' ')" displayname="VD:vm_noedtelefon" name="VD:vm_noedtelefon" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_noedtelefon">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_noedtelefon',layers, ' ')" displayname="VD:vm_noedtelefon" name="VD:vm_noedtelefon" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_noedtelefon">
       <datasource name="vd_vm_noedtelefon" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_noisedistance',layers, ' ')" displayname="VD:vm_noisedistance" name="VD:vm_noisedistance" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_noisedistance">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_noisedistance',layers, ' ')" displayname="VD:vm_noisedistance" name="VD:vm_noisedistance" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_noisedistance">
       <datasource name="vd_vm_noisedistance" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_passability',layers, ' ')" displayname="VD:vm_passability" name="VD:vm_passability" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_passability">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_passability',layers, ' ')" displayname="VD:vm_passability" name="VD:vm_passability" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_passability">
       <datasource name="vd_vm_passability" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_pathproj',layers, ' ')" displayname="VD:vm_pathproj" name="VD:vm_pathproj" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_pathproj">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_pathproj',layers, ' ')" displayname="VD:vm_pathproj" name="VD:vm_pathproj" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_pathproj">
       <datasource name="vd_vm_pathproj" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_permissions_completion',layers, ' ')" displayname="VD:vm_permissions_completion" name="VD:vm_permissions_completion" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_permissions_completion">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_permissions_completion',layers, ' ')" displayname="VD:vm_permissions_completion" name="VD:vm_permissions_completion" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_permissions_completion">
       <datasource name="vd_vm_permissions_completion" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_permissions_gt_dig_character',layers, ' ')" displayname="VD:vm_permissions_gt_dig_character" name="VD:vm_permissions_gt_dig_character" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_permissions_gt_dig_character">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_permissions_gt_dig_character',layers, ' ')" displayname="VD:vm_permissions_gt_dig_character" name="VD:vm_permissions_gt_dig_character" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_permissions_gt_dig_character">
       <datasource name="vd_vm_permissions_gt_dig_character" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_permissions_gt_warranty',layers, ' ')" displayname="VD:vm_permissions_gt_warranty" name="VD:vm_permissions_gt_warranty" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_permissions_gt_warranty">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_permissions_gt_warranty',layers, ' ')" displayname="VD:vm_permissions_gt_warranty" name="VD:vm_permissions_gt_warranty" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_permissions_gt_warranty">
       <datasource name="vd_vm_permissions_gt_warranty" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_permissions_missing_completion',layers, ' ')" displayname="VD:vm_permissions_missing_completion" name="VD:vm_permissions_missing_completion" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_permissions_missing_completion">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_permissions_missing_completion',layers, ' ')" displayname="VD:vm_permissions_missing_completion" name="VD:vm_permissions_missing_completion" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_permissions_missing_completion">
       <datasource name="vd_vm_permissions_missing_completion" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_permissions_rov_tech_category',layers, ' ')" displayname="VD:vm_permissions_rov_tech_category" name="VD:vm_permissions_rov_tech_category" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_permissions_rov_tech_category">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_permissions_rov_tech_category',layers, ' ')" displayname="VD:vm_permissions_rov_tech_category" name="VD:vm_permissions_rov_tech_category" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_permissions_rov_tech_category">
       <datasource name="vd_vm_permissions_rov_tech_category" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_prov_adg',layers, ' ')" displayname="VD:vm_prov_adg" name="VD:vm_prov_adg" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_prov_adg">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_prov_adg',layers, ' ')" displayname="VD:vm_prov_adg" name="VD:vm_prov_adg" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_prov_adg">
       <datasource name="vd_vm_prov_adg" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_prov_adg_pub',layers, ' ')" displayname="VD:vm_prov_adg_pub" name="VD:vm_prov_adg_pub" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_prov_adg_pub">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_prov_adg_pub',layers, ' ')" displayname="VD:vm_prov_adg_pub" name="VD:vm_prov_adg_pub" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_prov_adg_pub">
       <datasource name="vd_vm_prov_adg_pub" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_prov_bui',layers, ' ')" displayname="VD:vm_prov_bui" name="VD:vm_prov_bui" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_prov_bui">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_prov_bui',layers, ' ')" displayname="VD:vm_prov_bui" name="VD:vm_prov_bui" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_prov_bui">
       <datasource name="vd_vm_prov_bui" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_prov_bui_pub',layers, ' ')" displayname="VD:vm_prov_bui_pub" name="VD:vm_prov_bui_pub" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_prov_bui_pub">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_prov_bui_pub',layers, ' ')" displayname="VD:vm_prov_bui_pub" name="VD:vm_prov_bui_pub" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_prov_bui_pub">
       <datasource name="vd_vm_prov_bui_pub" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_prov_bui_pub1',layers, ' ')" displayname="VD:vm_prov_bui_pub1" name="VD:vm_prov_bui_pub1" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_prov_bui_pub1">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_prov_bui_pub1',layers, ' ')" displayname="VD:vm_prov_bui_pub1" name="VD:vm_prov_bui_pub1" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_prov_bui_pub1">
       <datasource name="vd_vm_prov_bui_pub1" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_prov_ovr',layers, ' ')" displayname="VD:vm_prov_ovr" name="VD:vm_prov_ovr" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_prov_ovr">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_prov_ovr',layers, ' ')" displayname="VD:vm_prov_ovr" name="VD:vm_prov_ovr" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_prov_ovr">
       <datasource name="vd_vm_prov_ovr" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_prov_ovs',layers, ' ')" displayname="VD:vm_prov_ovs" name="VD:vm_prov_ovs" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_prov_ovs">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_prov_ovs',layers, ' ')" displayname="VD:vm_prov_ovs" name="VD:vm_prov_ovs" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_prov_ovs">
       <datasource name="vd_vm_prov_ovs" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_raadighed',layers, ' ')" displayname="VD:vm_raadighed" name="VD:vm_raadighed" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_raadighed">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_raadighed',layers, ' ')" displayname="VD:vm_raadighed" name="VD:vm_raadighed" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_raadighed">
       <datasource name="vd_vm_raadighed" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_route',layers, ' ')" displayname="VD:vm_route" name="VD:vm_route" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_route">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_route',layers, ' ')" displayname="VD:vm_route" name="VD:vm_route" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_route">
       <datasource name="vd_vm_route" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_servicearea_l_geo',layers, ' ')" displayname="VD:vm_servicearea_l_geo" name="VD:vm_servicearea_l_geo" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_servicearea_l_geo">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_servicearea_l_geo',layers, ' ')" displayname="VD:vm_servicearea_l_geo" name="VD:vm_servicearea_l_geo" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_servicearea_l_geo">
       <datasource name="vd_vm_servicearea_l_geo" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_skadespoint',layers, ' ')" displayname="VD:vm_skadespoint" name="VD:vm_skadespoint" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_skadespoint">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_skadespoint',layers, ' ')" displayname="VD:vm_skadespoint" name="VD:vm_skadespoint" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_skadespoint">
       <datasource name="vd_vm_skadespoint" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_skilte',layers, ' ')" displayname="VD:vm_skilte" name="VD:vm_skilte" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_skilte">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_skilte',layers, ' ')" displayname="VD:vm_skilte" name="VD:vm_skilte" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_skilte">
       <datasource name="vd_vm_skilte" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_slidlag',layers, ' ')" displayname="VD:vm_slidlag" name="VD:vm_slidlag" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_slidlag">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_slidlag',layers, ' ')" displayname="VD:vm_slidlag" name="VD:vm_slidlag" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_slidlag">
       <datasource name="vd_vm_slidlag" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_slidlag_1',layers, ' ')" displayname="VD:vm_slidlag_1" name="VD:vm_slidlag_1" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_slidlag_1">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_slidlag_1',layers, ' ')" displayname="VD:vm_slidlag_1" name="VD:vm_slidlag_1" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_slidlag_1">
       <datasource name="vd_vm_slidlag_1" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_sti_vside',layers, ' ')" displayname="VD:vm_sti_vside" name="VD:vm_sti_vside" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_sti_vside">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_sti_vside',layers, ' ')" displayname="VD:vm_sti_vside" name="VD:vm_sti_vside" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_sti_vside">
       <datasource name="vd_vm_sti_vside" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_sti_vside_15',layers, ' ')" displayname="VD:vm_sti_vside_15" name="VD:vm_sti_vside_15" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_sti_vside_15">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_sti_vside_15',layers, ' ')" displayname="VD:vm_sti_vside_15" name="VD:vm_sti_vside_15" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_sti_vside_15">
       <datasource name="vd_vm_sti_vside_15" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_stratnet',layers, ' ')" displayname="VD:vm_stratnet" name="VD:vm_stratnet" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_stratnet">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_stratnet',layers, ' ')" displayname="VD:vm_stratnet" name="VD:vm_stratnet" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_stratnet">
       <datasource name="vd_vm_stratnet" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_ternveje',layers, ' ')" displayname="VD:vm_ternveje" name="VD:vm_ternveje" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_ternveje">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_ternveje',layers, ' ')" displayname="VD:vm_ternveje" name="VD:vm_ternveje" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_ternveje">
       <datasource name="vd_vm_ternveje" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_tic_sagsoversigt',layers, ' ')" displayname="VD:vm_tic_sagsoversigt" name="VD:vm_tic_sagsoversigt" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_tic_sagsoversigt">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_tic_sagsoversigt',layers, ' ')" displayname="VD:vm_tic_sagsoversigt" name="VD:vm_tic_sagsoversigt" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_tic_sagsoversigt">
       <datasource name="vd_vm_tic_sagsoversigt" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_tilladelser',layers, ' ')" displayname="VD:vm_tilladelser" name="VD:vm_tilladelser" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_tilladelser">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_tilladelser',layers, ' ')" displayname="VD:vm_tilladelser" name="VD:vm_tilladelser" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_tilladelser">
       <datasource name="vd_vm_tilladelser" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_tpe',layers, ' ')" displayname="VD:vm_tpe" name="VD:vm_tpe" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_tpe">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_tpe',layers, ' ')" displayname="VD:vm_tpe" name="VD:vm_tpe" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_tpe">
       <datasource name="vd_vm_tpe" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_tpe_vstype',layers, ' ')" displayname="VD:vm_tpe_vstype" name="VD:vm_tpe_vstype" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_tpe_vstype">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_tpe_vstype',layers, ' ')" displayname="VD:vm_tpe_vstype" name="VD:vm_tpe_vstype" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_tpe_vstype">
       <datasource name="vd_vm_tpe_vstype" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_udbudt_strk',layers, ' ')" displayname="VD:vm_udbudt_strk" name="VD:vm_udbudt_strk" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_udbudt_strk">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_udbudt_strk',layers, ' ')" displayname="VD:vm_udbudt_strk" name="VD:vm_udbudt_strk" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_udbudt_strk">
       <datasource name="vd_vm_udbudt_strk" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_veje_m_kryds_vside',layers, ' ')" displayname="VD:vm_veje_m_kryds_vside" name="VD:vm_veje_m_kryds_vside" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_veje_m_kryds_vside">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_veje_m_kryds_vside',layers, ' ')" displayname="VD:vm_veje_m_kryds_vside" name="VD:vm_veje_m_kryds_vside" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_veje_m_kryds_vside">
       <datasource name="vd_vm_veje_m_kryds_vside" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_veje_m_kryds_vside_10',layers, ' ')" displayname="VD:vm_veje_m_kryds_vside_10" name="VD:vm_veje_m_kryds_vside_10" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_veje_m_kryds_vside_10">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_veje_m_kryds_vside_10',layers, ' ')" displayname="VD:vm_veje_m_kryds_vside_10" name="VD:vm_veje_m_kryds_vside_10" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_veje_m_kryds_vside_10">
       <datasource name="vd_vm_veje_m_kryds_vside_10" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_veje_mellem_kryds',layers, ' ')" displayname="VD:vm_veje_mellem_kryds" name="VD:vm_veje_mellem_kryds" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_veje_mellem_kryds">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_veje_mellem_kryds',layers, ' ')" displayname="VD:vm_veje_mellem_kryds" name="VD:vm_veje_mellem_kryds" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_veje_mellem_kryds">
       <datasource name="vd_vm_veje_mellem_kryds" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_veje_vside',layers, ' ')" displayname="VD:vm_veje_vside" name="VD:vm_veje_vside" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_veje_vside">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_veje_vside',layers, ' ')" displayname="VD:vm_veje_vside" name="VD:vm_veje_vside" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_veje_vside">
       <datasource name="vd_vm_veje_vside" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_veje_vside_10',layers, ' ')" displayname="VD:vm_veje_vside_10" name="VD:vm_veje_vside_10" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_veje_vside_10">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_veje_vside_10',layers, ' ')" displayname="VD:vm_veje_vside_10" name="VD:vm_veje_vside_10" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_veje_vside_10">
       <datasource name="vd_vm_veje_vside_10" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_vejlgd_vejid',layers, ' ')" displayname="VD:vm_vejlgd_vejid" name="VD:vm_vejlgd_vejid" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_vejlgd_vejid">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_vejlgd_vejid',layers, ' ')" displayname="VD:vm_vejlgd_vejid" name="VD:vm_vejlgd_vejid" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_vejlgd_vejid">
       <datasource name="vd_vm_vejlgd_vejid" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_vejstatus',layers, ' ')" displayname="VD:vm_vejstatus" name="VD:vm_vejstatus" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_vejstatus">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_vejstatus',layers, ' ')" displayname="VD:vm_vejstatus" name="VD:vm_vejstatus" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_vejstatus">
       <datasource name="vd_vm_vejstatus" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_vintervedligehold',layers, ' ')" displayname="VD:vm_vintervedligehold" name="VD:vm_vintervedligehold" presentation="[module:vejman_services.dir]/presentations/pres-vd_vm_vintervedligehold">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vm_vintervedligehold',layers, ' ')" displayname="VD:vm_vintervedligehold" name="VD:vm_vintervedligehold" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vm_vintervedligehold">
       <datasource name="vd_vm_vintervedligehold" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_admdata',layers, ' ')" displayname="VD:vma_admdata" name="VD:vma_admdata" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_admdata">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_admdata',layers, ' ')" displayname="VD:vma_admdata" name="VD:vma_admdata" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_admdata">
       <datasource name="vd_vma_admdata" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_admvejdelstype',layers, ' ')" displayname="VD:vma_admvejdelstype" name="VD:vma_admvejdelstype" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_admvejdelstype">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_admvejdelstype',layers, ' ')" displayname="VD:vma_admvejdelstype" name="VD:vma_admvejdelstype" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_admvejdelstype">
       <datasource name="vd_vma_admvejdelstype" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_dgoods',layers, ' ')" displayname="VD:vma_dgoods" name="VD:vma_dgoods" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_dgoods">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_dgoods',layers, ' ')" displayname="VD:vma_dgoods" name="VD:vma_dgoods" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_dgoods">
       <datasource name="vd_vma_dgoods" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_ensretning',layers, ' ')" displayname="VD:vma_ensretning" name="VD:vma_ensretning" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_ensretning">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_ensretning',layers, ' ')" displayname="VD:vma_ensretning" name="VD:vma_ensretning" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_ensretning">
       <datasource name="vd_vma_ensretning" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_fremkomgis',layers, ' ')" displayname="VD:vma_fremkomgis" name="VD:vma_fremkomgis" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_fremkomgis">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_fremkomgis',layers, ' ')" displayname="VD:vma_fremkomgis" name="VD:vma_fremkomgis" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_fremkomgis">
       <datasource name="vd_vma_fremkomgis" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_friktion',layers, ' ')" displayname="VD:vma_friktion" name="VD:vma_friktion" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_friktion">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_friktion',layers, ' ')" displayname="VD:vma_friktion" name="VD:vma_friktion" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_friktion">
       <datasource name="vd_vma_friktion" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_hastgraenser',layers, ' ')" displayname="VD:vma_hastgraenser" name="VD:vma_hastgraenser" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_hastgraenser">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_hastgraenser',layers, ' ')" displayname="VD:vma_hastgraenser" name="VD:vma_hastgraenser" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_hastgraenser">
       <datasource name="vd_vma_hastgraenser" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_heavynetwork',layers, ' ')" displayname="VD:vma_heavynetwork" name="VD:vma_heavynetwork" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_heavynetwork">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_heavynetwork',layers, ' ')" displayname="VD:vma_heavynetwork" name="VD:vma_heavynetwork" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_heavynetwork">
       <datasource name="vd_vma_heavynetwork" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_jaevnhed',layers, ' ')" displayname="VD:vma_jaevnhed" name="VD:vma_jaevnhed" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_jaevnhed">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_jaevnhed',layers, ' ')" displayname="VD:vma_jaevnhed" name="VD:vma_jaevnhed" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_jaevnhed">
       <datasource name="vd_vma_jaevnhed" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_justeringsareal',layers, ' ')" displayname="VD:vma_justeringsareal" name="VD:vma_justeringsareal" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_justeringsareal">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_justeringsareal',layers, ' ')" displayname="VD:vma_justeringsareal" name="VD:vma_justeringsareal" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_justeringsareal">
       <datasource name="vd_vma_justeringsareal" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_modulvogntog',layers, ' ')" displayname="VD:vma_modulvogntog" name="VD:vma_modulvogntog" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_modulvogntog">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_modulvogntog',layers, ' ')" displayname="VD:vma_modulvogntog" name="VD:vma_modulvogntog" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_modulvogntog">
       <datasource name="vd_vma_modulvogntog" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_notesbog_punkt',layers, ' ')" displayname="VD:vma_notesbog_punkt" name="VD:vma_notesbog_punkt" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_notesbog_punkt">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_notesbog_punkt',layers, ' ')" displayname="VD:vma_notesbog_punkt" name="VD:vma_notesbog_punkt" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_notesbog_punkt">
       <datasource name="vd_vma_notesbog_punkt" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_notesbog_str',layers, ' ')" displayname="VD:vma_notesbog_str" name="VD:vma_notesbog_str" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_notesbog_str">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_notesbog_str',layers, ' ')" displayname="VD:vma_notesbog_str" name="VD:vma_notesbog_str" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_notesbog_str">
       <datasource name="vd_vma_notesbog_str" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_restriktion',layers, ' ')" displayname="VD:vma_restriktion" name="VD:vma_restriktion" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_restriktion">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_restriktion',layers, ' ')" displayname="VD:vma_restriktion" name="VD:vma_restriktion" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_restriktion">
       <datasource name="vd_vma_restriktion" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_sporkoering',layers, ' ')" displayname="VD:vma_sporkoering" name="VD:vma_sporkoering" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_sporkoering">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_sporkoering',layers, ' ')" displayname="VD:vma_sporkoering" name="VD:vma_sporkoering" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_sporkoering">
       <datasource name="vd_vma_sporkoering" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_tekstur',layers, ' ')" displayname="VD:vma_tekstur" name="VD:vma_tekstur" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_tekstur">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_tekstur',layers, ' ')" displayname="VD:vma_tekstur" name="VD:vma_tekstur" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_tekstur">
       <datasource name="vd_vma_tekstur" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_traffic',layers, ' ')" displayname="VD:vma_traffic" name="VD:vma_traffic" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_traffic">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_traffic',layers, ' ')" displayname="VD:vma_traffic" name="VD:vma_traffic" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_traffic">
       <datasource name="vd_vma_traffic" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_vejarbejder',layers, ' ')" displayname="VD:vma_vejarbejder" name="VD:vma_vejarbejder" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_vejarbejder">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_vejarbejder',layers, ' ')" displayname="VD:vma_vejarbejder" name="VD:vma_vejarbejder" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_vejarbejder">
       <datasource name="vd_vma_vejarbejder" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_vejnettype',layers, ' ')" displayname="VD:vma_vejnettype" name="VD:vma_vejnettype" presentation="[module:vejman_services.dir]/presentations/pres-vd_vma_vejnettype">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vma_vejnettype',layers, ' ')" displayname="VD:vma_vejnettype" name="VD:vma_vejnettype" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vma_vejnettype">
       <datasource name="vd_vma_vejnettype" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vmc_vejforlob',layers, ' ')" displayname="VD:vmc_vejforlob" name="VD:vmc_vejforlob" presentation="[module:vejman_services.dir]/presentations/pres-vd_vmc_vejforlob">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vmc_vejforlob',layers, ' ')" displayname="VD:vmc_vejforlob" name="VD:vmc_vejforlob" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vmc_vejforlob">
       <datasource name="vd_vmc_vejforlob" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vmt_hastgraenser',layers, ' ')" displayname="VD:vmt_hastgraenser" name="VD:vmt_hastgraenser" presentation="[module:vejman_services.dir]/presentations/pres-vd_vmt_hastgraenser">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vmt_hastgraenser',layers, ' ')" displayname="VD:vmt_hastgraenser" name="VD:vmt_hastgraenser" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vmt_hastgraenser">
       <datasource name="vd_vmt_hastgraenser" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vmt_klassificering',layers, ' ')" displayname="VD:vmt_klassificering" name="VD:vmt_klassificering" presentation="[module:vejman_services.dir]/presentations/pres-vd_vmt_klassificering">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vmt_klassificering',layers, ' ')" displayname="VD:vmt_klassificering" name="VD:vmt_klassificering" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vmt_klassificering">
       <datasource name="vd_vmt_klassificering" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vmt_veje',layers, ' ')" displayname="VD:vmt_veje" name="VD:vmt_veje" presentation="[module:vejman_services.dir]/presentations/pres-vd_vmt_veje">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vmt_veje',layers, ' ')" displayname="VD:vmt_veje" name="VD:vmt_veje" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vmt_veje">
       <datasource name="vd_vmt_veje" />
     </target>
-    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vmt_vejliste',layers, ' ')" displayname="VD:vmt_vejliste" name="VD:vmt_vejliste" presentation="[module:vejman_services.dir]/presentations/pres-vd_vmt_vejliste">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-vd_vmt_vejliste',layers, ' ')" displayname="VD:vmt_vejliste" name="VD:vmt_vejliste" presentation="[module:vejdir_services.dir]/presentations/pres-vd_vmt_vejliste">
       <datasource name="vd_vmt_vejliste" />
     </target>
   </targetset>

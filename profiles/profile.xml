@@ -4,7 +4,7 @@
     <themegroup displayname="vejman" expanded="false" name="vejman" type="checkbutton" />
   </themegroups>
   <themes>
-    <theme module="vejman_services" name="theme-vd_admission">
+    <theme module="vejdir_services" name="theme-vd_admission">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:ADMISSION</displayname>
@@ -12,7 +12,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_csegeometryview">
+    <theme module="vejdir_services" name="theme-vd_csegeometryview">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:CSEGEOMETRYVIEW</displayname>
@@ -20,7 +20,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_csegeometryview_ora">
+    <theme module="vejdir_services" name="theme-vd_csegeometryview_ora">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:CSEGEOMETRYVIEW_ORA</displayname>
@@ -28,7 +28,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_cvf_veje">
+    <theme module="vejdir_services" name="theme-vd_cvf_veje">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:CVF_VEJE</displayname>
@@ -36,7 +36,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_dgp_ggk">
+    <theme module="vejdir_services" name="theme-vd_dgp_ggk">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:DGP_GGK</displayname>
@@ -44,7 +44,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_dgp_sysline">
+    <theme module="vejdir_services" name="theme-vd_dgp_sysline">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:DGP_SYSLINE</displayname>
@@ -52,7 +52,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_dkn100km_uh">
+    <theme module="vejdir_services" name="theme-vd_dkn100km_uh">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:DKN100KM_UH</displayname>
@@ -60,7 +60,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_dkn100m_uh">
+    <theme module="vejdir_services" name="theme-vd_dkn100m_uh">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:DKN100M_UH</displayname>
@@ -68,7 +68,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_dkn10km_uh">
+    <theme module="vejdir_services" name="theme-vd_dkn10km_uh">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:DKN10KM_UH</displayname>
@@ -76,7 +76,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_dkn1km_uh">
+    <theme module="vejdir_services" name="theme-vd_dkn1km_uh">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:DKN1KM_UH</displayname>
@@ -84,7 +84,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_dkn250m_uh">
+    <theme module="vejdir_services" name="theme-vd_dkn250m_uh">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:DKN250M_UH</displayname>
@@ -92,7 +92,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_dkn500m_uh">
+    <theme module="vejdir_services" name="theme-vd_dkn500m_uh">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:DKN500M_UH</displayname>
@@ -100,7 +100,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_eqa_driftlog">
+    <theme module="vejdir_services" name="theme-vd_eqa_driftlog">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:EQA_DRIFTLOG</displayname>
@@ -108,7 +108,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_entrepriseomraader">
+    <theme module="vejdir_services" name="theme-vd_entrepriseomraader">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:ENTREPRISEOMRAADER</displayname>
@@ -116,7 +116,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_frakoersler">
+    <theme module="vejdir_services" name="theme-vd_frakoersler">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:FRAKOERSLER</displayname>
@@ -124,7 +124,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_gps_track">
+    <theme module="vejdir_services" name="theme-vd_gps_track">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:GPS_TRACK</displayname>
@@ -132,7 +132,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_gps_track_today">
+    <theme module="vejdir_services" name="theme-vd_gps_track_today">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:GPS_TRACK_TODAY</displayname>
@@ -140,7 +140,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_kommuner">
+    <theme module="vejdir_services" name="theme-vd_kommuner">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:KOMMUNER</displayname>
@@ -148,7 +148,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_loccode">
+    <theme module="vejdir_services" name="theme-vd_loccode">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:LOCCODE</displayname>
@@ -156,7 +156,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_mariusdistribution_preview">
+    <theme module="vejdir_services" name="theme-vd_mariusdistribution_preview">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:MARIUSDISTRIBUTION_PREVIEW</displayname>
@@ -164,7 +164,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_mastra_noegletal_geo">
+    <theme module="vejdir_services" name="theme-vd_mastra_noegletal_geo">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:MASTRA_NOEGLETAL_GEO</displayname>
@@ -172,7 +172,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_min_anl">
+    <theme module="vejdir_services" name="theme-vd_min_anl">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:MIN_ANL</displayname>
@@ -180,7 +180,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_provision">
+    <theme module="vejdir_services" name="theme-vd_provision">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:PROVISION</displayname>
@@ -188,7 +188,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_st_anl">
+    <theme module="vejdir_services" name="theme-vd_st_anl">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:ST_ANL</displayname>
@@ -196,7 +196,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_stier-materialiseret">
+    <theme module="vejdir_services" name="theme-vd_stier-materialiseret">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:STIER-MATERIALISERET</displayname>
@@ -204,7 +204,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_tema_admission">
+    <theme module="vejdir_services" name="theme-vd_tema_admission">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:TEMA_ADMISSION</displayname>
@@ -212,7 +212,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_tema_kryds_refsys">
+    <theme module="vejdir_services" name="theme-vd_tema_kryds_refsys">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:TEMA_KRYDS_REFSYS</displayname>
@@ -220,7 +220,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_tema_marius_eqa">
+    <theme module="vejdir_services" name="theme-vd_tema_marius_eqa">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:TEMA_MARIUS_EQA</displayname>
@@ -228,7 +228,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_tema_marius_sa">
+    <theme module="vejdir_services" name="theme-vd_tema_marius_sa">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:TEMA_MARIUS_SA</displayname>
@@ -236,7 +236,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_tema_provision">
+    <theme module="vejdir_services" name="theme-vd_tema_provision">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:TEMA_PROVISION</displayname>
@@ -244,7 +244,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_tema_veje">
+    <theme module="vejdir_services" name="theme-vd_tema_veje">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:TEMA_VEJE</displayname>
@@ -252,7 +252,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_tema_vejliste">
+    <theme module="vejdir_services" name="theme-vd_tema_vejliste">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:TEMA_VEJLISTE</displayname>
@@ -260,7 +260,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_tabttid">
+    <theme module="vejdir_services" name="theme-vd_tabttid">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:TABTTID</displayname>
@@ -268,7 +268,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_veje_mellem_kryds_repl">
+    <theme module="vejdir_services" name="theme-vd_veje_mellem_kryds_repl">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VEJE_MELLEM_KRYDS_REPL</displayname>
@@ -276,7 +276,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vejmidte">
+    <theme module="vejdir_services" name="theme-vd_vejmidte">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VEJMIDTE</displayname>
@@ -284,7 +284,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vw_skadespoint">
+    <theme module="vejdir_services" name="theme-vd_vw_skadespoint">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VW_SKADESPOINT</displayname>
@@ -292,7 +292,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_v_eqa_import">
+    <theme module="vejdir_services" name="theme-vd_v_eqa_import">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:V_EQA_IMPORT</displayname>
@@ -300,7 +300,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_v_provision_rep">
+    <theme module="vejdir_services" name="theme-vd_v_provision_rep">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:V_PROVISION_REP</displayname>
@@ -308,7 +308,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_adm_marks">
+    <theme module="vejdir_services" name="theme-vd_adm_marks">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:ADM_MARKS</displayname>
@@ -316,7 +316,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_drilocator">
+    <theme module="vejdir_services" name="theme-vd_drilocator">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:DRILOCATOR</displayname>
@@ -324,7 +324,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_drilocator_old">
+    <theme module="vejdir_services" name="theme-vd_drilocator_old">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:DRILOCATOR_OLD</displayname>
@@ -332,7 +332,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_fot-1081">
+    <theme module="vejdir_services" name="theme-vd_fot-1081">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:FOT-1081</displayname>
@@ -340,7 +340,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_fot-1082">
+    <theme module="vejdir_services" name="theme-vd_fot-1082">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:FOT-1082</displayname>
@@ -348,7 +348,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_fot-1083">
+    <theme module="vejdir_services" name="theme-vd_fot-1083">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:FOT-1083</displayname>
@@ -356,7 +356,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_fot-1084">
+    <theme module="vejdir_services" name="theme-vd_fot-1084">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:FOT-1084</displayname>
@@ -364,7 +364,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_fot-1085">
+    <theme module="vejdir_services" name="theme-vd_fot-1085">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:FOT-1085</displayname>
@@ -372,7 +372,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_gps_vejnet">
+    <theme module="vejdir_services" name="theme-vd_gps_vejnet">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:GPS_VEJNET</displayname>
@@ -380,7 +380,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_gps_vmt_offset">
+    <theme module="vejdir_services" name="theme-vd_gps_vmt_offset">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:GPS_VMT_OFFSET</displayname>
@@ -388,7 +388,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_jernbane-kbh-ringsted">
+    <theme module="vejdir_services" name="theme-vd_jernbane-kbh-ringsted">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:JERNBANE-KBH-RINGSTED</displayname>
@@ -396,7 +396,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_jordstykke">
+    <theme module="vejdir_services" name="theme-vd_jordstykke">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:JORDSTYKKE</displayname>
@@ -404,7 +404,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_kommunegraenser">
+    <theme module="vejdir_services" name="theme-vd_kommunegraenser">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:KOMMUNEGRAENSER</displayname>
@@ -412,7 +412,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_noedtlf">
+    <theme module="vejdir_services" name="theme-vd_noedtlf">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:NOEDTLF</displayname>
@@ -420,7 +420,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_odense_admdata">
+    <theme module="vejdir_services" name="theme-vd_odense_admdata">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:ODENSE_ADMDATA</displayname>
@@ -428,7 +428,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_ojtest">
+    <theme module="vejdir_services" name="theme-vd_ojtest">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:OJTEST</displayname>
@@ -436,7 +436,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_optagetvej">
+    <theme module="vejdir_services" name="theme-vd_optagetvej">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:OPTAGETVEJ</displayname>
@@ -444,7 +444,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_stoejkurver">
+    <theme module="vejdir_services" name="theme-vd_stoejkurver">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:STOEJKURVER</displayname>
@@ -452,7 +452,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_stoejskaerme">
+    <theme module="vejdir_services" name="theme-vd_stoejskaerme">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:STOEJSKAERME</displayname>
@@ -460,7 +460,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_stratnet">
+    <theme module="vejdir_services" name="theme-vd_stratnet">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:STRATNET</displayname>
@@ -468,7 +468,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_tra_dgoods">
+    <theme module="vejdir_services" name="theme-vd_tra_dgoods">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:TRA_DGOODS</displayname>
@@ -476,7 +476,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_tra_heavynetwork">
+    <theme module="vejdir_services" name="theme-vd_tra_heavynetwork">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:TRA_HEAVYNETWORK</displayname>
@@ -484,7 +484,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_tra_servicearea">
+    <theme module="vejdir_services" name="theme-vd_tra_servicearea">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:TRA_SERVICEAREA</displayname>
@@ -492,7 +492,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_aabningsaar">
+    <theme module="vejdir_services" name="theme-vd_vm_aabningsaar">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_AABNINGSAAR</displayname>
@@ -500,7 +500,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_trafficcount">
+    <theme module="vejdir_services" name="theme-vd_vm_trafficcount">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_TRAFFICCOUNT</displayname>
@@ -508,7 +508,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_vejservice">
+    <theme module="vejdir_services" name="theme-vd_vm_vejservice">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_VEJSERVICE</displayname>
@@ -516,7 +516,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_adgang">
+    <theme module="vejdir_services" name="theme-vd_vm_adgang">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_ADGANG</displayname>
@@ -524,7 +524,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_adgang_pub">
+    <theme module="vejdir_services" name="theme-vd_vm_adgang_pub">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_ADGANG_PUB</displayname>
@@ -532,7 +532,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_adm_trafik">
+    <theme module="vejdir_services" name="theme-vd_vm_adm_trafik">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_ADM_TRAFIK</displayname>
@@ -540,7 +540,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_admcpr">
+    <theme module="vejdir_services" name="theme-vd_vm_admcpr">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_ADMCPR</displayname>
@@ -548,7 +548,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_admdata">
+    <theme module="vejdir_services" name="theme-vd_vm_admdata">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_ADMDATA</displayname>
@@ -556,7 +556,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_aroute">
+    <theme module="vejdir_services" name="theme-vd_vm_aroute">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_AROUTE</displayname>
@@ -564,7 +564,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_autovaern">
+    <theme module="vejdir_services" name="theme-vd_vm_autovaern">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_AUTOVAERN</displayname>
@@ -572,7 +572,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_bbr">
+    <theme module="vejdir_services" name="theme-vd_vm_bbr">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_BBR</displayname>
@@ -580,7 +580,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_begraensninger">
+    <theme module="vejdir_services" name="theme-vd_vm_begraensninger">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_BEGRAENSNINGER</displayname>
@@ -588,7 +588,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_blackspot">
+    <theme module="vejdir_services" name="theme-vd_vm_blackspot">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_BLACKSPOT</displayname>
@@ -596,7 +596,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_bredde_belaeg">
+    <theme module="vejdir_services" name="theme-vd_vm_bredde_belaeg">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_BREDDE_BELAEG</displayname>
@@ -604,7 +604,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_bronde_plac">
+    <theme module="vejdir_services" name="theme-vd_vm_bronde_plac">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_BRONDE_PLAC</displayname>
@@ -612,7 +612,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_busfortov_vside">
+    <theme module="vejdir_services" name="theme-vd_vm_busfortov_vside">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_BUSFORTOV_VSIDE</displayname>
@@ -620,7 +620,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_busfortov_vside_15">
+    <theme module="vejdir_services" name="theme-vd_vm_busfortov_vside_15">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_BUSFORTOV_VSIDE_15</displayname>
@@ -628,7 +628,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_bygvaerk">
+    <theme module="vejdir_services" name="theme-vd_vm_bygvaerk">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_BYGVAERK</displayname>
@@ -636,7 +636,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_cpr_vejnavn">
+    <theme module="vejdir_services" name="theme-vd_vm_cpr_vejnavn">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_CPR_VEJNAVN</displayname>
@@ -644,7 +644,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_cycleway">
+    <theme module="vejdir_services" name="theme-vd_vm_cycleway">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_CYCLEWAY</displayname>
@@ -652,7 +652,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_cykelsti_vside">
+    <theme module="vejdir_services" name="theme-vd_vm_cykelsti_vside">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_CYKELSTI_VSIDE</displayname>
@@ -660,7 +660,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_cykelsti_vside_15">
+    <theme module="vejdir_services" name="theme-vd_vm_cykelsti_vside_15">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_CYKELSTI_VSIDE_15</displayname>
@@ -668,7 +668,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_dir_route">
+    <theme module="vejdir_services" name="theme-vd_vm_dir_route">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_DIR_ROUTE</displayname>
@@ -676,7 +676,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_drizone">
+    <theme module="vejdir_services" name="theme-vd_vm_drizone">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_DRIZONE</displayname>
@@ -684,7 +684,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_droute_cached">
+    <theme module="vejdir_services" name="theme-vd_vm_droute_cached">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_DROUTE_CACHED</displayname>
@@ -692,7 +692,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_equiparea_l_geo">
+    <theme module="vejdir_services" name="theme-vd_vm_equiparea_l_geo">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_EQUIPAREA_L_GEO</displayname>
@@ -700,7 +700,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_flowmap">
+    <theme module="vejdir_services" name="theme-vd_vm_flowmap">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_FLOWMAP</displayname>
@@ -708,7 +708,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_fortov_vside">
+    <theme module="vejdir_services" name="theme-vd_vm_fortov_vside">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_FORTOV_VSIDE</displayname>
@@ -716,7 +716,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_fortov_vside_15">
+    <theme module="vejdir_services" name="theme-vd_vm_fortov_vside_15">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_FORTOV_VSIDE_15</displayname>
@@ -724,7 +724,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_fortovcykelsti_vs">
+    <theme module="vejdir_services" name="theme-vd_vm_fortovcykelsti_vs">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_FORTOVCYKELSTI_VS</displayname>
@@ -732,7 +732,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_gravetill">
+    <theme module="vejdir_services" name="theme-vd_vm_gravetill">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_GRAVETILL</displayname>
@@ -740,7 +740,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_gravetill_geom_lag">
+    <theme module="vejdir_services" name="theme-vd_vm_gravetill_geom_lag">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_GRAVETILL_GEOM_LAG</displayname>
@@ -748,7 +748,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_gvs">
+    <theme module="vejdir_services" name="theme-vd_vm_gvs">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_GVS</displayname>
@@ -756,7 +756,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_helkmmarks">
+    <theme module="vejdir_services" name="theme-vd_vm_helkmmarks">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_HELKMMARKS</displayname>
@@ -764,7 +764,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_hsd">
+    <theme module="vejdir_services" name="theme-vd_vm_hsd">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_HSD</displayname>
@@ -772,7 +772,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_klassificering">
+    <theme module="vejdir_services" name="theme-vd_vm_klassificering">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_KLASSIFICERING</displayname>
@@ -780,7 +780,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_koerebanebredde">
+    <theme module="vejdir_services" name="theme-vd_vm_koerebanebredde">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_KOEREBANEBREDDE</displayname>
@@ -788,7 +788,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_komfort">
+    <theme module="vejdir_services" name="theme-vd_vm_komfort">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_KOMFORT</displayname>
@@ -796,7 +796,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_lgd">
+    <theme module="vejdir_services" name="theme-vd_vm_lgd">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_LGD</displayname>
@@ -804,7 +804,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_mapinet">
+    <theme module="vejdir_services" name="theme-vd_vm_mapinet">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_MAPINET</displayname>
@@ -812,7 +812,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_modul_objects">
+    <theme module="vejdir_services" name="theme-vd_vm_modul_objects">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_MODUL_OBJECTS</displayname>
@@ -820,7 +820,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_nabo_trafik">
+    <theme module="vejdir_services" name="theme-vd_vm_nabo_trafik">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_NABO_TRAFIK</displayname>
@@ -828,7 +828,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_noedtelefon">
+    <theme module="vejdir_services" name="theme-vd_vm_noedtelefon">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_NOEDTELEFON</displayname>
@@ -836,7 +836,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_noisedistance">
+    <theme module="vejdir_services" name="theme-vd_vm_noisedistance">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_NOISEDISTANCE</displayname>
@@ -844,7 +844,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_passability">
+    <theme module="vejdir_services" name="theme-vd_vm_passability">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_PASSABILITY</displayname>
@@ -852,7 +852,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_pathproj">
+    <theme module="vejdir_services" name="theme-vd_vm_pathproj">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_PATHPROJ</displayname>
@@ -860,7 +860,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_permissions_completion">
+    <theme module="vejdir_services" name="theme-vd_vm_permissions_completion">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_PERMISSIONS_COMPLETION</displayname>
@@ -868,7 +868,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_permissions_gt_dig_character">
+    <theme module="vejdir_services" name="theme-vd_vm_permissions_gt_dig_character">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_PERMISSIONS_GT_DIG_CHARACTER</displayname>
@@ -876,7 +876,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_permissions_gt_warranty">
+    <theme module="vejdir_services" name="theme-vd_vm_permissions_gt_warranty">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_PERMISSIONS_GT_WARRANTY</displayname>
@@ -884,7 +884,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_permissions_missing_completion">
+    <theme module="vejdir_services" name="theme-vd_vm_permissions_missing_completion">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_PERMISSIONS_MISSING_COMPLETION</displayname>
@@ -892,7 +892,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_permissions_rov_tech_category">
+    <theme module="vejdir_services" name="theme-vd_vm_permissions_rov_tech_category">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_PERMISSIONS_ROV_TECH_CATEGORY</displayname>
@@ -900,7 +900,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_prov_adg">
+    <theme module="vejdir_services" name="theme-vd_vm_prov_adg">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_PROV_ADG</displayname>
@@ -908,7 +908,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_prov_adg_pub">
+    <theme module="vejdir_services" name="theme-vd_vm_prov_adg_pub">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_PROV_ADG_PUB</displayname>
@@ -916,7 +916,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_prov_bui">
+    <theme module="vejdir_services" name="theme-vd_vm_prov_bui">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_PROV_BUI</displayname>
@@ -924,7 +924,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_prov_bui_pub">
+    <theme module="vejdir_services" name="theme-vd_vm_prov_bui_pub">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_PROV_BUI_PUB</displayname>
@@ -932,7 +932,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_prov_bui_pub1">
+    <theme module="vejdir_services" name="theme-vd_vm_prov_bui_pub1">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_PROV_BUI_PUB1</displayname>
@@ -940,7 +940,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_prov_ovr">
+    <theme module="vejdir_services" name="theme-vd_vm_prov_ovr">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_PROV_OVR</displayname>
@@ -948,7 +948,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_prov_ovs">
+    <theme module="vejdir_services" name="theme-vd_vm_prov_ovs">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_PROV_OVS</displayname>
@@ -956,7 +956,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_raadighed">
+    <theme module="vejdir_services" name="theme-vd_vm_raadighed">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_RAADIGHED</displayname>
@@ -964,7 +964,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_route">
+    <theme module="vejdir_services" name="theme-vd_vm_route">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_ROUTE</displayname>
@@ -972,7 +972,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_servicearea_l_geo">
+    <theme module="vejdir_services" name="theme-vd_vm_servicearea_l_geo">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_SERVICEAREA_L_GEO</displayname>
@@ -980,7 +980,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_skadespoint">
+    <theme module="vejdir_services" name="theme-vd_vm_skadespoint">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_SKADESPOINT</displayname>
@@ -988,7 +988,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_skilte">
+    <theme module="vejdir_services" name="theme-vd_vm_skilte">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_SKILTE</displayname>
@@ -996,7 +996,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_slidlag">
+    <theme module="vejdir_services" name="theme-vd_vm_slidlag">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_SLIDLAG</displayname>
@@ -1004,7 +1004,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_slidlag_1">
+    <theme module="vejdir_services" name="theme-vd_vm_slidlag_1">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_SLIDLAG_1</displayname>
@@ -1012,7 +1012,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_sti_vside">
+    <theme module="vejdir_services" name="theme-vd_vm_sti_vside">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_STI_VSIDE</displayname>
@@ -1020,7 +1020,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_sti_vside_15">
+    <theme module="vejdir_services" name="theme-vd_vm_sti_vside_15">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_STI_VSIDE_15</displayname>
@@ -1028,7 +1028,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_stratnet">
+    <theme module="vejdir_services" name="theme-vd_vm_stratnet">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_STRATNET</displayname>
@@ -1036,7 +1036,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_ternveje">
+    <theme module="vejdir_services" name="theme-vd_vm_ternveje">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_TERNVEJE</displayname>
@@ -1044,7 +1044,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_tic_sagsoversigt">
+    <theme module="vejdir_services" name="theme-vd_vm_tic_sagsoversigt">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_TIC_SAGSOVERSIGT</displayname>
@@ -1052,7 +1052,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_tilladelser">
+    <theme module="vejdir_services" name="theme-vd_vm_tilladelser">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_TILLADELSER</displayname>
@@ -1060,7 +1060,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_tpe">
+    <theme module="vejdir_services" name="theme-vd_vm_tpe">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_TPE</displayname>
@@ -1068,7 +1068,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_tpe_vstype">
+    <theme module="vejdir_services" name="theme-vd_vm_tpe_vstype">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_TPE_VSTYPE</displayname>
@@ -1076,7 +1076,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_udbudt_strk">
+    <theme module="vejdir_services" name="theme-vd_vm_udbudt_strk">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_UDBUDT_STRK</displayname>
@@ -1084,7 +1084,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_veje_m_kryds_vside">
+    <theme module="vejdir_services" name="theme-vd_vm_veje_m_kryds_vside">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_VEJE_M_KRYDS_VSIDE</displayname>
@@ -1092,7 +1092,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_veje_m_kryds_vside_10">
+    <theme module="vejdir_services" name="theme-vd_vm_veje_m_kryds_vside_10">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_VEJE_M_KRYDS_VSIDE_10</displayname>
@@ -1100,7 +1100,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_veje_mellem_kryds">
+    <theme module="vejdir_services" name="theme-vd_vm_veje_mellem_kryds">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_VEJE_MELLEM_KRYDS</displayname>
@@ -1108,7 +1108,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_veje_vside">
+    <theme module="vejdir_services" name="theme-vd_vm_veje_vside">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_VEJE_VSIDE</displayname>
@@ -1116,7 +1116,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_veje_vside_10">
+    <theme module="vejdir_services" name="theme-vd_vm_veje_vside_10">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_VEJE_VSIDE_10</displayname>
@@ -1124,7 +1124,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_vejlgd_vejid">
+    <theme module="vejdir_services" name="theme-vd_vm_vejlgd_vejid">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_VEJLGD_VEJID</displayname>
@@ -1132,7 +1132,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_vejstatus">
+    <theme module="vejdir_services" name="theme-vd_vm_vejstatus">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_VEJSTATUS</displayname>
@@ -1140,7 +1140,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vm_vintervedligehold">
+    <theme module="vejdir_services" name="theme-vd_vm_vintervedligehold">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VM_VINTERVEDLIGEHOLD</displayname>
@@ -1148,7 +1148,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_admdata">
+    <theme module="vejdir_services" name="theme-vd_vma_admdata">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_ADMDATA</displayname>
@@ -1156,7 +1156,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_admvejdelstype">
+    <theme module="vejdir_services" name="theme-vd_vma_admvejdelstype">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_ADMVEJDELSTYPE</displayname>
@@ -1164,7 +1164,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_dgoods">
+    <theme module="vejdir_services" name="theme-vd_vma_dgoods">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_DGOODS</displayname>
@@ -1172,7 +1172,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_ensretning">
+    <theme module="vejdir_services" name="theme-vd_vma_ensretning">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_ENSRETNING</displayname>
@@ -1180,7 +1180,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_fremkomgis">
+    <theme module="vejdir_services" name="theme-vd_vma_fremkomgis">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_FREMKOMGIS</displayname>
@@ -1188,7 +1188,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_friktion">
+    <theme module="vejdir_services" name="theme-vd_vma_friktion">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_FRIKTION</displayname>
@@ -1196,7 +1196,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_hastgraenser">
+    <theme module="vejdir_services" name="theme-vd_vma_hastgraenser">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_HASTGRAENSER</displayname>
@@ -1204,7 +1204,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_heavynetwork">
+    <theme module="vejdir_services" name="theme-vd_vma_heavynetwork">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_HEAVYNETWORK</displayname>
@@ -1212,7 +1212,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_jaevnhed">
+    <theme module="vejdir_services" name="theme-vd_vma_jaevnhed">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_JAEVNHED</displayname>
@@ -1220,7 +1220,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_justeringsareal">
+    <theme module="vejdir_services" name="theme-vd_vma_justeringsareal">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_JUSTERINGSAREAL</displayname>
@@ -1228,7 +1228,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_modulvogntog">
+    <theme module="vejdir_services" name="theme-vd_vma_modulvogntog">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_MODULVOGNTOG</displayname>
@@ -1236,7 +1236,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_notesbog_punkt">
+    <theme module="vejdir_services" name="theme-vd_vma_notesbog_punkt">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_NOTESBOG_PUNKT</displayname>
@@ -1244,7 +1244,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_notesbog_str">
+    <theme module="vejdir_services" name="theme-vd_vma_notesbog_str">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_NOTESBOG_STR</displayname>
@@ -1252,7 +1252,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_restriktion">
+    <theme module="vejdir_services" name="theme-vd_vma_restriktion">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_RESTRIKTION</displayname>
@@ -1260,7 +1260,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_sporkoering">
+    <theme module="vejdir_services" name="theme-vd_vma_sporkoering">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_SPORKOERING</displayname>
@@ -1268,7 +1268,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_tekstur">
+    <theme module="vejdir_services" name="theme-vd_vma_tekstur">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_TEKSTUR</displayname>
@@ -1276,7 +1276,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_traffic">
+    <theme module="vejdir_services" name="theme-vd_vma_traffic">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_TRAFFIC</displayname>
@@ -1284,7 +1284,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_vejarbejder">
+    <theme module="vejdir_services" name="theme-vd_vma_vejarbejder">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_VEJARBEJDER</displayname>
@@ -1292,7 +1292,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vma_vejnettype">
+    <theme module="vejdir_services" name="theme-vd_vma_vejnettype">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMA_VEJNETTYPE</displayname>
@@ -1300,7 +1300,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vmc_vejforlob">
+    <theme module="vejdir_services" name="theme-vd_vmc_vejforlob">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMC_VEJFORLOB</displayname>
@@ -1308,7 +1308,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vmt_hastgraenser">
+    <theme module="vejdir_services" name="theme-vd_vmt_hastgraenser">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMT_HASTGRAENSER</displayname>
@@ -1316,7 +1316,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vmt_klassificering">
+    <theme module="vejdir_services" name="theme-vd_vmt_klassificering">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMT_KLASSIFICERING</displayname>
@@ -1324,7 +1324,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vmt_veje">
+    <theme module="vejdir_services" name="theme-vd_vmt_veje">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMT_VEJE</displayname>
@@ -1332,7 +1332,7 @@
         <initialstate>available</initialstate>
       </themeselector>
     </theme>
-    <theme module="vejman_services" name="theme-vd_vmt_vejliste">
+    <theme module="vejdir_services" name="theme-vd_vmt_vejliste">
       <themeselector>
         <group>vejman</group>
         <displayname>VD:VMT_VEJLISTE</displayname>
