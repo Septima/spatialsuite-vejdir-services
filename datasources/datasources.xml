@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <datasources>
-  <include mustexist="false" nodes="/datasources/*" src="[module:vejman_services.dir]/datasources/datasources_wfs.xml" />
-  <include mustexist="false" nodes="/datasources/*" src="[module:vejman_services.dir]/datasources/datasources_wms.xml" />
+  <include mustexist="false" nodes="/datasources/*" src="[module:vejdir_services.dir]/datasources/datasources_wfs.xml" />
+  <include mustexist="false" nodes="/datasources/*" src="[module:vejdir_services.dir]/datasources/datasources_wms.xml" />
 </datasources>
